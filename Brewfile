@@ -7,7 +7,7 @@ tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
 # Binaries
-brew 'ansible@2'
+brew 'ansible'
 brew 'autoconf'
 brew 'automake'
 brew 'awscli'
@@ -43,8 +43,8 @@ brew 'zip'
 
 # Dev Tools and Languages
 brew 'perl'
-brew 'php@7'
-brew 'python@2.7'
+brew 'php@7.2'
+brew 'python@2'
 brew 'pip'
 brew 'pip-completion'
 brew 'xcode'
