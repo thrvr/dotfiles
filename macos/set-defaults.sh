@@ -824,8 +824,7 @@ cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ 
 # Kill affected applications                                                  #
 ###############################################################################
 
-for app in \
-    "Activity Monitor" \
+for app in "Activity Monitor" \
 	"Address Book" \
 	"Calendar" \
 	"cfprefsd" \
