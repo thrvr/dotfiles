@@ -36,7 +36,7 @@ brew 'pdf2svg'
 brew 'svg2pdf'
 brew 'tree'
 brew 'unrar'
-brew 'wireshark' --with-lua --with-qt5
+brew 'wireshark --with-lua --with-qt5'
 brew 'wget'
 brew 'youtube-dl'
 brew 'zip'
