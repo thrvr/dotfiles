@@ -4,6 +4,11 @@
 # ~/.macos — https://mths.be/macos
 # and then adjusted to my needs
 
+# When you need debugging uncomment the following 4 lines
+exec 5> >(logger -t $0)
+BASH_XTRACEFD="5"
+PS4='$LINENO: '
+set -x
 
 # Close any open System Preferences panes, to prevent them from overriding
 # settings we’re about to change
