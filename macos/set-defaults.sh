@@ -831,14 +831,12 @@ for app in \
 	"cfprefsd" \
 	"Contacts" \
 	"Dock" \
-#	"Finder" \
 	"Google Chrome" \
 	"Mail" \
 	"Messages" \
 	"Photos" \
 	"Safari" \
 	"SystemUIServer" \
-#	"Terminal" \
 	"iCal"; do
 	killall "${app}" &> /dev/null
 done
