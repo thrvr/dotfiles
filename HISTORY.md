@@ -412,4 +412,179 @@ cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 ```
 
+# After creating my personal adapted dotfiles
+After I added all the software I need on my computer to the dotfiles repository
+in `~/.dotfiles/Brewfile` and adjusted the Mac OS X settings in `~/.dotfiles/macos/set-defaults.sh`,
+I ran everything in Mac OS X Mojave in the naked VM, that we created further up.
 
+I downloaded the github repository from [https://github.com/thrvr/dotfiles/] into `~/.dotfiles/` and
+executed the commands in the following order:
+- `~/.dotfiles/homebrew/install.sh`
+- `~/.dotfiles/macos/set-defaults.sh`
+- `~/.dotfiles/script/bootstrap`
+
+I used a test subset in the VM since it runs a lot slower than the host machine.
+After successfully confirming that (almost) everything worked, I made a backup of
+the virtual machine and its snapshots on an external harddrive.
+
+I then used my initial time machine backup to reset the computer to a naked Mac OS X Mojave.
+
+Following the experiences from the VM, I executed the same order of commands:
+
+- `~/.dotfiles/homebrew/install.sh`
+- `~/.dotfiles/macos/set-defaults.sh`
+- `~/.dotfiles/script/bootstrap`
+
+It turns out that when running the system default settings, the following errors occur:
+```
+2018-12-26 14:43:11.735 defaults[27992:147752] Could not write domain com.apple.universalaccess; exiting
+override rw------T  root/wheel for /private/var/vm/sleepimage? y
+rm: /private/var/vm/sleepimage: Operation not permitted
+touch: /private/var/vm/sleepimage: Operation not permitted
+chflags: /private/var/vm/sleepimage: Operation not permitted
+2018-12-26 14:43:58.488 defaults[28056:148937] Could not write domain com.apple.universalaccess; exiting
+2018-12-26 14:43:58.513 defaults[28057:148941] Could not write domain com.apple.universalaccess; exiting
+2018-12-26 14:43:58.539 defaults[28058:148945] Could not write domain com.apple.universalaccess; exiting
+2018-12-26 14:44:01.735 defaults[28182:149636] Could not write domain /.Spotlight-V100/VolumeConfiguration; exiting
+410:480: execution error: Terminal got an error: The file /Users/tornow/init/Solarized Dark xterm-256color.terminal does not exist. (1)
+disablelocal: Unrecognized verb.
+```
+and I still have to figure out, where they occur and how to change it.
+Also I noticed that the icons in the dock are extremely tiny and that the key repetition is ultra fast (too fast).
+
+When running the bootstrap script, the following errors occurred:
+```
+  [ .. ] ==> Caveats
+  [ .. ] To install and/or use virtualbox you may need to enable their kernel extension in
+  [ .. ] 
+  [ .. ] System Preferences → Security & Privacy → General
+  [ .. ] 
+  [ .. ] For more information refer to vendor documentation or the Apple Technical Note:
+  [ .. ] 
+  [ .. ] https://developer.apple.com/library/content/technotes/tn2459/_index.html
+  [ .. ] 
+  [ .. ] ==> Satisfying dependencies
+  [ .. ] ==> Downloading https://download.virtualbox.org/virtualbox/6.0.0/VirtualBox-6.0.0-127566-OSX.dmg
+  [ .. ] ==> Verifying SHA-256 checksum for Cask 'virtualbox'.
+  [ .. ] ==> Installing Cask virtualbox
+  [ .. ] ==> Running installer for virtualbox; your password may be necessary.
+  [ .. ] ==> Package installers may write to any location; options such as --appdir are ignored.
+  [ .. ] Error: Failure while executing; `/usr/bin/sudo -E -- env LOGNAME=tornow USER=tornow USERNAME=tornow /usr/sbin/installer -pkg /usr/local/Caskroom/virtualbox/6.0.0,127566/VirtualBox.pkg -target /` exited with 1. Here's the output:
+  [ .. ] installer: Package name is Oracle VM VirtualBox
+  [ .. ] installer: Installing at base path /
+  [ .. ] installer: The install failed (The Installer encountered an error that caused the installation to fail. Contact the software manufacturer for assistance.)
+  [ .. ] 
+  [ .. ] Follow the instructions here:
+  [ .. ] https://github.com/Homebrew/homebrew-cask#reporting-bugs
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/system_command.rb:107:in `assert_success'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/system_command.rb:50:in `run!'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/system_command.rb:27:in `run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/system_command.rb:31:in `run!'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/artifact/pkg.rb:59:in `block in run_installer'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/artifact/pkg.rb:65:in `with_choices_file'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/artifact/pkg.rb:52:in `run_installer'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/artifact/pkg.rb:32:in `install_phase'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:209:in `block in install_artifacts'
+  [ .. ] /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/set.rb:674:in `each'
+  [ .. ] /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/set.rb:674:in `each'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:200:in `install_artifacts'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:95:in `install'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd/install.rb:21:in `block in run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd/install.rb:14:in `each'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd/install.rb:14:in `run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd/abstract_command.rb:34:in `run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd.rb:89:in `run_command'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd.rb:155:in `run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd.rb:120:in `run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cmd/cask.rb:7:in `cask'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/brew.rb:89:in `<main>'
+  [ .. ] installer: Package name is Oracle VM VirtualBox
+  [ .. ] installer: Installing at base path /
+  [ .. ] installer: The install failed (The Installer encountered an error that caused the installation to fail. Contact the software manufacturer for assistance.)
+  [ .. ] ==> Purging files for version 6.0.0,127566 of Cask virtualbox
+  [ .. ] Installing virtualbox has failed!
+  [ .. ] ==> Caveats
+  [ .. ] Installing virtualbox-extension-pack means you have AGREED to the license at
+  [ .. ] https://www.virtualbox.org/wiki/VirtualBox_PUEL
+  [ .. ] 
+  [ .. ] ==> Satisfying dependencies
+  [ .. ] ==> Installing Cask dependencies: virtualbox
+  [ .. ] ==> Caveats
+  [ .. ] To install and/or use virtualbox you may need to enable their kernel extension in
+  [ .. ] 
+  [ .. ] System Preferences → Security & Privacy → General
+  [ .. ] 
+  [ .. ] For more information refer to vendor documentation or the Apple Technical Note:
+  [ .. ] 
+  [ .. ] https://developer.apple.com/library/content/technotes/tn2459/_index.html
+  [ .. ] 
+  [ .. ] ==> Satisfying dependencies
+  [ .. ] ==> Downloading https://download.virtualbox.org/virtualbox/6.0.0/VirtualBox-6.0.0-127566-OSX.dmg
+  [ .. ] Already downloaded: /Users/tornow/Library/Caches/Homebrew/downloads/c68cfddc9133da5c221557cd77b23f34e0b513dc380e6b010dc36b3d0eb2df45--VirtualBox-6.0.0-127566-OSX.dmg
+  [ .. ] ==> Verifying SHA-256 checksum for Cask 'virtualbox'.
+  [ .. ] ==> Installing Cask virtualbox
+  [ .. ] ==> Running installer for virtualbox; your password may be necessary.
+  [ .. ] ==> Package installers may write to any location; options such as --appdir are ignored.
+  [ .. ] Error: Failure while executing; `/usr/bin/sudo -E -- env LOGNAME=tornow USER=tornow USERNAME=tornow /usr/sbin/installer -pkg /usr/local/Caskroom/virtualbox/6.0.0,127566/VirtualBox.pkg -target /` exited with 1. Here's the output:
+  [ .. ] installer: Package name is Oracle VM VirtualBox
+  [ .. ] installer: Installing at base path /
+  [ .. ] installer: The install failed (The Installer encountered an error that caused the installation to fail. Contact the software manufacturer for assistance.)
+  [ .. ] 
+  [ .. ] Follow the instructions here:
+  [ .. ] https://github.com/Homebrew/homebrew-cask#reporting-bugs
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/system_command.rb:107:in `assert_success'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/system_command.rb:50:in `run!'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/system_command.rb:27:in `run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/system_command.rb:31:in `run!'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/artifact/pkg.rb:59:in `block in run_installer'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/artifact/pkg.rb:65:in `with_choices_file'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/artifact/pkg.rb:52:in `run_installer'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/artifact/pkg.rb:32:in `install_phase'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:209:in `block in install_artifacts'
+  [ .. ] /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/set.rb:674:in `each'
+  [ .. ] /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/2.3.0/set.rb:674:in `each'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:200:in `install_artifacts'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:95:in `install'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:331:in `block in cask_dependencies'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:324:in `each'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:324:in `cask_dependencies'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:237:in `satisfy_dependencies'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:58:in `fetch'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/installer.rb:89:in `install'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd/install.rb:21:in `block in run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd/install.rb:14:in `each'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd/install.rb:14:in `run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd/abstract_command.rb:34:in `run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd.rb:89:in `run_command'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd.rb:155:in `run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cask/cmd.rb:120:in `run'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/cmd/cask.rb:7:in `cask'
+  [ .. ] /usr/local/Homebrew/Library/Homebrew/brew.rb:89:in `<main>'
+  [ .. ] installer: Package name is Oracle VM VirtualBox
+  [ .. ] installer: Installing at base path /
+  [ .. ] installer: The install failed (The Installer encountered an error that caused the installation to fail. Contact the software manufacturer for assistance.)
+  [ .. ] ==> Purging files for version 6.0.0,127566 of Cask virtualbox
+  [ .. ] Installing virtualbox-extension-pack has failed!
+  [ .. ] ==> Satisfying dependencies
+  [ .. ] ==> Downloading https://get.videolan.org/vlc/3.0.4/macosx/vlc-3.0.4.dmg
+  [ .. ] ==> Downloading from http://videolan.mirror.vutbr.cz/vlc/3.0.4/macosx/vlc-3.0.4.dmg
+  [ .. ] curl: (18) transfer closed with 46000823 bytes remaining to read
+  [ .. ] Error: Download failed on Cask 'vlc' with message: Download failed: https://get.videolan.org/vlc/3.0.4/macosx/vlc-3.0.4.dmg
+  [ .. ] Installing vlc has failed!
+
+
+  [ .. ] ==> Satisfying dependencies
+  [ .. ] ==> Downloading http://updater.thebrain.com/files/TheBrain10.0.30.0.dmg
+  [ .. ] curl: (56) Recv failure: Connection reset by peer
+  [ .. ] Error: Download failed on Cask 'thebrain' with message: Download failed: http://updater.thebrain.com/files/TheBrain10.0.30.0.dmg
+  [ .. ] Installing thebrain has failed!
+```
+
+of which VLC and theBrain where just download errors.  For VirtualBox one has to allow the installation in 
+`system preferences -> Security & Privacy` and on the first tab one has to allow Oracle as developer.
+When the display of 'Do you want to allow Oracle....' disappears and one re-runs bootstrap, all runs through smoothly.
+
+# After installing everything with .dotfiles
+Here comes the aftermath. We start in the following order:
+- launch Dropbox, login, sync everything to the local disk
+- launch 1password and sync with dropbox
