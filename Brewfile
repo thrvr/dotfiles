@@ -76,7 +76,7 @@ cask 'firefox'
 cask 'forklift'
 cask 'google-chrome'
 cask 'id3-editor'
-cask 'inkscape'
+# cask 'inkscape' doesn't install without Quartz and I just remembered how bad it is -> skip it
 cask 'iterm2'
 cask 'java'
 cask 'keepassx'
