@@ -586,5 +586,14 @@ When the display of 'Do you want to allow Oracle....' disappears and one re-runs
 
 # After installing everything with .dotfiles
 Here comes the aftermath. We start in the following order:
-- launch Dropbox, login, sync everything to the local disk
+- restart the computer
+- login into `skype for business` and afterwards remove it from the login items\
+you don't really want it to start with the computer (at least I don't)
+- launch `Dropbox`, login, sync everything to the local disk
+- while `Dropbox` still syncs, launch `TheBrain`, login and download the brains to the local disk
+- launch `BetterSnapTool`, allow it in `system preferences -> accessibility` to control the computer and allow `BetterTouchTool` too, we'll need it in the next step. Activate autostart at login and on the tab `extras` activate the double click on the window title bar
+- Go through the internet account iCloud and deactivate iCloud & Photos - only keep Mail, Safari, Keychain, Find my Mac and Home activated
+- Delete Game Center internet account
+- Activate the remaining accounts 
+- launch `BetterTouchTool` 
 - launch 1password and sync with dropbox
