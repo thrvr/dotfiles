@@ -3,8 +3,7 @@
 Here is first of all the history of everything:
 
 
-## Setting up the Mac entirely from scratch - this time \
-with dotfiles
+## Setting up the Mac entirely from scratch - this time with dotfiles
 
 
 After updating to MacOS X Mojave, my time machine backup failed when I needed \
@@ -591,9 +590,14 @@ Here comes the aftermath. We start in the following order:
 you don't really want it to start with the computer (at least I don't)
 - launch `Dropbox`, login, sync everything to the local disk
 - while `Dropbox` still syncs, launch `TheBrain`, login and download the brains to the local disk
-- launch `BetterSnapTool`, allow it in `system preferences -> accessibility` to control the computer and allow `BetterTouchTool` too, we'll need it in the next step. Activate autostart at login and on the tab `extras` activate the double click on the window title bar
+- launch `BetterSnapTool`, allow it in `system preferences -> Security & Privacy -> accessibility` to control the computer and allow `BetterTouchTool` too, we'll need it in the next step. Activate autostart at login and on the tab `extras` activate the double click on the window title bar
 - Go through the internet account iCloud and deactivate iCloud & Photos - only keep Mail, Safari, Keychain, Find my Mac and Home activated
 - Delete Game Center internet account
-- Activate the remaining accounts 
-- launch `BetterTouchTool` 
-- launch 1password and sync with dropbox
+- Activate the remaining accounts for mail, contact and calendars as appropriate -> launch mail and let it sync too
+- launch `BetterTouchTool` and add the 2-finger TipTap left and right gesture to trackpads and the mouse, so that one can work sanely again
+- Open iTerm and add it to the list of apps that have full accessibility in `system preferences -> Security & Privacy -> accessibility`
+- launch 1password and sync with dropbox (open all vault files you need)
+- reactivate the `BetterTouchTool` license from fastspring.com using the order reference and email used
+- Start `Alfred` and enter the power pack lifetime license key - allow full access in `system preferences -> Security & Privacy -> accessibility`
+- Go to system settings and change the key shortcut for spotlight to `alt + space`
+- switch alfred to `command + space`
