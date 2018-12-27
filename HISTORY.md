@@ -606,5 +606,11 @@ you don't really want it to start with the computer (at least I don't)
 - activate `forklift` with its license
 - start `bartender` grant access in system preferences -> Security & Privacy -> accessibility`, activate license and configure
 - open Outlook and sign in to activate license and start syncing the mail
+- activate license in `OmniFocus` and use syncing with the omnigroup sync server account
+- activate OmniGraffle license
+- activate OmniPlan license
+- register dbSchema
+- register Balsamiq 3
+- register Daisy Disk
 
 
