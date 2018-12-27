@@ -603,4 +603,7 @@ you don't really want it to start with the computer (at least I don't)
 - switch alfred to `command + space` and configure `in` and `open` - allow mails
 - start google chrome and log into account and let them sync too
 - in the `system prerferences -> Keyboard` activate F? keys again to work normally, activate tap to click and 3-finger drag
+- activate `forklift` with its license
+- start `bartender` grant access in system preferences -> Security & Privacy -> accessibility`, activate license and configure
+
 
