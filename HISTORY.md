@@ -600,4 +600,7 @@ you don't really want it to start with the computer (at least I don't)
 - reactivate the `BetterTouchTool` license from fastspring.com using the order reference and email used
 - Start `Alfred` and enter the power pack lifetime license key - allow full access in `system preferences -> Security & Privacy -> accessibility`
 - Go to system settings and change the key shortcut for spotlight to `alt + space`
-- switch alfred to `command + space`
+- switch alfred to `command + space` and configure `in` and `open` - allow mails
+- start google chrome and log into account and let them sync too
+- in the `system prerferences -> Keyboard` activate F? keys again to work normally, activate tap to click and 3-finger drag
+
