@@ -10,17 +10,17 @@ After updating to MacOS X Mojave, my time machine backup failed when I needed \
 a recovery. So I decided to do it professionally this time. And therefore I \
 created dotfiles for my personal setup, that anyone can use.
 
-I created the gitlab account 
-`thrvrs`
+I created the gitub account 
+`thrvr`
 with the email
-`gitlab@thrvrs.com`
+`thrvr@thrvrs.com`
 and chose the standard password notation for the account.
 
 I'll use the directory 
 
 `~/.dotfiles`
 
-in my user's home folder `/home/tornow/.dotfiles`
+in my user's home folder `/home/****/.dotfiles`
 
 as the root directory for everything else. 
 
@@ -36,9 +36,9 @@ and takes longer. But safe is better than sorry....
 - U.S. Keyboard
 - Select Wifi and enter password
 - Don't transfer any information from another computer
-- Enter itunes id dirkt74@gmail.com and password (password for itunes on 1st and last)
+- Enter itunes id d****4@gmail.com and password (password for itunes on 1st and last)
 - confirm using the apple id from another device
-- create a new computer account "tornow" for adesso (password follows default pattern for adesso)
+- create a new computer account "******" for a*****o (password follows default pattern for adesso)
 - Allow the itunes id to reset the password (afterwards enter the file vault password) setting up the account then takes a bit longer
 - Set up iCloud keychain (yes)
 - Storing files in iCloud (hell no)
@@ -89,12 +89,12 @@ password AND a recovery key. But now it doesn't ask for a "File Vault" password.
 Now we achieved an initial state from which we can work on. 
 
 - first activate all mail accounts that should have come with iCloud
-- Remove tornow@adesso.de and game center from the internet accounts and feel \
-free to activate or deactivate the iCloud acocunt (dirk.tornow@me.com)
+- Remove t*****w@adesso.de and game center from the internet accounts and feel \
+free to activate or deactivate the iCloud acocunt (d**k.t****w@me.com)
 - Close and re-open mail in order to see all folders properly. They don't come up \
 by themselves without a restart of mail
 - set relevant internet accounts to sync for contacts and calendars \
- (tornow@srvvrs.com, dirk.tornow@gmail.com) and open contacts for a full sync
+ (t****w@srvvrs.com, d***.t****w@gmail.com) and open contacts for a full sync
 - activate iMessage on the computer for the iTunes account
 
 We have a naked operating system with which we can start working. We have our 
@@ -176,8 +176,6 @@ The core concepts are:
 - Have everything scripted in single scripts or in an extractable way, so it \
  Is easy to re-use 
 
-The file for bootstrapping the system should be named
-`setup-mac-os.sh`
 
 The documentation then refers to 
 http://dotfiles.github.io \
@@ -612,5 +610,7 @@ you don't really want it to start with the computer (at least I don't)
 - register dbSchema
 - register Balsamiq 3
 - register Daisy Disk
-
+- I then realized that I have a license for Snagit 4 only  and not the latest. So I changed this to Snagit4 in the brew cask install
+- I then registered snagit and allowed snagit & snagit helper full access to control the computer for the scrolling feature and other things
+- lastly I registered Reflector 3 and Commander One
 
