@@ -602,7 +602,7 @@ you don't really want it to start with the computer (at least I don't)
 - start google chrome and log into account and let them sync too
 - in the `system prerferences -> Keyboard` activate F? keys again to work normally, activate tap to click and 3-finger drag
 - activate `forklift` with its license
-- start `bartender` grant access in system preferences -> Security & Privacy -> accessibility`, activate license and configure
+- start `bartender` grant access in `system preferences -> Security & Privacy -> accessibility`, activate license and configure
 - open Outlook and sign in to activate license and start syncing the mail
 - activate license in `OmniFocus` and use syncing with the omnigroup sync server account
 - activate OmniGraffle license
@@ -613,4 +613,14 @@ you don't really want it to start with the computer (at least I don't)
 - I then realized that I have a license for Snagit 4 only  and not the latest. So I changed this to Snagit4 in the brew cask install
 - I then registered snagit and allowed snagit & snagit helper full access to control the computer for the scrolling feature and other things
 - lastly I registered Reflector 3 and Commander One
+
+# Working on private .dotfiles in Dropbox
+Since there are a lot of .dotfiles, that contain sensitive data, we want to store those in the dropbox and symlink them automatically too. 
+I don't want to have to do this manually ever again. We'll have to take this leap of faith and put them in the dropbox. Even if they contain
+passwords. 
+Since not everything is saved in and controlled by dotfiles, we need to change the location of preferences to a dropbox folder. 
+This is easy for `Alfred`. Under the tab `advanced` there is the option to `set preferences folder` (bottom right).
+- I chaged it to `~/Dropbox/personal/spoa/alfred` which makes it super simple to sync and recover from (just make sure that it doesn't accidentally overwrite the settings when rebuilding a computer)
+- For Forklift it is a bit trickier. Forklifts preferences are located in `/Users/your-username/Library/Preferences/com.binarynights.ForkLift-3.plist`. I moved them to `~/Dropbox/personal/spoa/forklift/com.binarynights.ForkLift-3.plist` and symlinked them. This should work as long as I am not using forklift on 2 computers at the same time. When setting up a new computer, I'll have to delete the installation settings and just place a symlink
+
 
