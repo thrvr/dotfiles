@@ -605,5 +605,6 @@ you don't really want it to start with the computer (at least I don't)
 - in the `system prerferences -> Keyboard` activate F? keys again to work normally, activate tap to click and 3-finger drag
 - activate `forklift` with its license
 - start `bartender` grant access in system preferences -> Security & Privacy -> accessibility`, activate license and configure
+- open Outlook and sign in to activate license and start syncing the mail
 
 
