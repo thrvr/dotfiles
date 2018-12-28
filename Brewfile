@@ -60,6 +60,7 @@ cask 'font-source-serif-pro'
 
 # applications from Casks
 cask 'alfred'
+cask 'adobe-creative-cloud'
 cask 'bartender'
 cask 'balsamiq-mockups'
 cask 'bettertouchtool'
@@ -76,7 +77,6 @@ cask 'firefox'
 cask 'forklift'
 cask 'google-chrome'
 cask 'id3-editor'
-# cask 'inkscape' doesn't install without Quartz and I just remembered how bad it is -> skip it
 cask 'iterm2'
 cask 'java'
 cask 'keepassx'
