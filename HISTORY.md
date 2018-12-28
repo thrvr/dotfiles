@@ -30,6 +30,10 @@ disk encryption (File Vault) with the standard password pattern for
 File Vault encryption. The encrypting part takes up some extra steps
 and takes longer. But safe is better than sorry....
 
+# SUPER IMPORTANT
+!!!DON'T CHOOSE THE CASE SENSITIVE HARD DRIVE FORMAT!!!
+Otherwise a lot of things collide (most importantly adobe products won't install)
+
 ## Mac OS X setup steps (from a blank Mojave as initial OS - not an older one).
 
 - register in Germany (My guess is that it this defines the itunes store and default app store)
@@ -613,6 +617,8 @@ you don't really want it to start with the computer (at least I don't)
 - I then realized that I have a license for Snagit 4 only  and not the latest. So I changed this to Snagit4 in the brew cask install
 - I then registered snagit and allowed snagit & snagit helper full access to control the computer for the scrolling feature and other things
 - lastly I registered Reflector 3 and Commander One
+- very late in the process I realized that I'll need adobe creative cloud for installing Adobe Illustrator and Photoshop. I also downloaded the ZII patch app [https://cmacapps.com/adobe-zii-patch-only-4-0-4/] in a DMG which should always be checked thoroughly. I currently use the account adobecc@smings.com for an adobe ID. The adobe creative cloud installer doesn't get linked into the `/Applications`. Instead it resides in `/usr/local/Caskroom/adobe-creative-cloud/latest` and has to be run from there
+- I then initially ran into the problem that adobe doesn't support hard drives with case sensitive volumes at all. This sucks. But this is what I wrote all this for in the first place. It is going to take a long time, but I'll simply reinstall the entire Mac from scratch. 
 
 # Working on private .dotfiles in Dropbox
 Since there are a lot of .dotfiles, that contain sensitive data, we want to store those in the dropbox and symlink them automatically too. 
