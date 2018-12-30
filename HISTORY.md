@@ -619,6 +619,9 @@ you don't really want it to start with the computer (at least I don't)
 - lastly I registered Reflector 3 and Commander One
 - very late in the process I realized that I'll need adobe creative cloud for installing Adobe Illustrator and Photoshop. I also downloaded the ZII patch app [https://cmacapps.com/adobe-zii-patch-only-4-0-4/] in a DMG which should always be checked thoroughly. I currently use the account adobecc@smings.com for an adobe ID. The adobe creative cloud installer doesn't get linked into the `/Applications`. Instead it resides in `/usr/local/Caskroom/adobe-creative-cloud/latest` and has to be run from there
 - I then initially ran into the problem that adobe doesn't support hard drives with case sensitive volumes at all. This sucks. But this is what I wrote all this for in the first place. It is going to take a long time, but I'll simply reinstall the entire Mac from scratch. 
+- After painfully reinstalling the entire Mac with plain AFPS instead of anything case-sensitive the adobe installer worked and I could install adobe creative cloud
+- I then started adobe creative cloud, installed the trials for photoshop and inDesign, deactivated launch at login, always keep up to date, enable auto update, creative cloud sync, enable adobe fonts. Just go and disable pretty much everything. But especially startup and update
+- In Order to test the ZII app in a sandboxed environment, I decided to set up a new virtual box as described in [https://techsviewer.com/install-macos-10-14-mojave-virtualbox-windows/] from where I also downloaded the virtual box disk image [https://drive.google.com/drive/folders/1gpWiB7uWiNgsTcbKhuYhLaPReYPmjcfN]
 
 # Working on private .dotfiles in Dropbox
 Since there are a lot of .dotfiles, that contain sensitive data, we want to store those in the dropbox and symlink them automatically too. 
@@ -627,6 +630,6 @@ passwords.
 Since not everything is saved in and controlled by dotfiles, we need to change the location of preferences to a dropbox folder. 
 This is easy for `Alfred`. Under the tab `advanced` there is the option to `set preferences folder` (bottom right).
 - I chaged it to `~/Dropbox/personal/spoa/alfred` which makes it super simple to sync and recover from (just make sure that it doesn't accidentally overwrite the settings when rebuilding a computer)
-- For Forklift it is a bit trickier. Forklifts preferences are located in `/Users/your-username/Library/Preferences/com.binarynights.ForkLift-3.plist`. I moved them to `~/Dropbox/personal/spoa/forklift/com.binarynights.ForkLift-3.plist` and symlinked them. This should work as long as I am not using forklift on 2 computers at the same time. When setting up a new computer, I'll have to delete the installation settings and just place a symlink
+- For Forklift I tried the following (IT DID NOT WORK => forklift doesn't accept symlinks it seems). Forklifts preferences are located in `/Users/your-username/Library/Preferences/com.binarynights.ForkLift-3.plist`. I moved them to `~/Dropbox/personal/spoa/forklift/com.binarynights.ForkLift-3.plist` and symlinked them. This should work (but it doesn't) as long as I am not using forklift on 2 computers at the same time. When setting up a new computer, I'll have to delete the installation settings and just place a symlink
 
 
