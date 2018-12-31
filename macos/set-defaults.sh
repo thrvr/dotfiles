@@ -37,7 +37,7 @@ sudo pmset -a standbydelay 3600
 sudo nvram SystemAudioVolume=" "
 
 # Disable transparency in the menu bar and elsewhere on Yosemite
-defaults write com.apple.universalaccess reduceTransparency -bool true
+#defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Set highlight color to green => I don't want to change this
 # defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
@@ -181,11 +181,11 @@ defaults write com.apple.BluetoothAudioAgent "Apple Bitpool Min (editable)" -int
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 
 # Use scroll gesture with the Ctrl (^) modifier key to zoom
-defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
-defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
+#defaults write com.apple.universalaccess closeViewScrollWheelToggle -bool true
+#defaults write com.apple.universalaccess HIDScrollZoomModifierMask -int 262144
 
 # Follow the keyboard focus while zoomed in
-defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
+#defaults write com.apple.universalaccess closeViewZoomFollowsFocus -bool true
 
 # Disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
@@ -360,7 +360,7 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
 # Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+defaults write com.apple.dock tilesize -int 50
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "genie"
@@ -380,7 +380,7 @@ defaults write com.apple.dock show-process-indicators -bool true
 #defaults write com.apple.dock persistent-apps -array
 
 # Show only open applications in the Dock
-defaults write com.apple.dock static-only -bool true
+#defaults write com.apple.dock static-only -bool true
 
 # Don’t animate opening applications from the Dock
 defaults write com.apple.dock launchanim -bool false
@@ -623,51 +623,51 @@ sudo mdutil -E / > /dev/null
 defaults write com.apple.terminal StringEncodings -array 4
 
 # Use a modified version of the Solarized Dark theme by default in Terminal.app
-osascript <<EOD
-
-tell application "Terminal"
-
-	local allOpenedWindows
-	local initialOpenedWindows
-	local windowID
-	set themeName to "Solarized Dark xterm-256color"
-
-	(* Store the IDs of all the open terminal windows. *)
-	set initialOpenedWindows to id of every window
-
-	(* Open the custom theme so that it gets added to the list
-	   of available terminal themes (note: this will open two
-	   additional terminal windows). *)
-	do shell script "open '$HOME/init/" & themeName & ".terminal'"
-
-	(* Wait a little bit to ensure that the custom theme is added. *)
-	delay 1
-
-	(* Set the custom theme as the default terminal theme. *)
-	set default settings to settings set themeName
-
-	(* Get the IDs of all the currently opened terminal windows. *)
-	set allOpenedWindows to id of every window
-
-	repeat with windowID in allOpenedWindows
-
-		(* Close the additional windows that were opened in order
-		   to add the custom theme to the list of terminal themes. *)
-		if initialOpenedWindows does not contain windowID then
-			close (every window whose id is windowID)
-
-		(* Change the theme for the initial opened terminal windows
-		   to remove the need to close them in order for the custom
-		   theme to be applied. *)
-		else
-			set current settings of tabs of (every window whose id is windowID) to settings set themeName
-		end if
-
-	end repeat
-
-end tell
-
-EOD
+# osascript <<EOD
+# 
+# tell application "Terminal"
+# 
+# 	local allOpenedWindows
+# 	local initialOpenedWindows
+# 	local windowID
+# 	set themeName to "Solarized Dark xterm-256color"
+# 
+# 	(* Store the IDs of all the open terminal windows. *)
+# 	set initialOpenedWindows to id of every window
+# 
+# 	(* Open the custom theme so that it gets added to the list
+# 	   of available terminal themes (note: this will open two
+# 	   additional terminal windows). *)
+# 	do shell script "open '$HOME/init/" & themeName & ".terminal'"
+# 
+# 	(* Wait a little bit to ensure that the custom theme is added. *)
+# 	delay 1
+# 
+# 	(* Set the custom theme as the default terminal theme. *)
+# 	set default settings to settings set themeName
+# 
+# 	(* Get the IDs of all the currently opened terminal windows. *)
+# 	set allOpenedWindows to id of every window
+# 
+# 	repeat with windowID in allOpenedWindows
+# 
+# 		(* Close the additional windows that were opened in order
+# 		   to add the custom theme to the list of terminal themes. *)
+# 		if initialOpenedWindows does not contain windowID then
+# 			close (every window whose id is windowID)
+# 
+# 		(* Change the theme for the initial opened terminal windows
+# 		   to remove the need to close them in order for the custom
+# 		   theme to be applied. *)
+# 		else
+# 			set current settings of tabs of (every window whose id is windowID) to settings set themeName
+# 		end if
+# 
+# 	end repeat
+# 
+# end tell
+# 
+# EOD
 
 # Enable “focus follows mouse” for Terminal.app and all X11 apps
 # i.e. hover over a window and start typing in it without clicking first
@@ -831,7 +831,6 @@ for app in "Activity Monitor" \
 	"cfprefsd" \
 	"Contacts" \
 	"Dock" \
-	"Google Chrome" \
 	"Mail" \
 	"Messages" \
 	"Photos" \
