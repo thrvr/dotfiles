@@ -624,8 +624,12 @@ you don't really want it to start with the computer (at least I don't)
 - I then started adobe creative cloud, installed the trials for photoshop and inDesign, deactivated launch at login, always keep up to date, enable auto update, creative cloud sync, enable adobe fonts. Just go and disable pretty much everything. But especially startup and update
 - In Order to test the ZII app in a sandboxed environment, I decided to set up a new virtual box as described above with nothing else but the adobe creative cloud installer, the downloaded adobe apps and the zii app
 - The 4.0.9 version of the zii app didn't work with adobe CC AI and PS 2019 version as of December 31st, 2018. Hopefully the next version will do it.
-- Since I also installed the creative cloud app on my macs, I now have to handle the stupid processes, that automatically start. I found a couple of hints here: [https://apple.stackexchange.com/questions/204315/how-do-i-remove-or-disable-adobeipcbroker] and [https://apple.stackexchange.com/questions/99865/how-is-adobe-update-notifier-auto-launched-on-mac-os-x] and [https://lifecs.likai.org/2011/02/real-way-to-disable-adobe-updater-from.html]\
+- Since I also installed the creative cloud app on my macs, I now have to handle the stupid processes, that automatically start. 
 I first killed all adobe processes with `ps -ef | grep dobe` and then `sudo kill -9 pid1 pid2 ...`\
+These processes seem to get started via LaunchAgents in\
+ - /Library/LaunchAgents and
+ - ~/Library/LaunchAgents\
+I guess they can all easily be deleted. I bought LaunchControl in order to gain full control over what starts on my computer and what doesn't. I deactivated all user and global daemons as much as possible. The license is, as usual, stored in 1password.
 
 
 # Working on private .dotfiles in Dropbox
