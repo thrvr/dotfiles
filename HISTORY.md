@@ -25,14 +25,13 @@ in my user's home folder `/home/****/.dotfiles`
 as the root directory for everything else. 
 
 
-I started by erasing the Mac's disc entirely and formatting it with
-disk encryption (File Vault) with the standard password pattern for
-File Vault encryption. The encrypting part takes up some extra steps
-and takes longer. But safe is better than sorry....
+I started by erasing the Mac's disc entirely and formatting it without
+disk encryption.
 
 # SUPER IMPORTANT
 !!!DON'T CHOOSE THE CASE SENSITIVE HARD DRIVE FORMAT!!!
 Otherwise a lot of things collide (most importantly adobe products won't install)
+Simply go for AFPS or the first option there is.
 
 ## Mac OS X setup steps (from a blank Mojave as initial OS - not an older one).
 
@@ -52,8 +51,7 @@ Otherwise a lot of things collide (most importantly adobe products won't install
 There you go - we have a newly setup mac with a very blank
 Mac OS X Mojave
 
-All email accounts were added automatically (as well as the game center 
-account that we can delete later)
+Add all email accounts.
 
 - Now check for mojave updates in the system settings and install any OS updates
 - Go to system settings -> time machine  and deactivate automatic backups
@@ -78,7 +76,7 @@ faster after file vault is switched off)
 - After the recovery enter the password for the iCloud account (same as itunes
 in my case)
 
-- go to system preferences -> Securuty & privacy -> File Vault tab and activate \
+- (optionally) go to system preferences -> Securuty & privacy -> File Vault tab and activate \
 File Vault with allowing iCloud Account to unlock the disk. In this scenario \
 apple stores the recovery key encrypted in the iCloud and only you can decrypt \
 it with the iCloud password (I guess). But most importantly - one doesn't have \
@@ -149,15 +147,18 @@ We then don't need the app at all - everything is being installed without
 It. Also VirtualBox gets started and everything gets installed automatically.
 
 Initially we have to choose a language (English) and then use the disk utils
-To delete "VBox HARDDISK MEDIA" and format it as "Mojave" with 
-"Mac OS X Extended (Case-sensitive, Journaled)" so that we can use it to
-Install Mojave. The disk is now 64GB in size, so that we can play around
-With it a lot.
+To delete the disk 
+`VBox HARDDISK MEDIA`
+ and format it as "Mojave" with 
+"AFPS" so that we can use it to Install Mojave. The disk is now 64GB in size, 
+so that we can play around With it a lot.
 
 Then we go back to the main menu of the helper utils and start the 
 installation of Mojave in the disk. After the installation is done, the
-Helper utils screen will pop up again. Shut down Mojave. Then remove
-The disk macOS-Mojave.iso.cdr from the VM. 
+Helper utils screen will pop up again. Shut down the VM Mojave. Then remove
+The disk 
+`macOS-Mojave.iso.cdr`
+ from within Virtualbox. 
 Then reboot from the clover startup screen (use the arrow key and hit 
 Enter). 
 
@@ -621,7 +622,11 @@ you don't really want it to start with the computer (at least I don't)
 - I then initially ran into the problem that adobe doesn't support hard drives with case sensitive volumes at all. This sucks. But this is what I wrote all this for in the first place. It is going to take a long time, but I'll simply reinstall the entire Mac from scratch. 
 - After painfully reinstalling the entire Mac with plain AFPS instead of anything case-sensitive the adobe installer worked and I could install adobe creative cloud
 - I then started adobe creative cloud, installed the trials for photoshop and inDesign, deactivated launch at login, always keep up to date, enable auto update, creative cloud sync, enable adobe fonts. Just go and disable pretty much everything. But especially startup and update
-- In Order to test the ZII app in a sandboxed environment, I decided to set up a new virtual box as described in [https://techsviewer.com/install-macos-10-14-mojave-virtualbox-windows/] from where I also downloaded the virtual box disk image [https://drive.google.com/drive/folders/1gpWiB7uWiNgsTcbKhuYhLaPReYPmjcfN]
+- In Order to test the ZII app in a sandboxed environment, I decided to set up a new virtual box as described above with nothing else but the adobe creative cloud installer, the downloaded adobe apps and the zii app
+- The 4.0.9 version of the zii app didn't work with adobe CC AI and PS 2019 version as of December 31st, 2018. Hopefully the next version will do it.
+- Since I also installed the creative cloud app on my macs, I now have to handle the stupid processes, that automatically start. I found a couple of hints here: [https://apple.stackexchange.com/questions/204315/how-do-i-remove-or-disable-adobeipcbroker] and [https://apple.stackexchange.com/questions/99865/how-is-adobe-update-notifier-auto-launched-on-mac-os-x] and [https://lifecs.likai.org/2011/02/real-way-to-disable-adobe-updater-from.html]\
+I first killed all adobe processes with `ps -ef | grep dobe` and then `sudo kill -9 pid1 pid2 ...`\
+
 
 # Working on private .dotfiles in Dropbox
 Since there are a lot of .dotfiles, that contain sensitive data, we want to store those in the dropbox and symlink them automatically too. 
