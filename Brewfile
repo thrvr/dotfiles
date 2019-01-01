@@ -61,6 +61,7 @@ cask 'font-source-serif-pro'
 # applications from Casks
 cask 'alfred'
 cask 'adobe-creative-cloud'
+cask 'alinof-timer'
 cask 'bartender'
 cask 'balsamiq-mockups'
 cask 'bettertouchtool'
