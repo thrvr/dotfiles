@@ -13,6 +13,8 @@ else
 	alias la='ls -lA --color'
 fi
 
+alias ..='cd ..'
+alias ...='cd ~'
 
 ###############################################################################
 # now I take care of the prompt
