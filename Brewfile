@@ -124,6 +124,7 @@ cask 'vlc'
 cask 'whatsapp'
 cask 'wireshark'
 cask 'xmind'
+cask 'xtorrent'
 
 
 # apps from the appstore
