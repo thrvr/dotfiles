@@ -61,8 +61,6 @@ cask 'font-source-serif-pro'
 # applications from Casks
 cask 'alfred'
 cask 'adobe-creative-cloud'
-cask 'alinof-timer'
-cask 'baretorrent'
 cask 'bartender'
 cask 'balsamiq-mockups'
 cask 'bettertouchtool'
@@ -125,7 +123,6 @@ cask 'vlc'
 cask 'whatsapp'
 cask 'wireshark'
 cask 'xmind'
-cask 'xtorrent'
 
 
 # apps from the appstore
