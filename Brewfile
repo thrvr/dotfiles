@@ -123,6 +123,7 @@ cask 'vlc'
 cask 'whatsapp'
 cask 'wireshark'
 cask 'xmind'
+cask 'zoom'
 
 
 # apps from the appstore
