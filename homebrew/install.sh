@@ -21,4 +21,6 @@ then
 
 fi
 
+cp -R ~/.dotfiles/homebrew/casks/* /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/
+
 exit 0
