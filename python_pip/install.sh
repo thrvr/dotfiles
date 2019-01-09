@@ -44,7 +44,40 @@ else
 fi
 
 
+# Installing `botocore` package
+#
+present=`pip list | pcregrep '^botocore ' | sed 's/^botocore\ *//'  | sed 's/\n*//'`
+if test ! $(echo $present)
+then
+	sudo -H pip install botocore
+else
+	echo "   found botocore in version $present"
+fi
+
+# Installing `boto` package
+#
+present=`pip list | pcregrep '^boto '| sed 's/^boto\ *//'  | sed 's/\n*//'`
+if test ! $(echo $present)
+then
+	sudo -H pip install boto
+else
+	echo "   found boto in version $present"
+fi
+
+# Installing `boto3` package
+#
+present=`pip list | pcregrep '^boto3 ' | sed 's/^boto3\ *//' | sed 's/\n*//'`
+if test ! $(echo $present)
+then
+	sudo -H pip install boto3
+else
+	echo "   found boto3 in version $present"
+fi
+
+
 echo "   Upgarding all python packages"
 sudo -H pip2 freeze — local | grep -v ‘^\-e’ | cut -d = -f 1 | xargs -n1 sudo -H pip2 install -U --user
-echo ""
+echo " "
+echo " "
+echo "-----------------------------------------------------------------------------------------------------------"
 echo "   Ugrade of Pyton finished. All packages should now be current. Please check any potential error messages."
