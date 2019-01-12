@@ -4,7 +4,7 @@ cask 'virtualbox-extension-pack-5.2' do
   sha256 '779250666551b2f5426e86c2d21ceb0209b46174536971611025f753535131ef'
 
   url "https://download.virtualbox.org/virtualbox/#{version}/Oracle_VM_VirtualBox_Extension_Pack-#{version}.vbox-extpack"
-  appcast 'https://download.virtualbox.org/virtualbox/LATEST.TXT'
+
   name 'Oracle VirtualBox Extension Pack'
   homepage 'https://www.virtualbox.org/'
 
