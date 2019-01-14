@@ -69,7 +69,6 @@ test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shel
 # setting python@2.7 
 PATH=$PATH:/Users/tornow/Library/Python/2.7/bin:/var/root/Library/Python/2.7/bin
 
-# setting mysql@5.6 and enforcing it
-PATH=$PATH:/usr/local/opt/mysql@5.6/bin
-
+# setting mysql-client@5.7 (at least that is the version I get when I run `mysql --version`)
+PATH=$PATH:/usr/local/opt/mysql-client/bin
 
