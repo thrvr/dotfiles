@@ -16,6 +16,8 @@ fi
 alias ..='cd ..'
 alias ...='cd ~'
 
+alias ip='dig @resolver1.opendns.com ANY myip.opendns.com +short'
+
 ###############################################################################
 # now I take care of the prompt
 #
