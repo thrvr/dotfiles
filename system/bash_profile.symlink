@@ -66,5 +66,10 @@ export PS1
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
+# setting python@2.7 
 PATH=$PATH:/Users/tornow/Library/Python/2.7/bin:/var/root/Library/Python/2.7/bin
+
+# setting mysql@5.6 and enforcing it
+PATH=$PATH:/usr/local/opt/mysql@5.6/bin
+
 
