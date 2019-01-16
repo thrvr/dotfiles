@@ -5,7 +5,7 @@ cask 'virtualbox-extension-pack-5.2' do
 
   url "https://download.virtualbox.org/virtualbox/#{version}/Oracle_VM_VirtualBox_Extension_Pack-#{version}.vbox-extpack"
 
-  name 'Oracle VirtualBox Extension Pack'
+  name 'Oracle VirtualBox Extension Pack 5.2 (fixed version)'
   homepage 'https://www.virtualbox.org/'
 
   conflicts_with cask: 'virtualbox-extension-pack-beta'

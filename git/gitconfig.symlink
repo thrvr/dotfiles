@@ -38,7 +38,7 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
-	name = 
-	email = 
+	name = thrvr
+	email = thrvr@thrvrs.com
 [commit]
 	template = /Users/tornow/.stCommitMsg

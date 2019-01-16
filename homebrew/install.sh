@@ -18,7 +18,8 @@ then
   then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
   fi
-
+else
+	echo "Homebrew already installed"
 fi
 
 cp -R ~/.dotfiles/homebrew/casks/* /usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/Casks/

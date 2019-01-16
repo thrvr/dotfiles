@@ -4,7 +4,7 @@ cask 'virtualbox-5.2' do
 
   url "https://download.virtualbox.org/virtualbox/#{version.before_comma}/VirtualBox-#{version.before_comma}-#{version.after_comma}-OSX.dmg"
 
-  name 'Oracle VirtualBox'
+  name 'Oracle VirtualBox 5.2 (fixed Version for kisura'
   homepage 'https://www.virtualbox.org/'
 
   conflicts_with cask: 'virtualbox-beta'
