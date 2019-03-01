@@ -53,13 +53,13 @@ brew 'php@7.2'
 #brew 'xcode' # I don't thing we'll need xcode specifically, since I only needed it for homebrew and brew only needs the tools
 
 # Fonts from casks
-cask 'font-lato'
-cask 'font-open-sans'
-cask 'font-pt-sans'
-cask 'font-roboto'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
+cask 'caskroom/fonts/font-lato'
+cask 'caskroom/fonts/font-open-sans'
+cask 'caskroom/fonts/font-pt-sans'
+cask 'caskroom/fonts/font-roboto'
+cask 'caskroom/fonts/font-source-code-pro-for-powerline'
+cask 'caskroom/fonts/font-source-code-pro'
+cask 'caskroom/fonts/font-source-sans-pro'
 cask 'caskroom/fonts/font-source-serif-pro'
 
 # applications from Casks
