@@ -143,6 +143,7 @@ mas 'Infographics Lab - Templates', id: 577411683
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'SplitPrint', id: 412574988 
+mas 'ToothFairy', id: 1191449274
 mas 'VitaDock', id: 638118857
 
 
