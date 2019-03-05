@@ -93,7 +93,6 @@ cask 'launchcontrol'
 cask 'magicprefs'
 cask 'mailbutler'
 cask 'microsoft-office'
-cask 'minitimer'
 cask 'mongodb-compass-community'
 cask 'mysqlworkbench'
 cask 'omnidisksweeper'
@@ -143,6 +142,7 @@ mas 'Infographics Lab - Templates', id: 577411683
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'SplitPrint', id: 412574988 
+mas 'Tadam', id: 531349534
 mas 'ToothFairy', id: 1191449274
 mas 'VitaDock', id: 638118857
 
