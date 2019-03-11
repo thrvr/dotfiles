@@ -64,6 +64,7 @@ cask 'caskroom/fonts/font-source-serif-pro'
 
 # applications from Casks
 cask 'alfred'
+cask 'adobe-acrobat-reader'
 cask 'adobe-creative-cloud'
 cask 'bartender'
 cask 'balsamiq-mockups'
