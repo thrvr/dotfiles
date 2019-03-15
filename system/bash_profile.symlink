@@ -18,6 +18,13 @@ alias ...='cd ~'
 
 alias ip='dig @resolver1.opendns.com ANY myip.opendns.com +short'
 
+alias doi='docker image'
+alias doc='docker container'
+alias don='docker network'
+alias dono='docker node'
+alias dov='docker volume'
+
+
 ###############################################################################
 # now I take care of the prompt
 #
