@@ -24,6 +24,9 @@ alias don='docker network'
 alias dono='docker node'
 alias dov='docker volume'
 
+alias docu='docrma;doirma'
+alias docrma='for i in `doc ls -aq`; do doc rm -f $i; done'
+alias doirma='for i in `doi ls -aq`; do doi rm -f $i; done'
 
 ###############################################################################
 # now I take care of the prompt
