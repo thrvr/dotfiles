@@ -49,6 +49,8 @@ awscp(){
 
 }
 
+alias awsecrlogin='$(aws ecr get-login --no-include-email --region eu-west-1)'
+
 ###############################################################################
 # Docker aliases
 alias doi='docker image'
@@ -68,6 +70,12 @@ dosrun(){
   echo "------------------------------------------------------------"
   echo
   docker stack ps -f "desired-state=running" $1
+}
+dosdep(){
+  echo "Executing: \`docker stack deploy -c docker-compose.yml --with-registry-auth $1\`"
+  echo "--------------------------------------------------------------------------------"
+  echo
+  docker stack deploy -c docker-compose.yml --with-registry-auth $1
 }
 alias docu='docrma;doirma'
 alias docrma='for i in `doc ls -aq`; do doc rm -f $i; done'
