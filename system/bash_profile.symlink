@@ -20,6 +20,7 @@ alias ip='dig @resolver1.opendns.com ANY myip.opendns.com +short'
 
 ###############################################################################
 # AWS CLI aliases
+export AWS_DEFAULT_PROFILE="kisura-ECR"
 awsp(){
   echo "Available Profiles:"
   echo "-------------------"
@@ -31,6 +32,9 @@ awsp(){
   if [ -z "$np" ]; then np="default"; fi
   echo "Setting AWS_DEFAULT_PROFILE to '$np'" 
   export AWS_DEFAULT_PROFILE=$np
+  echo "Currently Set Profile: '$AWS_DEFAULT_PROFILE'"
+  echo
+  echo "You can define a default profile in ~/.dotfiles/system/bash_profile.symlink"
 }
 
 awscp(){
@@ -40,6 +44,9 @@ awscp(){
   echo "-------------------"
   echo
   echo "Currently Set Profile: '$AWS_DEFAULT_PROFILE'"
+  echo
+  echo "You can define a default profile in ~/.dotfiles/system/bash_profile.symlink"
+
 }
 
 ###############################################################################
