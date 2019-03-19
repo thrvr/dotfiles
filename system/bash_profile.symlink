@@ -81,6 +81,19 @@ alias docu='docrma;doirma'
 alias docrma='for i in `doc ls -aq`; do doc rm -f $i; done'
 alias doirma='for i in `doi ls -aq`; do doi rm -f $i; done'
 
+
+###############################################################################
+# alias script for ffmpeg audio extraction
+# ffmpeg -i VIDEOFILE -acodec libmp3lame -metadata TITLE="Name of Song" OUTPUTFILE.mp3
+extract_audio(){
+  if [ -z $1 ]; then
+    echo "Syntax: \`extract_audio video_file audiotitle_meta (optional)\`"
+  elif [ -z $2 ]; then 
+    ffmpeg -i "$1" -acodec libmp3lame OUTPUTFILE.mp3;
+  else
+    ffmpeg -i "$1" -acodec libmp3lame -metadata TITLE="$2" OUTPUTFILE.mp3
+  fi
+}
 ###############################################################################
 # now I take care of the prompt
 #
