@@ -18,6 +18,32 @@ alias ...='cd ~'
 
 alias ip='dig @resolver1.opendns.com ANY myip.opendns.com +short'
 
+###############################################################################
+# AWS CLI aliases
+awsp(){
+  echo "Available Profiles:"
+  echo "-------------------"
+  cat ~/.aws/credentials | grep '\[' | sed 's/[][]//g'
+  echo "-------------------"
+  echo
+  echo "Currently Set Profile: '$AWS_DEFAULT_PROFILE'"
+  np=$1
+  if [ -z "$np" ]; then np="default"; fi
+  echo "Setting AWS_DEFAULT_PROFILE to '$np'" 
+  export AWS_DEFAULT_PROFILE=$np
+}
+
+awscp(){
+  echo "Available Profiles:"
+  echo "-------------------"
+  cat ~/.aws/credentials | grep '\[' | sed 's/[][]//g'
+  echo "-------------------"
+  echo
+  echo "Currently Set Profile: '$AWS_DEFAULT_PROFILE'"
+}
+
+###############################################################################
+# Docker aliases
 alias doi='docker image'
 alias doc='docker container'
 alias dom='docker-machine'
