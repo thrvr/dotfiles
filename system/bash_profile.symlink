@@ -55,6 +55,9 @@ alias doi='docker image'
 alias doc='docker container'
 alias dom='docker-machine'
 alias domenv1='eval $(docker-machine env myvm1)'
+domenv(){
+  eval $(docker-machine env $1)
+}
 alias domenvu='eval $(docker-machine env -u)'
 alias don='docker network'
 alias dono='docker node'
