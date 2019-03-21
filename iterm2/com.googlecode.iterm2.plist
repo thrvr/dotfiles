@@ -63,19 +63,19 @@
 	<key>NSWindow Frame SharedPreferences</key>
 	<string>135 240 796 486 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1497 -221 1326 588 1366 -312 1920 1057 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1778 -232 1025 418 1366 -312 1920 1057 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>1602 -213 1606 673 1366 -312 1920 1057 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>1366 293 570 452 1366 -312 1920 1057 </string>
-	<key>NSWindow Frame iTerm Window 4</key>
 	<string>0 0 1366 745 0 0 1366 745 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>1366 225 1920 520 1366 -312 1920 1057 </string>
+	<key>NSWindow Frame iTerm Window 2</key>
+	<string>1366 -304 1920 520 1366 -312 1920 1057 </string>
+	<key>NSWindow Frame iTerm Window 3</key>
+	<string>1366 -38 976 537 1366 -312 1920 1057 </string>
+	<key>NSWindow Frame iTerm Window 4</key>
+	<string>1366 293 570 452 1366 -312 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 5</key>
-	<string>1366 -312 1494 452 1366 -312 1920 1057 </string>
+	<string>1579 54 1494 401 1366 -312 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 6</key>
-	<string>0 0 570 452 0 0 1366 745 </string>
+	<string>1366 -312 570 452 1366 -312 1920 1057 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -676,6 +676,10 @@
 	</array>
 	<key>NoSyncCommandHistoryHasEverBeenUsed</key>
 	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
+	<integer>0</integer>
 	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt</key>
 	<true/>
 	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt_selection</key>
@@ -687,7 +691,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>02648B43-3D28-4569-BC89-9245F4B32E3D</string>
 	<key>NoSyncLastTipTime</key>
-	<real>570610902.30653501</real>
+	<real>574760358.42805302</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -725,6 +729,21 @@
 		<string>0021</string>
 		<string>0022</string>
 		<string>0023</string>
+		<string>0024</string>
+		<string>0025</string>
+		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
+		<string>0031</string>
+		<string>0032</string>
+		<string>0033</string>
+		<string>0034</string>
+		<string>0035</string>
+		<string>0036</string>
+		<string>0037</string>
+		<string>0038</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
@@ -801,6 +820,8 @@
 	<key>SULastCheckTime</key>
 	<date>2019-01-01T05:14:04Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>ShowFullScreenTabBar</key>
 	<false/>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
