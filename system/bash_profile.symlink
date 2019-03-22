@@ -20,7 +20,10 @@ alias ip='dig @resolver1.opendns.com ANY myip.opendns.com +short'
 
 ###############################################################################
 # AWS CLI aliases
-export AWS_DEFAULT_PROFILE="kisura-ECR"
+
+# current default profile is kisura with full access
+export AWS_DEFAULT_PROFILE="kisura-full-access"
+
 awsp(){
   echo "Available Profiles:"
   echo "-------------------"
