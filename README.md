@@ -72,6 +72,38 @@ defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
+
+## Setting up saml2aws
+Follow the steps on 
+https://medium.com/devopslinks/single-sign-on-with-g-suite-on-the-amazon-web-services-console-18b88c838cae
+to setup a SAML app in your google G Suite account to use the G Suite 
+accounts for single sign-on into AWS. When downloading the google metadata.xml
+file, open the file and look for 
+`Location="https://accounts.google.com/o/saml2/idp?idpid=YOUR_IDP_ID`
+Additionally go into your G Suite Admin Console, navigate to your SAML Apps
+https://admin.google.com/AdminHome?hl=en#AppsList:serviceType=SAML_APPS
+and click on details. In the URL bar, you'll see 
+`https://admin.google.com/AdminHome?hl=en#AppDetails:service=YOUR_SPID `
+
+Then set up saml2aws with
+`saml2aws configure`
+Enter 
+`https://accounts.google.com/o/saml2/initsso?idpid=YOUR_IDP_ID&spid=YOUR_SPID&forceauthn=false`
+as URL and then just follow the remaining instructions. 
+Afterwards you can login and retrieve temporary AWS CLI credentials via
+`saml2aws login` 
+They are automatically saved into `~/.aws/credentials`. You might have to
+activate the AWS profile. To gain an overview of your available profiles,
+just enter `awscp` to see the available and the currently chosen profile.
+With `awsp <profile_id>` you can change the used profile.
+You can the use the aws cli with the assumed role's scope.
+If there is just one role, this will be assumed automatically.
+If there are multiple roles, you have to specify the role with which you
+want to use in the attribute `--role=arn:.....`
+
+
+
+
 ## bugs
 
 I want this to work for everyone; that means when you clone it down it should
