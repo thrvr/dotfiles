@@ -1,11 +1,15 @@
 cask_args appdir: '/Applications'
 
+#---------------------------------------------
 # Taps
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
+# This tap is for the saml2aws formula
+tap 'versent/homebrew-taps'
 
+#---------------------------------------------
 # Binaries
 brew 'ansible'
 brew 'autoconf'
@@ -38,6 +42,7 @@ brew 'libgit2'
 brew 'openssl'
 brew 'pcre'
 brew 'pdf2svg'
+brew 'saml2aws'
 brew 'svg2pdf'
 brew 'tree'
 brew 'unrar'
