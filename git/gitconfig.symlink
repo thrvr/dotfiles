@@ -1,6 +1,10 @@
 # Local/private config goes in the include
-[include]
+[includeIf "gitdir:~/.dotfiles/"]
         path = ~/.gitconfig.local
+[includeIf "gitdir:~/dev/thrvrs/"]
+        path = ~/dev/thrvrs/.gitconfig
+
+
 [hub]
         protocol = https
 [alias]
