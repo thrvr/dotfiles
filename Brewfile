@@ -12,6 +12,7 @@ tap 'versent/homebrew-taps'
 #---------------------------------------------
 # Binaries
 brew 'ansible'
+brew 'apache'
 brew 'autoconf'
 brew 'automake'
 #brew 'awsebcli'

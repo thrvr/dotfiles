@@ -844,4 +844,9 @@ for app in "Activity Monitor" \
 	"iCal"; do
 	killall "${app}" &> /dev/null
 done
+
+echo "Deactivating and uninstalling the native apache server"
+sudo apachectl stop
+sudo launchctl unload -w /System/Library/LaunchDaemons/org.apache.httpd.plist
+
 echo "Done. Note that some of these changes require a logout/restart to take effect."
