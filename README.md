@@ -73,6 +73,25 @@ time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
 
 
+# Software that I installed manually
+## PDF Printer
+Download and install
+https://sourceforge.net/projects/pdfwriterformac/
+
+Then follow these steps to create the PDF Printer 
+
+- Install PDFWriter package by double clicking
+- Go to system preferences Printers and Scanners pane
+- Click the Plus sign to add a printer and select PDFwriter
+- In the Use: field it defaults to Generic PostScript Printer-- this doesn't work--- use the drop down and choose "Other..."
+- Now you have a file dialog box, navigate to /Library/Printers/Lisanet/PDFwriter/PDFwriter.ppd and click the Open button
+- You are back in the Add printer dialog box, click the Add button and you are done!
+
+Additionally one has to know that the output of the PDF printer ends up in
+`/private/var/spool/pdfwriter/YOUR-USERNAME`
+so that you might want to create a symlink to this directory
+
+
 ## Setting up saml2aws
 Follow the steps on 
 https://medium.com/devopslinks/single-sign-on-with-g-suite-on-the-amazon-web-services-console-18b88c838cae
