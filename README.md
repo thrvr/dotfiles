@@ -120,7 +120,10 @@ If there is just one role, this will be assumed automatically.
 If there are multiple roles, you have to specify the role with which you
 want to use in the attribute `--role=arn:.....`
 
-
+## Sketchup Weld Plugin / Extension 
+https://extensions.sketchup.com/en/content/weld
+I downloaded it and then installed it via the Window -> Extension Manager
+dialogue
 
 
 ## bugs
