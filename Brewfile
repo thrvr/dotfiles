@@ -4,7 +4,7 @@ cask_args appdir: '/Applications'
 # Taps
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
-#tap 'caskroom/versions'
+tap 'caskroom/versions'
 tap 'homebrew/bundle'
 # This tap is for the saml2aws formula
 tap 'versent/homebrew-taps'
