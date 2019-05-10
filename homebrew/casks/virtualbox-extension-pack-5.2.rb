@@ -9,7 +9,7 @@ cask 'virtualbox-extension-pack-5.2' do
   homepage 'https://www.virtualbox.org/'
 
   conflicts_with cask: 'virtualbox-extension-pack-beta'
-  depends_on cask: 'virtualbox'
+  depends_on cask: 'virtualbox-5.2'
   container type: :naked
 
   stage_only true
@@ -18,8 +18,7 @@ cask 'virtualbox-extension-pack-5.2' do
     system_command '/usr/local/bin/VBoxManage',
                    args:  [
                             'extpack', 'install',
-                            '--replace', "#{staged_path}/Oracle_VM_VirtualBox_Extension_Pack-#{version}.vbox-extpack",
-                            '--accept-license=56be48f923303c8cababb0bb4c478284b688ed23f16d775d729b89a2e8e5f9eb'
+                            '--replace', "#{staged_path}/Oracle_VM_VirtualBox_Extension_Pack-#{version}.vbox-extpack"
                           ],
                    input: 'y',
                    sudo:  true
