@@ -125,6 +125,8 @@ https://extensions.sketchup.com/en/content/weld
 I downloaded it and then installed it via the Window -> Extension Manager
 dialogue
 
+## Audacity
+There is no Cask for installing audacity anymore unfortunately
 
 ## bugs
 
