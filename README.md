@@ -127,6 +127,8 @@ dialogue
 
 ## Audacity
 There is no Cask for installing audacity anymore unfortunately
+https://www.fosshub.com/Audacity.html?dwl=audacity-macos-2.3.2.dmg
+This is the version I installed
 
 ## bugs
 
