@@ -130,6 +130,13 @@ There is no Cask for installing audacity anymore unfortunately
 https://www.fosshub.com/Audacity.html?dwl=audacity-macos-2.3.2.dmg
 This is the version I installed
 
+## robo-3t
+Since the last update, robo-3t got updated to a version that doesn't support
+my clients MongoDB Version anymore. I had to manually downgrade to 
+1.2.1,3e50a65
+https://download.robomongo.org/1.2.1/osx/robo3t-1.2.1-darwin-x86_64-3e50a65.dmg
+
+
 ## bugs
 
 I want this to work for everyone; that means when you clone it down it should
