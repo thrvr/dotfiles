@@ -37,6 +37,12 @@ brew 'grep'
 brew 'htop'
 brew 'mas'
 brew 'midnight-commander'
+# this is a keg only version. For using this, use 
+# `export PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"`
+# for temporary use or add
+# PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
+# to your ~/.bash_profile
+brew 'mongodb@3.0'	
 brew 'mysql@5.6'
 brew 'mysql-client'
 brew 'libgit2'

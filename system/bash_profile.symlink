@@ -152,3 +152,7 @@ PATH=$PATH:/Users/tornow/Library/Python/2.7/bin:/var/root/Library/Python/2.7/bin
 # setting mysql-client@5.7 (at least that is the version I get when I run `mysql --version`)
 PATH=$PATH:/usr/local/opt/mysql-client/bin
 
+# setting mongo shell to 3.0
+PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
+
+
