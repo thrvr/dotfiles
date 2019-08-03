@@ -43,6 +43,12 @@ brew 'midnight-commander'
 # PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
 # to your ~/.bash_profile
 brew 'mongodb@3.0'	
+
+#To have launchd start mongodb now and restart at login:
+#  brew services start mongodb
+#Or, if you don't want/need a background service you can just run:
+#  mongod --config /usr/local/etc/mongod.conf
+brew 'mongodb'	
 brew 'mysql@5.6'
 brew 'mysql-client'
 brew 'libgit2'
