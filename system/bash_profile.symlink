@@ -154,5 +154,3 @@ PATH=$PATH:/usr/local/opt/mysql-client/bin
 
 # setting mongo shell to 3.0
 #PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
-
-
