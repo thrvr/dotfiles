@@ -133,8 +133,8 @@ cask 'reflector'
 cask 'robo-3t'
 cask 'sequel-pro'
 cask 'slack'
-cask 'skype'
-cask 'skype-for-business'
+#cask 'skype'
+#cask 'skype-for-business'
 cask 'caskroom/versions/snagit4'
 cask 'sourcetree'
 cask 'sketchup'
@@ -153,6 +153,7 @@ cask 'vlc'
 cask 'whatsapp'
 cask 'wireshark'
 cask 'xmind'
+cask 'yed'
 cask 'zoomus'
 
 
@@ -168,6 +169,7 @@ mas 'Infographics Lab - Templates', id: 577411683
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'SplitPrint', id: 412574988 
+mas 'Swyx Desktop', id: 1029922555
 mas 'Tadam', id: 531349534
 mas 'ToothFairy', id: 1191449274
 mas 'VitaDock', id: 638118857

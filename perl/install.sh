@@ -1,4 +1,6 @@
 #!/bin/bash
+/usr/local/bin/cpan -i Config::AutoConf
+/usr/local/bin/cpan -i Path::Tiny
 /usr/local/bin/cpan -i SUPER
 /usr/local/bin/cpan -i Algorithm::C3
 /usr/local/bin/cpan -i Test::LeakTrace
