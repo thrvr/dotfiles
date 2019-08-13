@@ -19,3 +19,4 @@
 /usr/local/bin/cpan -i Authen::SCRAM::Client
 /usr/local/bin/cpan -i MongoDB
 /usr/local/bin/cpan -i Data::Dumper
+/usr/local/bin/cpan -i Text::CSV_XS
