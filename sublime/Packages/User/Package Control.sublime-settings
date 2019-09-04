@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Anaconda",
+		"Ansible",
+		"ApacheConf",
+		"Crontab",
+		"Dockerfile Syntax Highlighting",
+		"Git",
+		"nginx",
+		"Nginx Log Highlighter",
+		"Package Control",
+		"SideBarEnhancements"
+	],
+	"repositories":
+	[
+		"http://damnwidget.github.io/anaconda/"
+	]
+}

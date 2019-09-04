@@ -1,0 +1,17 @@
+{
+	"font_size": 17,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"rulers":
+	[
+		78,
+		80.2,
+		100,
+		120
+	],
+	"word_wrap": false,
+	"wrap_width": 80
+}
