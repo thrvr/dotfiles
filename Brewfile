@@ -99,7 +99,7 @@ cask 'dbschema'
 cask 'diffmerge'
 cask 'docker'
 cask 'dropbox'
-cask 'duet'
+#cask 'duet'
 cask 'evernote'
 cask 'expandrive'
 cask 'firefox'
@@ -134,8 +134,8 @@ cask 'reflector'
 cask 'robo-3t'
 cask 'sequel-pro'
 cask 'slack'
-#cask 'skype'
-#cask 'skype-for-business'
+cask 'skype'
+cask 'skype-for-business'
 cask 'caskroom/versions/snagit4'
 cask 'sourcetree'
 cask 'sketchup'
@@ -175,4 +175,6 @@ mas 'Swyx Desktop', id: 1029922555
 mas 'Tadam', id: 531349534
 mas 'ToothFairy', id: 1191449274
 mas 'VitaDock', id: 638118857
+mas 'XCode', id: 497799835
+
 

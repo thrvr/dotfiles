@@ -65,11 +65,11 @@
 	<key>NSWindow Frame UKCrashReporter</key>
 	<string>230 833 592 584 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>86 38 1277 707 0 0 1366 745 </string>
+	<string>0 0 1277 745 0 0 1366 745 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1328 316 570 452 0 0 2560 1417 </string>
+	<string>86 0 1277 745 0 0 1366 745 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>906 131 1242 605 0 0 2560 1417 </string>
+	<string>2658 252 739 452 2560 217 1366 745 </string>
 	<key>NSWindow Frame iTerm Window 3</key>
 	<string>0 133 570 452 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 4</key>
@@ -867,7 +867,7 @@
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>UKCrashReporterLastCrashReportDate</key>
 	<real>1557299328</real>
 	<key>findMode_iTerm</key>
