@@ -1,0 +1,509 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dot",
+				"dotfile_stencil_directory"
+			],
+			[
+				"hostname",
+				"hostname"
+			],
+			[
+				"ean",
+				"ean_locations"
+			],
+			[
+				"lo",
+				"loc"
+			],
+			[
+				"loca",
+				"location_mapper"
+			],
+			[
+				"wrie",
+				"write_csv_files"
+			],
+			[
+				"winnin",
+				"winning_results"
+			],
+			[
+				"num",
+				"number_of_used_page_templates"
+			],
+			[
+				"targe",
+				"target_csv_filename_transposed"
+			],
+			[
+				"csv",
+				"csv_transposed"
+			],
+			[
+				"data",
+				"data_set_width"
+			],
+			[
+				"sorted_",
+				"sorted_usage_section_templates"
+			],
+			[
+				"cou",
+				"count_fixed_length"
+			],
+			[
+				"fa",
+				"fair_names"
+			],
+			[
+				"fair",
+				"fair_name"
+			],
+			[
+				"no",
+				"noHitsLogger"
+			],
+			[
+				"erro",
+				"errorLogger"
+			],
+			[
+				"catal",
+				"catalogCollection"
+			],
+			[
+				"logg",
+				"noHitsLogger"
+			],
+			[
+				"NO",
+				"NO_HITS"
+			],
+			[
+				"count",
+				"countProducts"
+			],
+			[
+				"winn",
+				"winningSKUs"
+			],
+			[
+				"in",
+				"invalidValues"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"valid",
+				"validCategories"
+			],
+			[
+				"brok",
+				"brokenColors"
+			],
+			[
+				"vlid",
+				"validColors"
+			],
+			[
+				"vali",
+				"validCategories"
+			],
+			[
+				"colo",
+				"colorSlug"
+			],
+			[
+				"che",
+				"checkColorAndCategory"
+			],
+			[
+				"win",
+				"winningSKUs"
+			],
+			[
+				"compa",
+				"compareProductPrices"
+			],
+			[
+				"file",
+				"fileName"
+			],
+			[
+				"db",
+				"db_data"
+			],
+			[
+				"bo",
+				"box_outfit_id"
+			],
+			[
+				"box",
+				"box_product"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"Remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"reindent",
+				"Indentation: Reindent Lines"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tornow/.dotfiles"
+	],
+	"file_history":
+	[
+		"/Users/tornow/dev/adesso/kisura/bashscripts/kisura_bashscripts.sublime-project",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/kisura_bashscripts.sublime-workspace",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/README.md",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/crontab-backups/crontab-root@kisura-production.txt",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/.gitignore",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/005_karstadt_order_item_report_daily.sql",
+		"/Users/tornow/.dotfiles/Brewfile",
+		"/Users/tornow/dev/smings/ds/scraper/test.py",
+		"/Users/tornow/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/tornow/.dotfiles/vim/vimrc.symlink",
+		"/Users/tornow/.dotfiles/ruby/irbrc.symlink",
+		"/Users/tornow/.dotfiles/ruby/gemrc.symlink",
+		"/Users/tornow/.dotfiles/python_pip/install.sh",
+		"/Users/tornow/Library/Application Support/Sublime Text 3/Packages/User/python3.sublime-build",
+		"/Users/tornow/dev/adesso/kisura/Kisura/provisioning/help",
+		"/Users/tornow/dev/adesso/kisura/Kisura/provisioning/update-ssh-access.yml",
+		"/Users/tornow/.dotfiles/system/bash_profile.symlink",
+		"/Users/tornow/.dotfiles/xcode/install.sh",
+		"/Users/tornow/.dotfiles/xcode/aliases.zsh",
+		"/Users/tornow/.dotfiles/omnigraffle/install.sh",
+		"/Users/tornow/.dotfiles/omnigraffle/save_stencils.sh",
+		"/Users/tornow/.dotfiles/diff/install.sh",
+		"/Users/tornow/.dotfiles/bin/dot",
+		"/Users/tornow/.dotfiles/macos/set-defaults.sh",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/kisura_clients_list_master_hauptlist.sql",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/kisura_clients_list_master_hauptlist.sql.save",
+		"/Users/tornow/.dotfiles/perl/install.sh",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/temp.sql",
+		"/Users/tornow/Downloads/Kisura_kundinnen_mit_abo_letzte_und_nachste_woche-20190820_113052-20190828_000000.csv",
+		"/Users/tornow/Downloads/Kisura_new_client_registrations_daily-20190827_112846-20190828_000000.csv",
+		"/Users/tornow/Downloads/Kisura_kundinnen_mit_ABO_Hauptliste-20180101_000000-20190828_112803.csv",
+		"/Users/tornow/Downloads/Kisura_kundinnen_hauptlist-20130101_000000-20190828_000000.csv",
+		"/Users/tornow/Desktop/marcel_sansuer.pub",
+		"/Users/tornow/Downloads/Kisura_kundinnen_hauptlist-20180416_000000-20190826_000000.csv",
+		"/Users/tornow/Dropbox/personal/img/Stamps/How to create the stamps.txt",
+		"/private/var/folders/3b/q6pvlhgj3jj5h9ls2m062r580000gn/T/com.microsoft.Outlook/Outlook Temp/MONDAY_REPORTS[3].txt",
+		"/Users/tornow/dev/adesso/kisura/Kisura/front-end/node_modules/browser-sync/node_modules/easy-extender/node_modules/lodash/_getPrototype.js",
+		"/Users/tornow/dev/thrvrs/homebrew/homebrew-cask/Casks/alfred.rb",
+		"/Users/tornow/.dotfiles/alfred/workflows/stackoverflow-1.2.1.alfredworkflow",
+		"/Users/tornow/.dotfiles/script/install",
+		"/Users/tornow/.dotfiles/homebrew/install.sh",
+		"/Users/tornow/dev/thrvrs/homebrew/homebrew-cask/Casks/jing.rb",
+		"/Users/tornow/Dropbox/adesso/projects/rr/asana exports/_bridge24_All_tasks_20190817_235400_2nd_export_edited.csv",
+		"/Users/tornow/Dropbox/adesso/projects/rr/asana exports/_bridge24_all_tasks_edited.csv",
+		"/Users/tornow/Dropbox/adesso/projects/rr/asana exports/Customer_Service.csv",
+		"/Users/tornow/Dropbox/adesso/projects/rr/asana exports/_Bridge24_All_tasks_20190816.csv",
+		"/Users/tornow/Dropbox/adesso/projects/rr/asana exports/Customer_Service.json",
+		"/Users/tornow/Dropbox/adesso/projects/rr/asana exports/DJI_Idea_Capture.csv",
+		"/Users/tornow/Dropbox/adesso/projects/rr/asana exports/Manufacturing.json",
+		"/Users/tornow/Downloads/UBWBetterStyle.css",
+		"/Users/tornow/Desktop/css4erp.css",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/stock-taking/locations_map.csv",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/stock-taking/inventur-results.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/scripts/kisura_old_stock_import.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/scripts/auto_cleaner.pl",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/scripts/locations_map.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/scripts/inventur-results.csv",
+		"/Users/tornow/Dropbox/adesso/projects/lm/relaunch/analysis data/template_analyzer.pl",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/data files/KISURA locations map.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from kisura/import_1_kisura_data_319_398_with_merchant_ID.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/scripts/eans.csv_full",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from kisura/kisura_eans.txt",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/scripts/eans.csv",
+		"/Users/tornow/Dropbox/adesso/projects/lm/relaunch/analysis data/filtered_usage_data_per_tradeshow_transposed.csv",
+		"/private/var/folders/3b/q6pvlhgj3jj5h9ls2m062r580000gn/T/com.microsoft.Outlook/Outlook Temp/CLIENTS_WITH_BOXES.sql",
+		"/private/var/folders/3b/q6pvlhgj3jj5h9ls2m062r580000gn/T/com.microsoft.Outlook/Outlook Temp/ABOs.sql",
+		"/Users/tornow/Dropbox/adesso/projects/lm/relaunch/analysis data/new.csv",
+		"/Users/tornow/Dropbox/adesso/projects/lm/relaunch/analysis data/template_usage_per_project.csv",
+		"/Users/tornow/dev/thrvrs/homebrew/homebrew-cask/Casks/telegram-desktop.rb",
+		"/Users/tornow/dev/thrvrs/homebrew/homebrew-cask/Casks/telegram.rb",
+		"/Users/tornow/dev/adesso/kisura/Kisura/vendor/doctrine/data-fixtures/tests/Doctrine/Tests/Common/DataFixtures/Purger/ORMPurgerExcludeTest.php",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/misc files & queries/mongo-queries-on-cli.json",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/mongo scripts/auto_cleaner.pl",
+		"/Users/tornow/Dropbox/adesso/projects/lm/relaunch/analysis data/template_usage_all_projects.csv",
+		"/Users/tornow/dev/adesso/kisura/Kisura/front-end/node_modules/phantomjs-prebuilt/node_modules/request/lib/getProxyFromURI.js",
+		"/Users/tornow/Library/Caches/com.binarynights.ForkLift-3/FileCache/30987EC7-3D5F-4CFD-BFF1-4EBDB42288ED/Analyse der Umsetzungsoptionen IT Themen 2018.docx",
+		"/Users/tornow/Library/Caches/com.binarynights.ForkLift-3/FileCache/71B82CEF-B3D2-4836-8F12-1F67B1F0F117/Folien für das BIB und IT.pptx",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/mongo scripts/eans.csv",
+		"/usr/local/Cellar/perl/5.30.0/lib/perl5/site_perl/5.30.0/MongoDB/Collection.pm",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/misc files & queries/find eans with multiple SKUs.js",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/misc files & queries/test.js",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/mongo scripts/sorter.pl",
+		"/Users/tornow/.dotfiles/vagrant/install.sh",
+		"/Users/tornow/tmp/mongo/queries/eans.csv",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/misc files & queries/remove_stock_by_sku.js",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/misc files & queries/find_eans.js",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from kisura/Kisura EANs with multiple SKUs.txt",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from kisura/kisura_unique_eans.txt",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/misc files & queries/update_mongo.js",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from kisura/Kisura_ean_list_counting_SKUs.txt",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from kisura/import_1_kisura_data_319_398.csv",
+		"/Users/tornow/Desktop/query_result.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_2_ivalis_eans_with_selected_skus_removed_1st_line_with_merchant_id_withou_19_23.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/eans with multiple skus sql.txt",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/karstadt-eans-resolved.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_7131_7141_with_merchant_ID_corrected_errors_without_19-23_without_1st_line.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_6561_7141_with_merchant_id_without_1st_line_without_19_23.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/Ivalis_0099_00037_20190730_orig.csv",
+		"/Users/tornow/Desktop/all_catalog_i20591_tems_with_eans_with_multiple_skus.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/all_catalog_i20591_tems_with_eans_with_multiple_skus.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/Ivalis Scanned EANs sql.txt",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/ivalis_unique_eans.txt",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/EANs with multiple SKUs for Karstadt Items.txt",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_7131_7141_with_merchant_ID_corrected_errors_without_19-23.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_7131_7141_WITH_MERCHANT_ID.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from kisura/import_1_kisura_data_319_398_with_merchant_id.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_7131_7141.csv",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/clv_report.sql",
+		"/Users/tornow/tmp/mongo/EANs_with_multiple_prices.txt",
+		"/Users/tornow/tmp/mongo/catalog_numbers_export.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/Ivalis_0099_00037_20190730.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/ivalis.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/ivalis_eans.txt",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/ivalis_ean_in_catalog.txt",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from kisura/INVENTUR Import Altware.csv",
+		"/Users/tornow/tmp/mongo/catalog_export_all.csv",
+		"/Users/tornow/tmp/mongo/catalog_export_all_edited_name_material_and_images_removed_empty_arrays_removed_NULLs.csv",
+		"/Users/tornow/tmp/mongo/catalog_export_all_edited.csv",
+		"/Users/tornow/dev/adesso/kisura/logistics/provisioning/group_vars/production/config.yml",
+		"/Users/tornow/dev/adesso/kisura/logistics/provisioning/aws.yml",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/demo data from ivalis/Ivalis_0009_00837_20190705.csv",
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/data files/cleaned_up_eans.txt",
+		"/Users/tornow/dev/adesso/kisura/logistics/provisioning/group_vars/staging/config.yml",
+		"/Users/tornow/dev/adesso/kisura/Kisura/provisioning/group_vars/production/config.yml",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/generic_sql_report.sh",
+		"/Users/tornow/tmp/mongo/Product_performance_by_EAN_STEP0_karstadt-20190725_000000-20190726_000000.csv",
+		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/kisura_products_in_status_shipped.sql",
+		"/Users/tornow/tmp/mongo/karstadt_stock_data.csv"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 208.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 144.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "dotfiles.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
