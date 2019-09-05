@@ -180,6 +180,14 @@
 		"selected_items":
 		[
 			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
 				"inst",
 				"Package Control: Install Package"
 			],
@@ -192,10 +200,6 @@
 				"Package Control: List Packages"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"",
 				"Package Control: Add Repository"
 			],
@@ -206,10 +210,6 @@
 			[
 				"Remov",
 				"Package Control: Remove Package"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
 			],
 			[
 				"instal",
@@ -249,13 +249,17 @@
 	],
 	"file_history":
 	[
+		"/Users/tornow/.dotfiles/.gitignore",
+		"/Users/tornow/.dotfiles/sublime/test.sh",
+		"/Users/tornow/.dotfiles/sublime/install.sh",
+		"/Users/tornow/.dotfiles/Brewfile",
+		"/Users/tornow/dev/thrvrs/homebrew/homebrew-cask/Casks/sublime-merge.rb",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/kisura_bashscripts.sublime-project",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/kisura_bashscripts.sublime-workspace",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/README.md",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/crontab-backups/crontab-root@kisura-production.txt",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/.gitignore",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/005_karstadt_order_item_report_daily.sql",
-		"/Users/tornow/.dotfiles/Brewfile",
 		"/Users/tornow/dev/smings/ds/scraper/test.py",
 		"/Users/tornow/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/tornow/.dotfiles/vim/vimrc.symlink",
@@ -372,11 +376,7 @@
 		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/demo data from ivalis/Ivalis_0009_00837_20190705.csv",
 		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/data files/cleaned_up_eans.txt",
 		"/Users/tornow/dev/adesso/kisura/logistics/provisioning/group_vars/staging/config.yml",
-		"/Users/tornow/dev/adesso/kisura/Kisura/provisioning/group_vars/production/config.yml",
-		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/generic_sql_report.sh",
-		"/Users/tornow/tmp/mongo/Product_performance_by_EAN_STEP0_karstadt-20190725_000000-20190726_000000.csv",
-		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/kisura_products_in_status_shipped.sql",
-		"/Users/tornow/tmp/mongo/karstadt_stock_data.csv"
+		"/Users/tornow/dev/adesso/kisura/Kisura/provisioning/group_vars/production/config.yml"
 	],
 	"find":
 	{
@@ -394,6 +394,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"yet"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -459,11 +460,11 @@
 	{
 		"height": 144.0
 	},
-	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"pinned_build_system": "",
 	"project": "dotfiles.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 76.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -501,7 +502,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 291.0,
+	"side_bar_width": 267.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
