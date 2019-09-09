@@ -12,10 +12,12 @@
 		"Dockerfile Syntax Highlighting",
 		"Git",
 		"Github Tools",
+		"KeybindingHelper",
 		"nginx",
 		"Nginx Log Highlighter",
 		"Package Control",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"SqlBeautifier"
 	],
 	"repositories":
 	[
