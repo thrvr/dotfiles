@@ -1,0 +1,35 @@
+Ziele des Workshops
+
+• Festlegung der Verantwortung für Epics und Stories -> an allen steht
+  ein verantwortlicher Name: 
+
+  • Die Epic-Verantwortlichen haben die Verantwortung die Story-Verantwortlichen
+    zu definieren (müssen sie nicht zwingend selbst sein). 
+    Im Zweifelsfall muss der Epic-Verantwortliche auch die Verantwortung für
+    alle beinhalteten Stories übernehmen. 
+    Der Epic-Verantwortliche hat die Verantwortung der Bewertung des Business-
+    Values der einzelnen Stories.
+    Der Epic-Verantwortliche hat die Verantwortung darüber, ob eine Story zum
+    MVP gehört oder nicht. Nur weil eine Story einen hohen BV hat, heißt dies
+    noch lange nicht, dass sie zum MVP gehört.
+    Die Priorisierung der Stories ist eine Liste der Stories die MVP-relevant 
+    sind sortiert nach BV und Priorisierung der Epics.
+
+    Stories sind per Default nicht MVP-relevant!!!
+    Wie kann man erkennen, was MVP bedeutet? Durch die Beantwortung der folgenden
+    Fragen:
+
+    • Kann die Website auch ohne die Funktionalität / Feature gelauncht werden?
+      (Z.B.: Ist ein Partner-Teaser wirklich wichtig für einen Go-Live? -> Nein)
+    • Kann ich die Funktionalität mit einer anderen, im MVP enthaltenen Funk-
+      tionalität abbilden / überbrücken? Auch wenn dies initial mehr Aufwand
+      in der Erstellung und Verwaltung bedeutet oder es nicht "so schön" 
+      funktioniert / aussieht.
+      (Beispiel Partner-Teaser: Ich nehme mehrere Teaser und setze die Logos ein
+       oder verwende einen anderen Absatz, der mir die Auflistung erlaubt.)
+
+  • Querschnittsthemen wie Technik sind automatisch in der Verantwortung der 
+    IT Kollegen. Zunächst ist dies immer bei Martin
+
+• Vermitteln der Dringlichkeit der Limitierung und Fokussierung auf das MVP
+• 
