@@ -5,6 +5,7 @@ cask_args appdir: '/Applications'
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 tap 'caskroom/versions'
+#tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 # This tap is for the saml2aws formula
 tap 'versent/homebrew-taps'
@@ -42,13 +43,13 @@ brew 'midnight-commander'
 # for temporary use or add
 # PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
 # to your ~/.bash_profile
-brew 'mongodb@3.0'	
+# brew 'mongodb@3.0'	
 
 #To have launchd start mongodb now and restart at login:
 #  brew services start mongodb
 #Or, if you don't want/need a background service you can just run:
 #  mongod --config /usr/local/etc/mongod.conf
-brew 'mongodb'	
+# brew 'mongodb'	
 brew 'mysql@5.6'
 brew 'mysql-client'
 brew 'libgit2'
@@ -124,6 +125,9 @@ cask 'magicprefs'
 cask 'mailbutler'
 cask 'microsoft-office'
 cask 'microsoft-teams'
+
+# this is a "frozen" cask 
+cask 'mongodb-3'
 cask 'mongodb-compass-community'
 cask 'mysqlworkbench'
 cask 'omnidisksweeper'
@@ -137,6 +141,7 @@ cask 'phpstorm'
 cask 'private-internet-access'
 cask 'qbittorrent'
 cask 'reflector'
+# this is a "frozen" cask 
 cask 'robo-3t'
 cask 'sequel-pro'
 cask 'slack'
@@ -156,7 +161,9 @@ cask 'tipp10'
 cask 'vagrant'
 cask 'vagrant-manager'
 cask 'vagrant-vmware-utility'
+# this is a "frozen" cask 
 cask 'virtualbox-5.2'
+# this is a "frozen" cask 
 cask 'virtualbox-extension-pack-5.2'
 cask 'vlc'
 cask 'whatsapp'
