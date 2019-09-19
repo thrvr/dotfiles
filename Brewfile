@@ -125,7 +125,6 @@ cask 'magicprefs'
 cask 'mailbutler'
 cask 'microsoft-office'
 cask 'microsoft-teams'
-
 # this is a "frozen" cask 
 cask 'mongodb-3'
 cask 'mongodb-compass-community'
