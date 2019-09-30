@@ -25,7 +25,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-ifconfig -a | grep 14:74:7c && HostName="MacDiTo" || HostName="BerlinBase"
+ifconfig -a | grep 3:e7:a1 && HostName="McDiTo" || HostName="BerlinBase"
 echo "Setting HostName to $HostName"
 sudo scutil --set ComputerName "$HostName"
 sudo scutil --set HostName "$HostName"

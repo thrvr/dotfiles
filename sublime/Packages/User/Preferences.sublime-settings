@@ -1,4 +1,5 @@
 {
+<<<<<<< Updated upstream
 	"font_size": 16,
 	"ignored_packages":
 	[
@@ -14,4 +15,7 @@
 	],
 	"word_wrap": false,
 	"wrap_width": 80
+=======
+	"font_size": 14
+>>>>>>> Stashed changes
 }
