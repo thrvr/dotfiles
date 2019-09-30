@@ -151,24 +151,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": ".gitignore",
-			"settings":
-			{
-				"buffer_size": 92,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Brewfile",
-			"settings":
-			{
-				"buffer_size": 4449,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -269,9 +251,11 @@
 	"file_history":
 	[
 		"/Users/tornow/.dotfiles/.gitignore",
+		"/Users/tornow/.dotfiles/Brewfile",
+		"/Users/tornow/Library/Application Support/Alfred 3/usage.data",
+		"/Users/tornow/Library/Application Support/Alfred 3/license.plist",
 		"/Users/tornow/.dotfiles/sublime/test.sh",
 		"/Users/tornow/.dotfiles/sublime/install.sh",
-		"/Users/tornow/.dotfiles/Brewfile",
 		"/Users/tornow/dev/thrvrs/homebrew/homebrew-cask/Casks/sublime-merge.rb",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/kisura_bashscripts.sublime-project",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/kisura_bashscripts.sublime-workspace",
@@ -393,9 +377,7 @@
 		"/Users/tornow/dev/adesso/kisura/logistics/provisioning/group_vars/production/config.yml",
 		"/Users/tornow/dev/adesso/kisura/logistics/provisioning/aws.yml",
 		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/demo data from ivalis/Ivalis_0009_00837_20190705.csv",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/data files/cleaned_up_eans.txt",
-		"/Users/tornow/dev/adesso/kisura/logistics/provisioning/group_vars/staging/config.yml",
-		"/Users/tornow/dev/adesso/kisura/Kisura/provisioning/group_vars/production/config.yml"
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/data files/cleaned_up_eans.txt"
 	],
 	"find":
 	{
@@ -431,71 +413,14 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": ".gitignore",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 92,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								76,
-								76
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Brewfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4449,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2772,
-								2772
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1840.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 32.0
 	},
 	"input":
 	{
