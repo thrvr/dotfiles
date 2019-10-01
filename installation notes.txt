@@ -1,0 +1,115 @@
+
+Installation without Brewfile
+•LogiPresentation
+•Unlox (I probably don't need this, since I now have Touch ID )
+•Audacity
+
+
+
+During the intallation with the ~/.dotfiles/script/bootstrap
+there will be an error with vitualbox. This is normal
+We have to go into System Settings -> security and privacy -> Privacy tab
+There we have to allow oracle as a trusted developer.
+Then run the whole thing again.
+
+
+after installing xcode we have to execute the following 2 lines of code
+
+sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+and
+sudo xcodebuild -license accept
+
+
+And for installing Perl completely, we have to add
+this to our environment
+
+export PERL_MM_USE_DEFAULT=1
+
+In order to function properly, we need the dropbox folder to be fully synced first. So this requires some patience.
+
+
+After having everything installed, do the following
+
+Set up messages
+
+Set up Internet Sharing
+
+Set up all different chrome profiles
+
+Set up all private mail accounts
+
+Set up business mail account in outlook
+
+Set up iCloud
+•everything except Siri & Mail
+•Photos -> Only shared Albums
+•iCloud -> all except desktop & documents folder (this will automatically end up in a pricy subscription of iCloud)
+
+
+
+Add the following Apps to system preferences -> Security & Privacy:
+Alfred4
+Bartender3
+BetterTouchTool
+BetterSnapTool
+Calibre
+CheatSheet
+Commander One
+DaisyDisk
+DropBox
+Iterm
+MagicPrefs
+MicroSoft Teams
+Robo 3T
+Snagit App
+SnagitHelper App
+TeamViewer
+Unlox
+Virtualbox app
+VLC
+
+
+Then add the following items to the login items
+Alfred4
+Bartender 3
+BetterSnaptool
+BetterTouchTool
+CheatSheet
+DropBox
+Mailbutler
+
+
+Then add the following apps to full disk access
+Terminal
+iterm
+alfred4
+
+
+
+After the 1password vault files are synced, start
+1password and add all the vaults 
+Then go through the software licenses and insert license keys for:
+
+Alfred4
+Balsamiq3
+Bartender3
+BetterTouchTool (lifetime license)
+Daisy Disk
+DbSchema (have to renew after 1 year)
+Expandrive (lifetime license)
+Forklift
+LaunchControl
+OmniFocus Pro 3
+OmniGraffle Pro 7
+OmniPlan Pro 3
+PList Edit Pro 
+Reflector 3
+Snagit4 (You have to allow the helper app access for panoramic captures)
+TheBrain (wait until dropbox is fully synced -> then select the folder in the preferences)
+
+
+
+Handling of Private Internet Access
+Private Internet Access has to be manually installed. 
+It gets downloaded automatically, but we have to finish the installation manually.
+
