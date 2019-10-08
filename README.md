@@ -102,8 +102,14 @@ Additionally one has to know that the output of the PDF printer ends up in
 `/private/var/spool/pdfwriter/YOUR-USERNAME`
 so that you might want to create a symlink to this directory
 
+## Audacity
+There is no Cask for installing audacity anymore unfortunately
+https://www.fosshub.com/Audacity.html?dwl=audacity-macos-2.3.2.dmg
+This is the version I installed.
+Additionally we had to install the FFMPEG and LAME codecs from
+https://lame.buanzo.org/#lameosx64bitdl
 
-## Setting up saml2aws
+## Setting up saml2aws (has to be done only once)
 Follow the steps on 
 https://medium.com/devopslinks/single-sign-on-with-g-suite-on-the-amazon-web-services-console-18b88c838cae
 to setup a SAML app in your google G Suite account to use the G Suite 
@@ -135,11 +141,6 @@ want to use in the attribute `--role=arn:.....`
 https://extensions.sketchup.com/en/content/weld
 I downloaded it and then installed it via the Window -> Extension Manager
 dialogue
-
-## Audacity
-There is no Cask for installing audacity anymore unfortunately
-https://www.fosshub.com/Audacity.html?dwl=audacity-macos-2.3.2.dmg
-This is the version I installed
 
 
 ## bugs

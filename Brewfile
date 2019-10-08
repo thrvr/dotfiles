@@ -143,6 +143,7 @@ cask 'reflector'
 # this is a "frozen" cask 
 cask 'robo-3t'
 cask 'sequel-pro'
+cask 'shades'
 cask 'slack'
 cask 'skype'
 cask 'skype-for-business'
