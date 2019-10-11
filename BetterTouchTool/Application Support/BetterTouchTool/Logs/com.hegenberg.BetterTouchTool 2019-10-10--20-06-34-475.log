@@ -876,3 +876,105 @@
 1570780321.544090|ASL|deallocating BTTConfigurationVC|
 1570780321.547221|ASL|deallocating BTTLevel3VC|
 1570780321.550180|ASL|deallocating BTTLevel1VC|
+1570780389.636282|SEC|SecureInputActive com.apple.loginwindow 98|
+1570780848.632236|SEC|SecureInputDisabled com.apple.loginwindow|
+1570780848.893588|LOGIN|RESTART AFTER LOGIN|
+1570780848.895246|xw|should relaunch|
+1570780848.895554|xw|BTTRelaunch found|
+1570780848.895577|xw|BTTRelaunch call seems successfull|
+1570780848.907480|TERMINATE|SHOULDTERMINATE|
+1570780849.270275|LAUNCH|DIDLaunch START|
+1570780849.275114|SYS|Running on macOS: 10.14.6|
+1570780849.275134|SYS|BTT Version: 3.202|
+1570780849.275158|SYS|Device: MacBookPro15,2|
+1570780849.328823|usage|loading todays usage|
+1570780849.341449|short|init|
+1570780849.342678|STORE|The store already exists in udefs|
+1570780849.342752|xw|the new store already exists btt_data_store.version_3_202_build_1378|
+1570780849.353763|LIC|idate 2019-09-30 08:00:36 +0000|
+1570780849.360141|LIC|closing previous instance of BetterTouchTool relaunch|
+1570780849.366495|LIC|license appears to be valid|
+1570780849.367277|LIC|license dictionary {
+    CheckoutName = "Dirk Tornow";
+    Email = "dirk@smings.com";
+    LicenseType = "paddle_lifetime";
+    Licenses = 1;
+    Name = "Dirk Tornow";
+    OrderID = 3e077963858a1f0ad0eee360737f6c61;
+    Product = BetterTouchTool;
+    Signature = <2f068c1d e2832ee2 79716cd0 54f19928 ad36a080 0ea90591 22a24b23 dba7006b c9d8a760 3269c7c1 fecdba13 27656c75 18225850 6278e974 cb23f0ee e28fe7b4 52826556 43928061 07604770 06fb405b f9b0de21 07e1d5c0 201ca9b8 34eb9468 6598e681 49c29b10 a8c415fa f10a4b15 2b7f51ae 04f37876 8ba28ded 5766fc94>;
+    Timestamp = 1568360356;
+    TransactionID = "39422015-chreb48eb62a14f-6ce7abad5e";
+}|
+1570780849.367330|LIC|systemdate 2019-09-13 07:39:16 +0000|
+1570780849.367338|LIC|using date 1568360356|
+1570780849.367358|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780849.367364|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780849.368958|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780849.368973|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780849.369110|LIC|License is valid for this version|
+1570780849.382545|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780849.382563|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780849.397676|xw|is trusted|
+1570780849.413563|short|call sharedInstance4|
+1570780849.467052|M|mt_stop10|
+1570780849.469046|M|register touchbar mbp trackpad|
+1570780849.469077|M|register internal trackpad|
+1570780849.469241|M|register magic mouse|
+1570780849.469477|M|register magic trackpad 2|
+1570780849.469680|STDEV|6881|
+1570780849.996610|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780849.996635|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780849.998123|START|TB VISIBLE 0|
+1570780849.998140|START|TB FORCED HIDDEN 0|
+1570780850.002596|LAUNCH|DIDLaunch END frontmostApp: com.googlecode.iterm2, touchpadMode 0, windowSnappingDisabled 0, singleFingerScrollingDisabled 0, mmScrollingUsed 0, tpScrollingUsed 0, tpPinchUsed 0, tpRotateUsed 0|
+1570780850.021323|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780850.021340|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780850.042176|SLEEP|FORCESHOWAFTERSLEEP2|
+1570780850.042202|TB|Force show Touch Bar|
+1570780850.175512|SLEEP|FORCESHOWAFTERSLEEP3|
+1570780850.175547|TB|Force show Touch Bar|
+1570780851.019250|M|mt_stop2|
+1570780851.020133|ASL|Bonjour Service Published: domain(local.) type(_bttremote._tcp.) name(McDiTo) port(50675)|
+1570780851.020685|M|unregister magic trackpad 2|
+1570780851.020730|M|unregister magic mouse|
+1570780851.021988|M|unregister magic trackpad 2|
+1570780851.024077|M|register touchbar mbp trackpad|
+1570780851.024093|M|register internal trackpad|
+1570780851.024301|M|register magic mouse|
+1570780851.024631|M|register magic trackpad 2|
+1570780851.024862|STDEV|6881|
+1570780873.773327|SWI|PID MISMATCH FIX|
+1570780891.343928|c00|14|
+1570780972.860616|c00|14|
+1570780992.097957|c00|14|
+1570780995.021884|c00|14|
+1570781110.450803|c00|14|
+1570781156.112022|c00|14|
+1570781449.852384|lic|newest date 2019-09-13 07:39:16 +0000|
+1570781449.852407|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570781723.011080|c00|14|
+1570781980.737534|c00|14|
+1570782092.835947|LMDrag|dragged after three finger click block|
+1570782314.047048|LMDrag|dragged after three finger click block|
+1570782407.260138|c00|14|
+1570782431.312707|c00|14|
+1570782550.415858|c00|14|
+1570782606.379119|LMDrag|dragged after three finger click block|
+1570782619.068330|LMDrag|dragged after three finger click block|
+1570782626.670505|LMDrag|dragged after three finger click block|
+1570782726.384021|c00|14|
+1570782743.329708|c00|14|
+1570782745.771030|c00|14|
+1570782746.457146|c00|14|
+1570782747.075950|c00|14|
+1570782748.291348|c00|14|
+1570782750.182854|c00|14|
+1570782753.275192|c00|14|
+1570782774.099949|c00|14|
+1570782775.517747|c00|14|
+1570782777.530033|c00|14|
+1570782788.621876|c00|14|
+1570782790.469981|c00|14|
+1570782795.971097|LMDrag|dragged after three finger click block|
+1570782797.873040|LMDrag|dragged after three finger click block|
