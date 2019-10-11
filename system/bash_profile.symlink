@@ -158,3 +158,11 @@ PATH=$PATH:/usr/local/opt/mysql-client/bin
 # setting mongo shell to 3.0
 #PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH"
+
+
+# Set java version
+# https://www.kevinhooke.com/2017/10/05/switching-java-versions-on-mac-os/
+alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11` && export JRE_HOME=`/usr/libexec/java_home -v 11 | sed 's/\.jdk/\.jre/'` && export JRE=`/usr/libexec/java_home -v 11 | sed 's/\.jdk/\.jre/'`"
+alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8` && export JRE_HOME=`/usr/libexec/java_home -v 1.8 | sed 's/\.jdk/\.jre/'` && export JRE=`/usr/libexec/java_home -v 1.8 | sed 's/\.jdk/\.jre/'`"
+j8
+

@@ -1,0 +1,776 @@
+1570737994.472757|LAUNCH|DIDLaunch START|
+1570737994.478166|SYS|Running on macOS: 10.14.6|
+1570737994.478187|SYS|BTT Version: 3.202|
+1570737994.478229|SYS|Device: MacBookPro15,2|
+1570737994.536413|usage|loading todays usage|
+1570737994.549364|short|init|
+1570737994.550378|STORE|The store already exists in udefs|
+1570737994.550458|xw|the new store already exists btt_data_store.version_3_202_build_1378|
+1570737994.561444|LIC|idate 2019-09-30 08:00:36 +0000|
+1570737994.566226|LIC|closing previous instance of BetterTouchTool relaunch|
+1570737994.572502|LIC|license appears to be valid|
+1570737994.573281|LIC|license dictionary {
+    CheckoutName = "Dirk Tornow";
+    Email = "dirk@smings.com";
+    LicenseType = "paddle_lifetime";
+    Licenses = 1;
+    Name = "Dirk Tornow";
+    OrderID = 3e077963858a1f0ad0eee360737f6c61;
+    Product = BetterTouchTool;
+    Signature = <2f068c1d e2832ee2 79716cd0 54f19928 ad36a080 0ea90591 22a24b23 dba7006b c9d8a760 3269c7c1 fecdba13 27656c75 18225850 6278e974 cb23f0ee e28fe7b4 52826556 43928061 07604770 06fb405b f9b0de21 07e1d5c0 201ca9b8 34eb9468 6598e681 49c29b10 a8c415fa f10a4b15 2b7f51ae 04f37876 8ba28ded 5766fc94>;
+    Timestamp = 1568360356;
+    TransactionID = "39422015-chreb48eb62a14f-6ce7abad5e";
+}|
+1570737994.573330|LIC|systemdate 2019-09-13 07:39:16 +0000|
+1570737994.573338|LIC|using date 1568360356|
+1570737994.573364|lic|newest date 2019-09-13 07:39:16 +0000|
+1570737994.573369|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570737994.575035|lic|newest date 2019-09-13 07:39:16 +0000|
+1570737994.575053|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570737994.575192|LIC|License is valid for this version|
+1570737994.587862|lic|newest date 2019-09-13 07:39:16 +0000|
+1570737994.587878|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570737994.604418|xw|is trusted|
+1570737994.620346|short|call sharedInstance4|
+1570737994.676876|M|mt_stop10|
+1570737994.678363|M|register touchbar mbp trackpad|
+1570737994.678382|M|register internal trackpad|
+1570737994.678505|STDEV|68|
+1570737995.228882|lic|newest date 2019-09-13 07:39:16 +0000|
+1570737995.228904|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570737995.230349|START|TB VISIBLE 0|
+1570737995.230366|START|TB FORCED HIDDEN 0|
+1570737995.233625|LAUNCH|DIDLaunch END frontmostApp: com.apple.loginwindow, touchpadMode 0, windowSnappingDisabled 0, singleFingerScrollingDisabled 0, mmScrollingUsed 0, tpScrollingUsed 0, tpPinchUsed 0, tpRotateUsed 0|
+1570737995.248827|lic|newest date 2019-09-13 07:39:16 +0000|
+1570737995.248843|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570737995.259245|SLEEP|FORCESHOWAFTERSLEEP2|
+1570737995.259269|TB|Force show Touch Bar|
+1570737995.381101|SLEEP|FORCESHOWAFTERSLEEP3|
+1570737995.381120|TB|Force show Touch Bar|
+1570737995.548063|xw|disabling touch for internal trackpad (clamshell)|
+1570737996.092262|M|mt_stop2|
+1570737996.092924|ASL|Bonjour Service Published: domain(local.) type(_bttremote._tcp.) name(McDiTo) port(50675)|
+1570737996.094220|M|unregister magic trackpad 2|
+1570737996.095278|M|register touchbar mbp trackpad|
+1570737996.095292|M|register internal trackpad|
+1570737996.095404|STDEV|68|
+1570741237.598330|SYS|USB DEVICE DISCONNECTED|
+1570741237.600118|SYS|USB DEVICE CONNECTED|
+1570741237.600167|SYS|USB Connect Count 2|
+1570741238.896911|M|mt_stop2|
+1570741238.898124|M|unregister magic trackpad 2|
+1570741238.899193|M|register touchbar mbp trackpad|
+1570741238.899229|M|register internal trackpad|
+1570741238.899376|STDEV|68|
+1570741240.321590|M|mt_stop2|
+1570741240.323365|M|unregister magic trackpad 2|
+1570741240.325018|M|register touchbar mbp trackpad|
+1570741240.325047|M|register internal trackpad|
+1570741240.325208|STDEV|68|
+1570744481.588956|SYS|USB DEVICE DISCONNECTED|
+1570744481.591269|SYS|USB DEVICE CONNECTED|
+1570744481.591332|SYS|USB Connect Count 4|
+1570744483.642020|M|mt_stop2|
+1570744483.643874|M|unregister magic trackpad 2|
+1570744483.645623|M|register touchbar mbp trackpad|
+1570744483.645657|M|register internal trackpad|
+1570744483.645928|STDEV|68|
+1570744484.166995|M|mt_stop2|
+1570744484.168905|M|unregister magic trackpad 2|
+1570744484.171418|M|register touchbar mbp trackpad|
+1570744484.171471|M|register internal trackpad|
+1570744484.171849|STDEV|68|
+1570744484.288305|M|mt_stop2|
+1570744484.290402|M|unregister magic trackpad 2|
+1570744484.293486|M|register touchbar mbp trackpad|
+1570744484.293526|M|register internal trackpad|
+1570744484.293906|STDEV|68|
+1570744486.466509|M|mt_stop2|
+1570744486.468255|M|unregister magic trackpad 2|
+1570744486.469382|M|register touchbar mbp trackpad|
+1570744486.469397|M|register internal trackpad|
+1570744486.469499|STDEV|68|
+1570744489.464717|M|mt_stop2|
+1570744489.465964|M|unregister magic trackpad 2|
+1570744489.467039|M|register touchbar mbp trackpad|
+1570744489.467059|M|register internal trackpad|
+1570744489.467186|STDEV|68|
+1570744494.807429|M|mt_stop2|
+1570744494.810625|M|unregister magic trackpad 2|
+1570744494.820900|M|register touchbar mbp trackpad|
+1570744494.821048|M|register internal trackpad|
+1570744494.822105|STDEV|68|
+1570747727.763437|LAUNCH|DIDLaunch START|
+1570747727.770609|SYS|Running on macOS: 10.14.6|
+1570747727.770638|SYS|BTT Version: 3.202|
+1570747727.770672|SYS|Device: MacBookPro15,2|
+1570747727.828951|usage|loading todays usage|
+1570747727.846227|short|init|
+1570747727.847093|STORE|The store already exists in udefs|
+1570747727.847156|xw|the new store already exists btt_data_store.version_3_202_build_1378|
+1570747727.857482|LIC|idate 2019-09-30 08:00:36 +0000|
+1570747727.862156|LIC|closing previous instance of BetterTouchTool relaunch|
+1570747727.867423|LIC|license appears to be valid|
+1570747727.868167|LIC|license dictionary {
+    CheckoutName = "Dirk Tornow";
+    Email = "dirk@smings.com";
+    LicenseType = "paddle_lifetime";
+    Licenses = 1;
+    Name = "Dirk Tornow";
+    OrderID = 3e077963858a1f0ad0eee360737f6c61;
+    Product = BetterTouchTool;
+    Signature = <2f068c1d e2832ee2 79716cd0 54f19928 ad36a080 0ea90591 22a24b23 dba7006b c9d8a760 3269c7c1 fecdba13 27656c75 18225850 6278e974 cb23f0ee e28fe7b4 52826556 43928061 07604770 06fb405b f9b0de21 07e1d5c0 201ca9b8 34eb9468 6598e681 49c29b10 a8c415fa f10a4b15 2b7f51ae 04f37876 8ba28ded 5766fc94>;
+    Timestamp = 1568360356;
+    TransactionID = "39422015-chreb48eb62a14f-6ce7abad5e";
+}|
+1570747727.868218|LIC|systemdate 2019-09-13 07:39:16 +0000|
+1570747727.868226|LIC|using date 1568360356|
+1570747727.868248|lic|newest date 2019-09-13 07:39:16 +0000|
+1570747727.868254|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570747727.869683|lic|newest date 2019-09-13 07:39:16 +0000|
+1570747727.869699|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570747727.869829|LIC|License is valid for this version|
+1570747727.886315|lic|newest date 2019-09-13 07:39:16 +0000|
+1570747727.886338|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570747727.908281|xw|is trusted|
+1570747727.924065|short|call sharedInstance4|
+1570747727.993924|M|mt_stop10|
+1570747728.717346|lic|newest date 2019-09-13 07:39:16 +0000|
+1570747728.717405|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570747728.721427|START|TB VISIBLE 0|
+1570747728.721470|START|TB FORCED HIDDEN 0|
+1570747728.727411|LAUNCH|DIDLaunch END frontmostApp: com.apple.loginwindow, touchpadMode 0, windowSnappingDisabled 0, singleFingerScrollingDisabled 0, mmScrollingUsed 0, tpScrollingUsed 0, tpPinchUsed 0, tpRotateUsed 0|
+1570747728.761878|lic|newest date 2019-09-13 07:39:16 +0000|
+1570747728.761947|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570747728.791245|SLEEP|FORCESHOWAFTERSLEEP2|
+1570747728.791280|TB|Force show Touch Bar|
+1570747728.981359|SLEEP|FORCESHOWAFTERSLEEP3|
+1570747728.981393|TB|Force show Touch Bar|
+1570747729.564647|ASL|Bonjour Service Published: domain(local.) type(_bttremote._tcp.) name(McDiTo) port(50675)|
+1570747729.565197|M|mt_stop2|
+1570747729.566009|M|register touchbar mbp trackpad|
+1570747729.566036|M|register internal trackpad|
+1570747729.566160|STDEV|68|
+1570747729.658610|xw|disabling touch for internal trackpad (clamshell)|
+1570747729.823258|M|mt_stop2|
+1570747729.825775|M|unregister magic trackpad 2|
+1570747729.827870|M|register touchbar mbp trackpad|
+1570747729.827900|M|register internal trackpad|
+1570747729.828067|STDEV|68|
+1570747734.329095|M|mt_stop11|
+1570747734.330718|M|unregister magic trackpad 2|
+1570747734.333963|M|register touchbar mbp trackpad|
+1570747734.334009|M|register internal trackpad|
+1570747734.334230|STDEV|68|
+1570750972.675295|LAUNCH|DIDLaunch START|
+1570750972.681025|SYS|Running on macOS: 10.14.6|
+1570750972.681053|SYS|BTT Version: 3.202|
+1570750972.681085|SYS|Device: MacBookPro15,2|
+1570750972.997022|usage|loading todays usage|
+1570750973.016006|short|init|
+1570750973.016874|STORE|The store already exists in udefs|
+1570750973.016933|xw|the new store already exists btt_data_store.version_3_202_build_1378|
+1570750973.027496|LIC|idate 2019-09-30 08:00:36 +0000|
+1570750973.032882|LIC|closing previous instance of BetterTouchTool relaunch|
+1570750973.038862|LIC|license appears to be valid|
+1570750973.039647|LIC|license dictionary {
+    CheckoutName = "Dirk Tornow";
+    Email = "dirk@smings.com";
+    LicenseType = "paddle_lifetime";
+    Licenses = 1;
+    Name = "Dirk Tornow";
+    OrderID = 3e077963858a1f0ad0eee360737f6c61;
+    Product = BetterTouchTool;
+    Signature = <2f068c1d e2832ee2 79716cd0 54f19928 ad36a080 0ea90591 22a24b23 dba7006b c9d8a760 3269c7c1 fecdba13 27656c75 18225850 6278e974 cb23f0ee e28fe7b4 52826556 43928061 07604770 06fb405b f9b0de21 07e1d5c0 201ca9b8 34eb9468 6598e681 49c29b10 a8c415fa f10a4b15 2b7f51ae 04f37876 8ba28ded 5766fc94>;
+    Timestamp = 1568360356;
+    TransactionID = "39422015-chreb48eb62a14f-6ce7abad5e";
+}|
+1570750973.039705|LIC|systemdate 2019-09-13 07:39:16 +0000|
+1570750973.039714|LIC|using date 1568360356|
+1570750973.039737|lic|newest date 2019-09-13 07:39:16 +0000|
+1570750973.039743|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570750973.041533|lic|newest date 2019-09-13 07:39:16 +0000|
+1570750973.041549|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570750973.041688|LIC|License is valid for this version|
+1570750973.062091|lic|newest date 2019-09-13 07:39:16 +0000|
+1570750973.062110|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570750973.076546|xw|is trusted|
+1570750973.091890|short|call sharedInstance4|
+1570750973.163383|M|mt_stop10|
+1570750973.919331|lic|newest date 2019-09-13 07:39:16 +0000|
+1570750973.919400|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570750973.922811|START|TB VISIBLE 0|
+1570750973.922850|START|TB FORCED HIDDEN 0|
+1570750973.928432|LAUNCH|DIDLaunch END frontmostApp: com.apple.loginwindow, touchpadMode 0, windowSnappingDisabled 0, singleFingerScrollingDisabled 0, mmScrollingUsed 0, tpScrollingUsed 0, tpPinchUsed 0, tpRotateUsed 0|
+1570750973.959141|lic|newest date 2019-09-13 07:39:16 +0000|
+1570750973.959210|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570750973.979768|SLEEP|FORCESHOWAFTERSLEEP2|
+1570750973.979815|TB|Force show Touch Bar|
+1570750974.174689|SLEEP|FORCESHOWAFTERSLEEP3|
+1570750974.174736|TB|Force show Touch Bar|
+1570750975.032363|M|mt_stop2|
+1570750975.033804|M|register touchbar mbp trackpad|
+1570750975.033859|M|register internal trackpad|
+1570750975.034047|STDEV|68|
+1570750975.039758|ASL|Bonjour Service Published: domain(local.) type(_bttremote._tcp.) name(McDiTo) port(50675)|
+1570750975.142950|M|mt_stop2|
+1570750975.144607|M|unregister magic trackpad 2|
+1570750975.146128|M|register touchbar mbp trackpad|
+1570750975.146152|M|register internal trackpad|
+1570750975.146276|STDEV|68|
+1570750975.148285|xw|disabling touch for internal trackpad (clamshell)|
+1570750979.174333|M|mt_stop11|
+1570750979.176493|M|unregister magic trackpad 2|
+1570750979.178849|M|register touchbar mbp trackpad|
+1570750979.178890|M|register internal trackpad|
+1570750979.179097|STDEV|68|
+1570754216.545999|SYS|USB DEVICE DISCONNECTED|
+1570754216.547086|SYS|USB DEVICE CONNECTED|
+1570754216.547180|SYS|USB Connect Count 2|
+1570754218.513166|LAUNCH|DIDLaunch START|
+1570754218.517378|SYS|Running on macOS: 10.14.6|
+1570754218.517398|SYS|BTT Version: 3.202|
+1570754218.517422|SYS|Device: MacBookPro15,2|
+1570754218.568402|usage|loading todays usage|
+1570754218.580435|short|init|
+1570754218.581331|STORE|The store already exists in udefs|
+1570754218.581416|xw|the new store already exists btt_data_store.version_3_202_build_1378|
+1570754218.591898|LIC|idate 2019-09-30 08:00:36 +0000|
+1570754218.597154|LIC|closing previous instance of BetterTouchTool relaunch|
+1570754218.602866|LIC|license appears to be valid|
+1570754218.603535|LIC|license dictionary {
+    CheckoutName = "Dirk Tornow";
+    Email = "dirk@smings.com";
+    LicenseType = "paddle_lifetime";
+    Licenses = 1;
+    Name = "Dirk Tornow";
+    OrderID = 3e077963858a1f0ad0eee360737f6c61;
+    Product = BetterTouchTool;
+    Signature = <2f068c1d e2832ee2 79716cd0 54f19928 ad36a080 0ea90591 22a24b23 dba7006b c9d8a760 3269c7c1 fecdba13 27656c75 18225850 6278e974 cb23f0ee e28fe7b4 52826556 43928061 07604770 06fb405b f9b0de21 07e1d5c0 201ca9b8 34eb9468 6598e681 49c29b10 a8c415fa f10a4b15 2b7f51ae 04f37876 8ba28ded 5766fc94>;
+    Timestamp = 1568360356;
+    TransactionID = "39422015-chreb48eb62a14f-6ce7abad5e";
+}|
+1570754218.603583|LIC|systemdate 2019-09-13 07:39:16 +0000|
+1570754218.603591|LIC|using date 1568360356|
+1570754218.603612|lic|newest date 2019-09-13 07:39:16 +0000|
+1570754218.603620|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570754218.604989|lic|newest date 2019-09-13 07:39:16 +0000|
+1570754218.605002|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570754218.605127|LIC|License is valid for this version|
+1570754218.617768|lic|newest date 2019-09-13 07:39:16 +0000|
+1570754218.617784|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570754218.631875|xw|is trusted|
+1570754218.647507|short|call sharedInstance4|
+1570754218.698242|M|mt_stop10|
+1570754218.699765|M|register touchbar mbp trackpad|
+1570754218.699800|M|register internal trackpad|
+1570754218.699931|STDEV|68|
+1570754219.223510|lic|newest date 2019-09-13 07:39:16 +0000|
+1570754219.223531|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570754219.225071|START|TB VISIBLE 0|
+1570754219.225087|START|TB FORCED HIDDEN 0|
+1570754219.228341|LAUNCH|DIDLaunch END frontmostApp: com.apple.loginwindow, touchpadMode 0, windowSnappingDisabled 0, singleFingerScrollingDisabled 0, mmScrollingUsed 0, tpScrollingUsed 0, tpPinchUsed 0, tpRotateUsed 0|
+1570754219.243478|lic|newest date 2019-09-13 07:39:16 +0000|
+1570754219.243496|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570754219.253901|SLEEP|FORCESHOWAFTERSLEEP2|
+1570754219.253924|TB|Force show Touch Bar|
+1570754219.380880|SLEEP|FORCESHOWAFTERSLEEP3|
+1570754219.380899|TB|Force show Touch Bar|
+1570754219.646456|xw|disabling touch for internal trackpad (clamshell)|
+1570754220.281319|M|mt_stop2|
+1570754220.282024|ASL|Bonjour Service Published: domain(local.) type(_bttremote._tcp.) name(McDiTo) port(50675)|
+1570754220.283706|M|unregister magic trackpad 2|
+1570754220.285167|M|register touchbar mbp trackpad|
+1570754220.285189|M|register internal trackpad|
+1570754220.285308|STDEV|68|
+1570757459.541760|SYS|USB DEVICE DISCONNECTED|
+1570757459.543629|SYS|USB DEVICE CONNECTED|
+1570757459.543686|SYS|USB Connect Count 2|
+1570757461.665861|M|mt_stop2|
+1570757461.667283|M|unregister magic trackpad 2|
+1570757461.670291|M|register touchbar mbp trackpad|
+1570757461.670328|M|register internal trackpad|
+1570757461.670529|STDEV|68|
+1570757462.110806|M|mt_stop2|
+1570757462.112916|M|unregister magic trackpad 2|
+1570757462.115698|M|register touchbar mbp trackpad|
+1570757462.115731|M|register internal trackpad|
+1570757462.115902|STDEV|68|
+1570757462.266278|M|mt_stop2|
+1570757462.268040|M|unregister magic trackpad 2|
+1570757462.271082|M|register touchbar mbp trackpad|
+1570757462.271142|M|register internal trackpad|
+1570757462.271476|STDEV|68|
+1570757464.265751|M|mt_stop2|
+1570757464.267628|M|unregister magic trackpad 2|
+1570757464.271003|M|register touchbar mbp trackpad|
+1570757464.271062|M|register internal trackpad|
+1570757464.271305|STDEV|68|
+1570757467.499192|M|mt_stop2|
+1570757467.500966|M|unregister magic trackpad 2|
+1570757467.504022|M|register touchbar mbp trackpad|
+1570757467.504083|M|register internal trackpad|
+1570757467.504311|STDEV|68|
+1570757472.996344|M|mt_stop2|
+1570757472.998338|M|unregister magic trackpad 2|
+1570757473.013569|M|register touchbar mbp trackpad|
+1570757473.013732|M|register internal trackpad|
+1570757473.014677|STDEV|68|
+1570760704.575477|SYS|USB DEVICE DISCONNECTED|
+1570760704.577411|SYS|USB DEVICE CONNECTED|
+1570760704.577501|SYS|USB Connect Count 4|
+1570760705.927837|M|mt_stop2|
+1570760705.929310|M|unregister magic trackpad 2|
+1570760705.931368|M|register touchbar mbp trackpad|
+1570760705.931410|M|register internal trackpad|
+1570760705.931695|STDEV|68|
+1570760707.297534|M|mt_stop2|
+1570760707.299335|M|unregister magic trackpad 2|
+1570760707.301547|M|register touchbar mbp trackpad|
+1570760707.301604|M|register internal trackpad|
+1570760707.301936|STDEV|68|
+1570760896.523203|SYS|USB DEVICE DISCONNECTED|
+1570760896.524332|SYS|USB DEVICE CONNECTED|
+1570760896.524405|SYS|USB Connect Count 2|
+1570760898.586052|M|mt_stop2|
+1570760898.587783|M|unregister magic trackpad 2|
+1570760898.588885|M|register touchbar mbp trackpad|
+1570760898.588901|M|register internal trackpad|
+1570760898.589051|STDEV|68|
+1570760899.247579|M|mt_stop2|
+1570760899.249365|M|unregister magic trackpad 2|
+1570760899.250441|M|register touchbar mbp trackpad|
+1570760899.250455|M|register internal trackpad|
+1570760899.250563|STDEV|68|
+1570768065.621767|SYS|USB DEVICE DISCONNECTED|
+1570768065.622901|SYS|USB DEVICE CONNECTED|
+1570768065.622939|SYS|USB Connect Count 2|
+1570768066.928014|LAUNCH|DIDLaunch START|
+1570768066.933022|SYS|Running on macOS: 10.14.6|
+1570768066.933041|SYS|BTT Version: 3.202|
+1570768066.933064|SYS|Device: MacBookPro15,2|
+1570768066.986491|usage|loading todays usage|
+1570768067.000368|short|init|
+1570768067.001185|STORE|The store already exists in udefs|
+1570768067.001246|xw|the new store already exists btt_data_store.version_3_202_build_1378|
+1570768067.012115|LIC|idate 2019-09-30 08:00:36 +0000|
+1570768067.017098|LIC|closing previous instance of BetterTouchTool relaunch|
+1570768067.023098|LIC|license appears to be valid|
+1570768067.023838|LIC|license dictionary {
+    CheckoutName = "Dirk Tornow";
+    Email = "dirk@smings.com";
+    LicenseType = "paddle_lifetime";
+    Licenses = 1;
+    Name = "Dirk Tornow";
+    OrderID = 3e077963858a1f0ad0eee360737f6c61;
+    Product = BetterTouchTool;
+    Signature = <2f068c1d e2832ee2 79716cd0 54f19928 ad36a080 0ea90591 22a24b23 dba7006b c9d8a760 3269c7c1 fecdba13 27656c75 18225850 6278e974 cb23f0ee e28fe7b4 52826556 43928061 07604770 06fb405b f9b0de21 07e1d5c0 201ca9b8 34eb9468 6598e681 49c29b10 a8c415fa f10a4b15 2b7f51ae 04f37876 8ba28ded 5766fc94>;
+    Timestamp = 1568360356;
+    TransactionID = "39422015-chreb48eb62a14f-6ce7abad5e";
+}|
+1570768067.023884|LIC|systemdate 2019-09-13 07:39:16 +0000|
+1570768067.023892|LIC|using date 1568360356|
+1570768067.023915|lic|newest date 2019-09-13 07:39:16 +0000|
+1570768067.023921|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570768067.025552|lic|newest date 2019-09-13 07:39:16 +0000|
+1570768067.025569|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570768067.025700|LIC|License is valid for this version|
+1570768067.039444|lic|newest date 2019-09-13 07:39:16 +0000|
+1570768067.039459|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570768067.054046|xw|is trusted|
+1570768067.070802|short|call sharedInstance4|
+1570768067.135180|M|mt_stop10|
+1570768067.136593|M|register touchbar mbp trackpad|
+1570768067.136611|M|register internal trackpad|
+1570768067.136747|STDEV|68|
+1570768067.718935|lic|newest date 2019-09-13 07:39:16 +0000|
+1570768067.718962|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570768067.720603|START|TB VISIBLE 0|
+1570768067.720639|START|TB FORCED HIDDEN 0|
+1570768067.724038|LAUNCH|DIDLaunch END frontmostApp: com.apple.loginwindow, touchpadMode 0, windowSnappingDisabled 0, singleFingerScrollingDisabled 0, mmScrollingUsed 0, tpScrollingUsed 0, tpPinchUsed 0, tpRotateUsed 0|
+1570768067.741593|lic|newest date 2019-09-13 07:39:16 +0000|
+1570768067.741616|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570768067.766074|SLEEP|FORCESHOWAFTERSLEEP2|
+1570768067.766098|TB|Force show Touch Bar|
+1570768067.905567|lic|newest date 2019-09-13 07:39:16 +0000|
+1570768067.905585|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570768067.910975|SLEEP|FORCESHOWAFTERSLEEP3|
+1570768067.910997|TB|Force show Touch Bar|
+1570768068.022328|xw|disabling touch for internal trackpad (clamshell)|
+1570768068.657540|M|mt_stop2|
+1570768068.658157|ASL|Bonjour Service Published: domain(local.) type(_bttremote._tcp.) name(McDiTo) port(50675)|
+1570768068.659423|M|unregister magic trackpad 2|
+1570768068.660830|M|register touchbar mbp trackpad|
+1570768068.660887|M|register internal trackpad|
+1570768068.661375|STDEV|68|
+1570769011.695706|SYS|USB DEVICE DISCONNECTED|
+1570769011.695862|SYS|USB DEVICE CONNECTED|
+1570769011.695884|SYS|USB Connect Count 2|
+1570769013.328903|M|mt_stop2|
+1570769013.330837|M|unregister magic trackpad 2|
+1570769013.331973|M|register touchbar mbp trackpad|
+1570769013.331997|M|register internal trackpad|
+1570769013.332148|STDEV|68|
+1570769014.195779|M|mt_stop2|
+1570769014.197527|M|unregister magic trackpad 2|
+1570769014.198748|M|register touchbar mbp trackpad|
+1570769014.198768|M|register internal trackpad|
+1570769014.198902|STDEV|68|
+1570769014.379218|M|mt_stop2|
+1570769014.380566|M|unregister magic trackpad 2|
+1570769014.381692|M|register touchbar mbp trackpad|
+1570769014.381716|M|register internal trackpad|
+1570769014.381845|STDEV|68|
+1570769016.380467|M|mt_stop2|
+1570769016.381856|M|unregister magic trackpad 2|
+1570769016.385405|M|register touchbar mbp trackpad|
+1570769016.385454|M|register internal trackpad|
+1570769016.385634|STDEV|68|
+1570769019.659662|M|mt_stop2|
+1570769019.661474|M|unregister magic trackpad 2|
+1570769019.663827|M|register touchbar mbp trackpad|
+1570769019.663873|M|register internal trackpad|
+1570769019.664142|STDEV|68|
+1570769025.148295|M|mt_stop2|
+1570769025.151342|M|unregister magic trackpad 2|
+1570769025.160207|M|register touchbar mbp trackpad|
+1570769025.160359|M|register internal trackpad|
+1570769025.161194|STDEV|68|
+1570770213.279126|xw|enabling touch for internal trackpad (after clamshell)|
+1570770214.147326|SYS|USB DEVICE DISCONNECTED|
+1570770214.148794|SYS|USB DEVICE CONNECTED|
+1570770214.148838|SYS|USB Connect Count 4|
+1570770215.794570|SEC|SecureInputActive com.apple.loginwindow 98|
+1570770216.158851|M|mt_stop2|
+1570770216.160364|M|unregister magic trackpad 2|
+1570770216.161472|M|register touchbar mbp trackpad|
+1570770216.161502|M|register internal trackpad|
+1570770216.161636|STDEV|68|
+1570770216.811575|M|mt_stop2|
+1570770216.813195|M|unregister magic trackpad 2|
+1570770216.815294|M|register touchbar mbp trackpad|
+1570770216.815326|M|register internal trackpad|
+1570770216.815522|STDEV|68|
+1570770221.213788|M|mt_stop2|
+1570770221.215477|M|unregister magic trackpad 2|
+1570770221.217817|M|register touchbar mbp trackpad|
+1570770221.217844|M|register internal trackpad|
+1570770221.218012|M|register magic mouse|
+1570770221.218037|STDEV|68|
+1570770224.228721|M|mt_stop2|
+1570770224.229997|M|unregister magic trackpad 2|
+1570770224.230026|M|unregister magic mouse|
+1570770224.232167|M|register touchbar mbp trackpad|
+1570770224.232192|M|register internal trackpad|
+1570770224.232323|M|register magic mouse|
+1570770224.232579|M|register magic trackpad 2|
+1570770224.232707|STDEV|6881|
+1570770226.828905|SYS|USB DEVICE CONNECTED|
+1570770226.828948|SYS|USB Connect Count 5|
+1570770229.475374|M|mt_stop2|
+1570770229.497734|M|unregister magic trackpad 2|
+1570770229.497787|M|unregister magic mouse|
+1570770229.502420|M|unregister magic trackpad 2|
+1570770229.512425|M|register touchbar mbp trackpad|
+1570770229.512464|M|register internal trackpad|
+1570770229.512963|M|register magic mouse|
+1570770229.514101|M|register magic trackpad 2|
+1570770229.514337|STDEV|6881|
+1570770231.672704|M|mt_stop2|
+1570770231.674220|M|unregister magic trackpad 2|
+1570770231.674243|M|unregister magic mouse|
+1570770231.675714|M|unregister magic trackpad 2|
+1570770231.677896|M|register touchbar mbp trackpad|
+1570770231.677912|M|register internal trackpad|
+1570770231.678067|M|register magic mouse|
+1570770231.678311|M|register magic trackpad 2|
+1570770231.678522|STDEV|6881|
+1570770234.959497|M|mt_stop2|
+1570770234.961149|M|unregister magic trackpad 2|
+1570770234.961197|M|unregister magic mouse|
+1570770234.962684|M|unregister magic trackpad 2|
+1570770234.966045|M|register touchbar mbp trackpad|
+1570770234.966074|M|register internal trackpad|
+1570770234.966275|M|register magic mouse|
+1570770234.966613|M|register magic trackpad 2|
+1570770234.966803|STDEV|6881|
+1570770235.716237|SYS|USB DEVICE CONNECTED|
+1570770235.716311|SYS|USB Connect Count 1|
+1570770236.403224|SYS|USB DEVICE CONNECTED|
+1570770236.403346|SYS|USB Connect Count 2|
+1570770237.132734|SYS|USB DEVICE CONNECTED|
+1570770237.132857|SYS|USB Connect Count 3|
+1570770237.192380|SYS|USB DEVICE CONNECTED|
+1570770237.192468|SYS|USB Connect Count 4|
+1570770237.383130|SYS|USB DEVICE CONNECTED|
+1570770237.383166|SYS|USB Connect Count 5|
+1570770237.436219|SYS|USB DEVICE CONNECTED|
+1570770237.436329|SYS|USB Connect Count 6|
+1570770239.639328|SYS|USB DEVICE CONNECTED|
+1570770239.639448|SYS|USB Connect Count 7|
+1570770239.959271|M|mt_stop2|
+1570770239.960703|M|unregister magic trackpad 2|
+1570770239.960720|M|unregister magic mouse|
+1570770239.961994|M|unregister magic trackpad 2|
+1570770239.963681|M|register touchbar mbp trackpad|
+1570770239.963696|M|register internal trackpad|
+1570770239.963794|M|register magic mouse|
+1570770239.963948|M|register magic trackpad 2|
+1570770239.964037|STDEV|6881|
+1570770240.418899|M|mt_stop2|
+1570770240.420775|M|unregister magic trackpad 2|
+1570770240.420858|M|unregister magic mouse|
+1570770240.422314|M|unregister magic trackpad 2|
+1570770240.424243|M|register touchbar mbp trackpad|
+1570770240.424265|M|register internal trackpad|
+1570770240.424376|M|register magic mouse|
+1570770240.424654|M|register magic trackpad 2|
+1570770240.424810|STDEV|6881|
+1570770242.277458|M|mt_stop2|
+1570770242.283459|M|unregister magic trackpad 2|
+1570770242.283555|M|unregister magic mouse|
+1570770242.286205|M|unregister magic trackpad 2|
+1570770242.290676|M|register touchbar mbp trackpad|
+1570770242.290711|M|register internal trackpad|
+1570770242.290889|M|register magic mouse|
+1570770242.291273|M|register magic trackpad 2|
+1570770242.291572|STDEV|6881|
+1570770242.600607|M|mt_stop2|
+1570770242.601952|M|unregister magic trackpad 2|
+1570770242.601987|M|unregister magic mouse|
+1570770242.603267|M|unregister magic trackpad 2|
+1570770242.607400|M|register touchbar mbp trackpad|
+1570770242.607447|M|register internal trackpad|
+1570770242.607701|M|register magic mouse|
+1570770242.608155|M|register magic trackpad 2|
+1570770242.608373|STDEV|6881|
+1570770244.460735|M|mt_stop2|
+1570770244.462091|M|unregister magic trackpad 2|
+1570770244.462145|M|unregister magic mouse|
+1570770244.463878|M|unregister magic trackpad 2|
+1570770244.466268|M|register touchbar mbp trackpad|
+1570770244.466293|M|register internal trackpad|
+1570770244.466434|M|register magic mouse|
+1570770244.466665|M|register magic trackpad 2|
+1570770244.466796|STDEV|6881|
+1570770244.876428|SEC|SecureInputDisabled com.apple.loginwindow|
+1570770244.936926|LOGIN|RESTART AFTER LOGIN|
+1570770244.938855|xw|should relaunch|
+1570770244.939242|xw|BTTRelaunch found|
+1570770244.939269|xw|BTTRelaunch call seems successfull|
+1570770244.951000|TERMINATE|SHOULDTERMINATE|
+1570770245.616002|LAUNCH|DIDLaunch START|
+1570770245.652724|SYS|Running on macOS: 10.14.6|
+1570770245.652761|SYS|BTT Version: 3.202|
+1570770245.652801|SYS|Device: MacBookPro15,2|
+1570770245.784926|usage|loading todays usage|
+1570770245.806881|short|init|
+1570770245.809261|STORE|The store already exists in udefs|
+1570770245.809391|xw|the new store already exists btt_data_store.version_3_202_build_1378|
+1570770245.831837|LIC|idate 2019-09-30 08:00:36 +0000|
+1570770245.840622|LIC|closing previous instance of BetterTouchTool relaunch|
+1570770245.851259|LIC|license appears to be valid|
+1570770245.853319|LIC|license dictionary {
+    CheckoutName = "Dirk Tornow";
+    Email = "dirk@smings.com";
+    LicenseType = "paddle_lifetime";
+    Licenses = 1;
+    Name = "Dirk Tornow";
+    OrderID = 3e077963858a1f0ad0eee360737f6c61;
+    Product = BetterTouchTool;
+    Signature = <2f068c1d e2832ee2 79716cd0 54f19928 ad36a080 0ea90591 22a24b23 dba7006b c9d8a760 3269c7c1 fecdba13 27656c75 18225850 6278e974 cb23f0ee e28fe7b4 52826556 43928061 07604770 06fb405b f9b0de21 07e1d5c0 201ca9b8 34eb9468 6598e681 49c29b10 a8c415fa f10a4b15 2b7f51ae 04f37876 8ba28ded 5766fc94>;
+    Timestamp = 1568360356;
+    TransactionID = "39422015-chreb48eb62a14f-6ce7abad5e";
+}|
+1570770245.853569|LIC|systemdate 2019-09-13 07:39:16 +0000|
+1570770245.853597|LIC|using date 1568360356|
+1570770245.853680|lic|newest date 2019-09-13 07:39:16 +0000|
+1570770245.853724|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570770245.859330|lic|newest date 2019-09-13 07:39:16 +0000|
+1570770245.859357|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570770245.859569|LIC|License is valid for this version|
+1570770245.888339|lic|newest date 2019-09-13 07:39:16 +0000|
+1570770245.888370|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570770245.915314|xw|is trusted|
+1570770245.996797|short|call sharedInstance4|
+1570770246.093103|M|mt_stop10|
+1570770246.097087|M|register touchbar mbp trackpad|
+1570770246.097143|M|register internal trackpad|
+1570770246.097306|M|register magic mouse|
+1570770246.097565|M|register magic trackpad 2|
+1570770246.097741|STDEV|6881|
+1570770246.775388|lic|newest date 2019-09-13 07:39:16 +0000|
+1570770246.775437|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570770246.777655|START|TB VISIBLE 0|
+1570770246.777680|START|TB FORCED HIDDEN 0|
+1570770246.783865|LAUNCH|DIDLaunch END frontmostApp: com.apple.iChat, touchpadMode 0, windowSnappingDisabled 0, singleFingerScrollingDisabled 0, mmScrollingUsed 0, tpScrollingUsed 0, tpPinchUsed 0, tpRotateUsed 0|
+1570770246.862084|lic|newest date 2019-09-13 07:39:16 +0000|
+1570770246.862104|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570770247.115014|SLEEP|FORCESHOWAFTERSLEEP2|
+1570770247.115064|TB|Force show Touch Bar|
+1570770248.538490|M|mt_stop2|
+1570770248.539800|SLEEP|FORCESHOWAFTERSLEEP3|
+1570770248.539819|TB|Force show Touch Bar|
+1570770248.539951|M|unregister magic trackpad 2|
+1570770248.539983|M|unregister magic mouse|
+1570770248.541394|M|unregister magic trackpad 2|
+1570770248.543390|M|register touchbar mbp trackpad|
+1570770248.543408|M|register internal trackpad|
+1570770248.543522|M|register magic mouse|
+1570770248.543797|M|register magic trackpad 2|
+1570770248.543913|STDEV|6881|
+1570770248.588143|ASL|Bonjour Service Published: domain(local.) type(_bttremote._tcp.) name(McDiTo) port(50675)|
+1570770712.566093|WISNA|Focus doesn't match window pid|
+1570770803.456343|ASL|view did load BTTAppListVC|
+1570770803.478468|ASL|view did load BTTTopMenuVC|
+1570770803.485145|ASL|window did load BTTRootPreferencesWC|
+1570770803.485279|ASL|did set <BTTMainUIStructureVC: 0x6000029dd130> BTTMainUIStructureVC|
+1570770803.485331|ASL|did set <BTTLevel1VC: 0x6000027ccd20> BTTLevel1VC|
+1570770803.485372|ASL|did set <BTTLevel3VC: 0x600002bf8f00> BTTLevel3VC|
+1570770803.485410|ASL|did set <BTTConfigurationVC: 0x7fa362c1cd20> BTTConfigurationVC|
+1570770803.485773|ASL|did set <BTTMainSplitViewController: 0x600002cdc900> BTTMainSplitViewController|
+1570770803.485827|ASL|did set <BTTOutlineModeVC: 0x6000027ce5a0> BTTOutlineModeVC|
+1570770803.485853|ASL|did set <BTTConfigurationVC: 0x7fa362c26a40> BTTConfigurationVC|
+1570770803.485908|ASL|did set <BTTTopMenuVC: 0x6000029cb230> BTTTopMenuVC|
+1570770803.540531|lic|newest date 2019-09-13 07:39:16 +0000|
+1570770803.540558|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570770803.548897|lic|newest date 2019-09-13 07:39:16 +0000|
+1570770803.548917|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570770803.863600|FORM|2UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == (null) editing 0 == 0|
+1570770804.068506|NEWUI|Loading Config Debounced|
+1570770804.068532|FORM|1UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 editing 0 == 0|
+1570770804.178339|FORM|2UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 editing 0 == 0|
+1570770804.355125|NEWUI|Loading Config Debounced|
+1570770804.355149|FORM|1NOT UPDATING ! UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 editing action == 0|
+1570770805.687967|LMDrag|dragged after three finger click block|
+1570770811.031793|NEWUI|Loading Config Debounced|
+1570770825.281097|NEWUI|Loading Config Debounced|
+1570770825.389624|NEWUI|Loading Config Debounced|
+1570770827.905761|NEWUI|Loading Config Debounced|
+1570770828.894351|UI|Level 1 Focused|
+1570770828.907611|FORM|2UUID 5BC13EDF-8298-46CA-AB47-853D82E59961 == 5F880C1F-F22D-48A3-90B0-AC24888D668D editing 0 == 0|
+1570770828.971812|NEWUI|Loading Config Debounced|
+1570770828.971903|FORM|1NOT UPDATING ! UUID 5BC13EDF-8298-46CA-AB47-853D82E59961 == 5BC13EDF-8298-46CA-AB47-853D82E59961 editing action == 0|
+1570770832.255893|NEWUI|Loading Config Debounced|
+1570770832.695477|UI|Level 1 Focused|
+1570770834.727514|NEWUI|Loading Config Debounced|
+1570770835.507828|UI|Level 1 Focused|
+1570770835.513172|FORM|2UUID 5BC13EDF-8298-46CA-AB47-853D82E59961 == 5F880C1F-F22D-48A3-90B0-AC24888D668D editing 0 == 0|
+1570770835.585577|NEWUI|Loading Config Debounced|
+1570770835.585686|FORM|1NOT UPDATING ! UUID 5BC13EDF-8298-46CA-AB47-853D82E59961 == 5BC13EDF-8298-46CA-AB47-853D82E59961 editing action == 0|
+1570770839.390650|NEWUI|Copy in level1|
+1570770840.197218|NEWUI|Loading Config Debounced|
+1570770850.187654|lic|newest date 2019-09-13 07:39:16 +0000|
+1570770850.187673|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570770850.919004|NEWUI|Loading Config Debounced|
+1570770852.719184|UI|Level 1 Focused|
+1570770852.726077|FORM|2UUID 5BC13EDF-8298-46CA-AB47-853D82E59961 == 5F880C1F-F22D-48A3-90B0-AC24888D668D editing 0 == 0|
+1570770852.802701|NEWUI|Loading Config Debounced|
+1570770852.802815|FORM|1NOT UPDATING ! UUID 5BC13EDF-8298-46CA-AB47-853D82E59961 == 5BC13EDF-8298-46CA-AB47-853D82E59961 editing action == 0|
+1570770865.461410|NEWUI|Loading Config Debounced|
+1570770951.618849|lic|newest date 2019-09-13 07:39:16 +0000|
+1570770951.618867|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570770951.875341|NEWUI|Opening Settings BTTTrackpadSettings|
+1570770951.989041|NEWUI|Opening Settings BTTTrackpadSettings|
+1570770952.391384|lic|newest date 2019-09-13 07:39:16 +0000|
+1570770952.391409|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570770957.538412|TERMINATE|SHOULDTERMINATE|
+1570771699.723554|LAUNCH|DIDLaunch START|
+1570771699.728141|SYS|Running on macOS: 10.14.6|
+1570771699.728161|SYS|BTT Version: 3.202|
+1570771699.728185|SYS|Device: MacBookPro15,2|
+1570771699.777207|usage|loading todays usage|
+1570771699.788749|short|init|
+1570771699.789636|STORE|The store already exists in udefs|
+1570771699.789701|xw|the new store already exists btt_data_store.version_3_202_build_1378|
+1570771699.801993|LIC|idate 2019-09-30 08:00:36 +0000|
+1570771699.816353|LIC|license appears to be valid|
+1570771699.817229|LIC|license dictionary {
+    CheckoutName = "Dirk Tornow";
+    Email = "dirk@smings.com";
+    LicenseType = "paddle_lifetime";
+    Licenses = 1;
+    Name = "Dirk Tornow";
+    OrderID = 3e077963858a1f0ad0eee360737f6c61;
+    Product = BetterTouchTool;
+    Signature = <2f068c1d e2832ee2 79716cd0 54f19928 ad36a080 0ea90591 22a24b23 dba7006b c9d8a760 3269c7c1 fecdba13 27656c75 18225850 6278e974 cb23f0ee e28fe7b4 52826556 43928061 07604770 06fb405b f9b0de21 07e1d5c0 201ca9b8 34eb9468 6598e681 49c29b10 a8c415fa f10a4b15 2b7f51ae 04f37876 8ba28ded 5766fc94>;
+    Timestamp = 1568360356;
+    TransactionID = "39422015-chreb48eb62a14f-6ce7abad5e";
+}|
+1570771699.817287|LIC|systemdate 2019-09-13 07:39:16 +0000|
+1570771699.817297|LIC|using date 1568360356|
+1570771699.817323|lic|newest date 2019-09-13 07:39:16 +0000|
+1570771699.817330|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570771699.818915|lic|newest date 2019-09-13 07:39:16 +0000|
+1570771699.818929|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570771699.819069|LIC|License is valid for this version|
+1570771699.832533|lic|newest date 2019-09-13 07:39:16 +0000|
+1570771699.832549|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570771699.847793|xw|is trusted|
+1570771699.864568|short|call sharedInstance4|
+1570771699.917537|M|mt_stop10|
+1570771699.919343|M|register touchbar mbp trackpad|
+1570771699.919361|M|register internal trackpad|
+1570771699.919476|M|register magic mouse|
+1570771699.919661|M|register magic trackpad 2|
+1570771699.919761|STDEV|6881|
+1570771700.473110|lic|newest date 2019-09-13 07:39:16 +0000|
+1570771700.473132|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570771700.474857|START|TB VISIBLE 0|
+1570771700.474873|START|TB FORCED HIDDEN 0|
+1570771700.479043|LAUNCH|DIDLaunch END frontmostApp: com.googlecode.iterm2, touchpadMode 0, windowSnappingDisabled 0, singleFingerScrollingDisabled 0, mmScrollingUsed 0, tpScrollingUsed 0, tpPinchUsed 0, tpRotateUsed 0|
+1570771700.499286|lic|newest date 2019-09-13 07:39:16 +0000|
+1570771700.499303|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570771700.518702|SLEEP|FORCESHOWAFTERSLEEP2|
+1570771700.518726|TB|Force show Touch Bar|
+1570771700.651675|SLEEP|FORCESHOWAFTERSLEEP3|
+1570771700.651697|TB|Force show Touch Bar|
+1570771701.317222|ASL|Bonjour Service Published: domain(local.) type(_bttremote._tcp.) name(McDiTo) port(50675)|
+1570771701.322260|M|mt_stop2|
+1570771701.323914|M|unregister magic trackpad 2|
+1570771701.323938|M|unregister magic mouse|
+1570771701.325322|M|unregister magic trackpad 2|
+1570771701.326975|M|register touchbar mbp trackpad|
+1570771701.327004|M|register internal trackpad|
+1570771701.327202|M|register magic mouse|
+1570771701.327486|M|register magic trackpad 2|
+1570771701.327648|STDEV|6881|
+1570771706.987607|lic|newest date 2019-09-13 07:39:16 +0000|
+1570771706.987631|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570771708.796094|ASL|view did load BTTAppListVC|
+1570771708.812300|ASL|view did load BTTTopMenuVC|
+1570771708.817576|ASL|window did load BTTRootPreferencesWC|
+1570771708.817690|ASL|did set <BTTMainUIStructureVC: 0x6000030de520> BTTMainUIStructureVC|
+1570771708.817737|ASL|did set <BTTMainSplitViewController: 0x6000035f7d50> BTTMainSplitViewController|
+1570771708.817785|ASL|did set <BTTLevel1VC: 0x600003e9cc40> BTTLevel1VC|
+1570771708.817821|ASL|did set <BTTLevel3VC: 0x6000032fa1c0> BTTLevel3VC|
+1570771708.817855|ASL|did set <BTTConfigurationVC: 0x7fa79ac12fd0> BTTConfigurationVC|
+1570771708.817873|ASL|did set <BTTConfigurationVC: 0x7fa79ac23b50> BTTConfigurationVC|
+1570771708.817910|ASL|did set <BTTOutlineModeVC: 0x600003e9ce00> BTTOutlineModeVC|
+1570771708.817968|ASL|did set <BTTTopMenuVC: 0x6000030da470> BTTTopMenuVC|
+1570771708.857840|lic|newest date 2019-09-13 07:39:16 +0000|
+1570771708.857858|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570771708.970149|lic|newest date 2019-09-13 07:39:16 +0000|
+1570771708.970167|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570771709.175149|FORM|2UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == (null) editing 0 == 0|
+1570771709.362427|NEWUI|Loading Config Debounced|
+1570771709.362450|FORM|1UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 editing 0 == 0|
+1570771709.548204|FORM|2UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 editing 0 == 0|
+1570771709.627941|NEWUI|Loading Config Debounced|
+1570771709.627965|FORM|1NOT UPDATING ! UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 editing action == 0|
+1570771710.419060|NEWUI|Loading Config Debounced|
+1570771711.322773|NEWUI|Loading Config Debounced|
+1570771712.202973|NEWUI|Loading Config Debounced|
+1570771712.920152|NEWUI|Loading Config Debounced|
+1570771713.566752|NEWUI|Loading Config Debounced|
+1570771714.992676|NEWUI|Loading Config Debounced|
+1570771720.000833|LMDrag|dragged after three finger click block|
+1570771729.895843|lic|newest date 2019-09-13 07:39:16 +0000|
+1570771729.895870|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570771738.418840|WISNA|Focus doesn't match window pid|
+1570771738.422868|LMDrag|dragged after three finger click block|
+1570771738.480144|lic|newest date 2019-09-13 07:39:16 +0000|
+1570771738.480162|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570771861.316267|UI|Level 1 Focused|
+1570771861.340887|lic|newest date 2019-09-13 07:39:16 +0000|
+1570771861.340908|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|

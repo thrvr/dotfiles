@@ -9,6 +9,7 @@ tap 'caskroom/versions'
 tap 'homebrew/bundle'
 # This tap is for the saml2aws formula
 tap 'versent/homebrew-taps'
+tap 'AdoptOpenJDK/openjdk'
 
 #---------------------------------------------
 # Binaries
@@ -117,7 +118,12 @@ cask 'google-chrome'
 cask 'id3-editor'
 cask 'intellij-idea'
 cask 'iterm2'
-cask 'caskroom/versions/java11'
+# this installs java in all necessary versions from adoptopenjdk
+#cask 'caskroom/versions/java11'
+cask install 'adoptopenjdk/openjdk/adoptopenjdk8'
+cask install 'adoptopenjdk/openjdk/adoptopenjdk8-jre'
+cask install 'adoptopenjdk/openjdk/adoptopenjdk11'
+cask install 'adoptopenjdk/openjdk/adoptopenjdk11-jre'
 cask 'keepassx'
 cask 'kindle'
 cask 'launchcontrol'
