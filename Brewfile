@@ -121,7 +121,6 @@ cask 'iterm2'
 # this installs java in all necessary versions from adoptopenjdk
 #cask 'caskroom/versions/java11'
 cask install 'adoptopenjdk/openjdk/adoptopenjdk8'
-cask install 'adoptopenjdk/openjdk/adoptopenjdk8-jre'
 cask install 'adoptopenjdk/openjdk/adoptopenjdk11'
 cask install 'adoptopenjdk/openjdk/adoptopenjdk11-jre'
 cask 'keepassx'
