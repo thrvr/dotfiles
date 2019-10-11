@@ -774,3 +774,105 @@
 1570771861.316267|UI|Level 1 Focused|
 1570771861.340887|lic|newest date 2019-09-13 07:39:16 +0000|
 1570771861.340908|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780297.539286|LAUNCH|DIDLaunch START|
+1570780297.544360|SYS|Running on macOS: 10.14.6|
+1570780297.544380|SYS|BTT Version: 3.202|
+1570780297.544412|SYS|Device: MacBookPro15,2|
+1570780297.596068|usage|loading todays usage|
+1570780297.606463|short|init|
+1570780297.607736|STORE|The store already exists in udefs|
+1570780297.607838|xw|the new store already exists btt_data_store.version_3_202_build_1378|
+1570780297.617955|LIC|idate 2019-09-30 08:00:36 +0000|
+1570780297.628972|LIC|license appears to be valid|
+1570780297.629782|LIC|license dictionary {
+    CheckoutName = "Dirk Tornow";
+    Email = "dirk@smings.com";
+    LicenseType = "paddle_lifetime";
+    Licenses = 1;
+    Name = "Dirk Tornow";
+    OrderID = 3e077963858a1f0ad0eee360737f6c61;
+    Product = BetterTouchTool;
+    Signature = <2f068c1d e2832ee2 79716cd0 54f19928 ad36a080 0ea90591 22a24b23 dba7006b c9d8a760 3269c7c1 fecdba13 27656c75 18225850 6278e974 cb23f0ee e28fe7b4 52826556 43928061 07604770 06fb405b f9b0de21 07e1d5c0 201ca9b8 34eb9468 6598e681 49c29b10 a8c415fa f10a4b15 2b7f51ae 04f37876 8ba28ded 5766fc94>;
+    Timestamp = 1568360356;
+    TransactionID = "39422015-chreb48eb62a14f-6ce7abad5e";
+}|
+1570780297.629839|LIC|systemdate 2019-09-13 07:39:16 +0000|
+1570780297.629847|LIC|using date 1568360356|
+1570780297.629869|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780297.629875|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780297.631385|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780297.631400|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780297.631544|LIC|License is valid for this version|
+1570780297.644946|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780297.644963|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780297.661476|xw|is trusted|
+1570780297.677903|short|call sharedInstance4|
+1570780297.732295|M|mt_stop10|
+1570780297.734342|M|register touchbar mbp trackpad|
+1570780297.734379|M|register internal trackpad|
+1570780297.734628|M|register magic mouse|
+1570780297.734858|M|register magic trackpad 2|
+1570780297.735013|STDEV|6881|
+1570780298.219419|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780298.219440|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780298.221814|START|TB VISIBLE 0|
+1570780298.221835|START|TB FORCED HIDDEN 0|
+1570780298.226109|LAUNCH|DIDLaunch END frontmostApp: com.sublimetext.3, touchpadMode 0, windowSnappingDisabled 0, singleFingerScrollingDisabled 0, mmScrollingUsed 0, tpScrollingUsed 0, tpPinchUsed 1, tpRotateUsed 0|
+1570780298.245637|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780298.245654|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780298.270211|SLEEP|FORCESHOWAFTERSLEEP2|
+1570780298.270234|TB|Force show Touch Bar|
+1570780298.416132|SLEEP|FORCESHOWAFTERSLEEP3|
+1570780298.416155|TB|Force show Touch Bar|
+1570780299.181311|ASL|Bonjour Service Published: domain(local.) type(_bttremote._tcp.) name(McDiTo) port(50675)|
+1570780299.182295|M|mt_stop2|
+1570780299.184187|M|unregister magic trackpad 2|
+1570780299.184240|M|unregister magic mouse|
+1570780299.185642|M|unregister magic trackpad 2|
+1570780299.187822|M|register touchbar mbp trackpad|
+1570780299.187838|M|register internal trackpad|
+1570780299.187968|M|register magic mouse|
+1570780299.188188|M|register magic trackpad 2|
+1570780299.188325|STDEV|6881|
+1570780300.570415|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780300.570434|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780302.097033|ASL|view did load BTTAppListVC|
+1570780302.114402|ASL|view did load BTTTopMenuVC|
+1570780302.119172|ASL|window did load BTTRootPreferencesWC|
+1570780302.119284|ASL|did set <BTTMainUIStructureVC: 0x600002b75a20> BTTMainUIStructureVC|
+1570780302.119334|ASL|did set <BTTConfigurationVC: 0x7f9600446d30> BTTConfigurationVC|
+1570780302.119395|ASL|did set <BTTLevel3VC: 0x60000295a700> BTTLevel3VC|
+1570780302.119447|ASL|did set <BTTLevel1VC: 0x600002576d80> BTTLevel1VC|
+1570780302.119495|ASL|did set <BTTMainSplitViewController: 0x600002e5a520> BTTMainSplitViewController|
+1570780302.119539|ASL|did set <BTTOutlineModeVC: 0x60000253df80> BTTOutlineModeVC|
+1570780302.119563|ASL|did set <BTTConfigurationVC: 0x7f9602936d10> BTTConfigurationVC|
+1570780302.119624|ASL|did set <BTTTopMenuVC: 0x600002b64f20> BTTTopMenuVC|
+1570780302.159941|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780302.159957|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780302.253312|lic|newest date 2019-09-13 07:39:16 +0000|
+1570780302.253336|lic|lict 39422015-chreb48eb62a14f-6ce7abad5e|
+1570780302.489744|FORM|2UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == (null) editing 0 == 0|
+1570780302.688085|NEWUI|Loading Config Debounced|
+1570780302.688122|FORM|1UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 editing 0 == 0|
+1570780302.842879|FORM|2UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 editing 0 == 0|
+1570780302.993229|NEWUI|Loading Config Debounced|
+1570780302.993254|FORM|1NOT UPDATING ! UUID 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 == 1B2C748D-FE86-467B-841B-A1D4E4E0D1B7 editing action == 0|
+1570780304.353384|NEWUI|Loading Config Debounced|
+1570780305.387056|NEWUI|Loading Config Debounced|
+1570780307.064996|NEWUI|Loading Config Debounced|
+1570780308.198206|NEWUI|Loading Config Debounced|
+1570780309.011463|NEWUI|Loading Config Debounced|
+1570780310.139508|NEWUI|Loading Config Debounced|
+1570780315.469264|NEWUI|Loading Config Debounced|
+1570780318.381103|LMDrag|dragged after three finger click block|
+1570780321.531484|ASL|deallocating Window controller|
+1570780321.537234|ASL|deallocating BTTPrefsMenuContentContainerVC|
+1570780321.537416|ASL|deallocating BTTMainUIStructureVC|
+1570780321.537493|ASL|deallocating BTTMainSplitViewController|
+1570780321.537901|ASL|deallocating BTTAppListVC|
+1570780321.538158|ASL|deallocating BTTTopMenuVC|
+1570780321.538611|ASL|deallocating BTTOutlineModeVC|
+1570780321.538876|ASL|deallocating BTTConfigurationVC|
+1570780321.544090|ASL|deallocating BTTConfigurationVC|
+1570780321.547221|ASL|deallocating BTTLevel3VC|
+1570780321.550180|ASL|deallocating BTTLevel1VC|
