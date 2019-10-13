@@ -246,16 +246,38 @@
 	"expanded_folders":
 	[
 		"/Users/tornow/.dotfiles",
-		"/Users/tornow/.dotfiles/sublime"
+		"/Users/tornow/.dotfiles/applications",
+		"/Users/tornow/.dotfiles/applications/bin",
+		"/Users/tornow/.dotfiles/applications/javaws",
+		"/Users/tornow/.dotfiles/BetterSnapTool",
+		"/Users/tornow/.dotfiles/script",
+		"/Users/tornow/.dotfiles/sublime",
+		"/Users/tornow/.dotfiles/system"
 	],
 	"file_history":
 	[
-		"/Users/tornow/.dotfiles/.gitignore",
+		"/Users/tornow/.dotfiles/applications/javaws/install notes.txt",
 		"/Users/tornow/.dotfiles/Brewfile",
+		"/Users/tornow/.dotfiles/system/bash_profile.symlink",
+		"/Users/tornow/.dotfiles/applications/bin/FirstSpirit miro@LM.app/Contents/MacOS/Java Web Start Iced Tea",
+		"/Users/tornow/.dotfiles/applications/bin/javaws",
+		"/Users/tornow/.dotfiles/applications/bin/LM_FS_SM@miro",
+		"/Users/tornow/Dropbox/adesso/projects/lm/jnlp/miro/FIRSTspirit.jnlp",
+		"/Users/tornow/.dotfiles/applications/bin/appify",
+		"/Users/tornow/.dotfiles/applications/bin/Java Web Start Iced Tea.app/Contents/MacOS/Java Web Start Iced Tea",
+		"/Users/tornow/.dotfiles/applications/javaws/javaws_splash.png",
+		"/Users/tornow/.dotfiles/sublime/install.sh",
+		"/Users/tornow/.dotfiles/applications/javaws/install.sh",
+		"/Users/tornow/.dotfiles/script/install",
+		"/Users/tornow/.dotfiles/script/recover_configs.sh",
+		"/Users/tornow/.dotfiles/BetterSnapTool/backup.sh",
+		"/Users/tornow/.dotfiles/BetterSnapTool/recover.sh",
+		"/Users/tornow/.dotfiles/BetterTouchTool/backup.sh",
+		"/Users/tornow/.dotfiles/BetterTouchTool/recover.sh",
+		"/Users/tornow/.dotfiles/.gitignore",
 		"/Users/tornow/Library/Application Support/Alfred 3/usage.data",
 		"/Users/tornow/Library/Application Support/Alfred 3/license.plist",
 		"/Users/tornow/.dotfiles/sublime/test.sh",
-		"/Users/tornow/.dotfiles/sublime/install.sh",
 		"/Users/tornow/dev/thrvrs/homebrew/homebrew-cask/Casks/sublime-merge.rb",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/kisura_bashscripts.sublime-project",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/kisura_bashscripts.sublime-workspace",
@@ -272,7 +294,6 @@
 		"/Users/tornow/Library/Application Support/Sublime Text 3/Packages/User/python3.sublime-build",
 		"/Users/tornow/dev/adesso/kisura/Kisura/provisioning/help",
 		"/Users/tornow/dev/adesso/kisura/Kisura/provisioning/update-ssh-access.yml",
-		"/Users/tornow/.dotfiles/system/bash_profile.symlink",
 		"/Users/tornow/.dotfiles/xcode/install.sh",
 		"/Users/tornow/.dotfiles/xcode/aliases.zsh",
 		"/Users/tornow/.dotfiles/omnigraffle/install.sh",
@@ -295,7 +316,6 @@
 		"/Users/tornow/dev/adesso/kisura/Kisura/front-end/node_modules/browser-sync/node_modules/easy-extender/node_modules/lodash/_getPrototype.js",
 		"/Users/tornow/dev/thrvrs/homebrew/homebrew-cask/Casks/alfred.rb",
 		"/Users/tornow/.dotfiles/alfred/workflows/stackoverflow-1.2.1.alfredworkflow",
-		"/Users/tornow/.dotfiles/script/install",
 		"/Users/tornow/.dotfiles/homebrew/install.sh",
 		"/Users/tornow/dev/thrvrs/homebrew/homebrew-cask/Casks/jing.rb",
 		"/Users/tornow/Dropbox/adesso/projects/rr/asana exports/_bridge24_All_tasks_20190817_235400_2nd_export_edited.csv",
@@ -363,21 +383,7 @@
 		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_7131_7141_WITH_MERCHANT_ID.csv",
 		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from kisura/import_1_kisura_data_319_398_with_merchant_id.csv",
 		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_7131_7141.csv",
-		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/clv_report.sql",
-		"/Users/tornow/tmp/mongo/EANs_with_multiple_prices.txt",
-		"/Users/tornow/tmp/mongo/catalog_numbers_export.csv",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/Ivalis_0099_00037_20190730.csv",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/ivalis.csv",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/ivalis_eans.txt",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/ivalis_ean_in_catalog.txt",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from kisura/INVENTUR Import Altware.csv",
-		"/Users/tornow/tmp/mongo/catalog_export_all.csv",
-		"/Users/tornow/tmp/mongo/catalog_export_all_edited_name_material_and_images_removed_empty_arrays_removed_NULLs.csv",
-		"/Users/tornow/tmp/mongo/catalog_export_all_edited.csv",
-		"/Users/tornow/dev/adesso/kisura/logistics/provisioning/group_vars/production/config.yml",
-		"/Users/tornow/dev/adesso/kisura/logistics/provisioning/aws.yml",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/demo data from ivalis/Ivalis_0009_00837_20190705.csv",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/data files/cleaned_up_eans.txt"
+		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/clv_report.sql"
 	],
 	"find":
 	{
@@ -395,6 +401,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"BetterSnaptOol",
+			"BetterTouchTool",
 			"yet"
 		],
 		"highlight": true,
@@ -403,6 +411,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"BetterSnapTool"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -420,11 +429,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 32.0
+		"height": 36.0
 	},
 	"input":
 	{
-		"height": 42.0
+		"height": 48.0
 	},
 	"layout":
 	{
@@ -465,7 +474,7 @@
 	"project": "dotfiles.sublime-project",
 	"replace":
 	{
-		"height": 76.0
+		"height": 88.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -503,7 +512,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 267.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
