@@ -1,0 +1,112 @@
+1571139226.387676|LMDrag|dragged after three finger click block|
+1571139315.735486|LMDrag|dragged after three finger click block|
+1571139346.310892|LMDrag|dragged after three finger click block|
+1571139348.515325|LMDrag|dragged after three finger click block|
+1571139351.565253|LMDrag|dragged after three finger click block|
+1571139356.099161|LMDrag|dragged after three finger click block|
+1571139362.453990|WISNA|Focus doesn't match window pid|
+1571139575.921617|c00|14|
+1571139590.874213|c00|14|
+1571139941.213879|LMDrag|dragged after three finger click block|
+1571139949.943936|LMDrag|dragged after three finger click block|
+1571140017.287918|LMDrag|dragged after three finger click block|
+1571140020.710266|LMDrag|dragged after three finger click block|
+1571140023.753885|LMDrag|dragged after three finger click block|
+1571140204.665627|LMDrag|dragged after three finger click block|
+1571140207.110767|LMDrag|dragged after three finger click block|
+1571140250.369998|LMDrag|dragged after three finger click block|
+1571140270.242785|LMDrag|dragged after three finger click block|
+1571140441.233395|LMDrag|dragged after three finger click block|
+1571140443.895332|LMDrag|dragged after three finger click block|
+1571140489.123571|LMDrag|dragged after three finger click block|
+1571140578.060894|LMDrag|dragged after three finger click block|
+1571140585.555482|LMDrag|dragged after three finger click block|
+1571140585.664430|WISNA|Focus doesn't match window pid|
+1571140599.085504|LMDrag|dragged after three finger click block|
+1571140637.261052|LMDrag|dragged after three finger click block|
+1571141015.158728|LMDrag|dragged after three finger click block|
+1571141190.271957|LMDrag|dragged after three finger click block|
+1571141195.837293|LMDrag|dragged after three finger click block|
+1571141199.062503|SWI|PID MISMATCH FIX|
+1571141200.798527|LMDrag|dragged after three finger click block|
+1571141256.058115|LMDrag|dragged after three finger click block|
+1571141408.330636|LMDrag|dragged after three finger click block|
+1571141485.750207|LMDrag|dragged after three finger click block|
+1571141528.705175|LMDrag|dragged after three finger click block|
+1571141590.386670|LMDrag|dragged after three finger click block|
+1571141593.369847|SWI|PID MISMATCH FIX|
+1571141616.732278|LMDrag|dragged after three finger click block|
+1571141627.087607|SWI|PID MISMATCH FIX|
+1571141640.290752|c00|14|
+1571141650.998667|c00|14|
+1571141714.928496|SWI|PID MISMATCH FIX|
+1571141772.357537|LMDrag|dragged after three finger click block|
+1571141795.102172|LMDrag|dragged after three finger click block|
+1571141861.704149|WISNA|Focus doesn't match window pid|
+1571141861.706563|LMDrag|dragged after three finger click block|
+1571141863.034203|LMDrag|dragged after three finger click block|
+1571141933.144946|c00|14|
+1571141934.281019|c00|14|
+1571142013.632727|LMDrag|dragged after three finger click block|
+1571142043.973824|LMDrag|dragged after three finger click block|
+1571142047.292787|SWI|PID MISMATCH FIX|
+1571142101.034776|SWI|PID MISMATCH FIX|
+1571142131.534883|LMDrag|dragged after three finger click block|
+1571142136.826170|SWI|PID MISMATCH FIX|
+1571142151.210915|LMDrag|dragged after three finger click block|
+1571142227.432891|LMDrag|dragged after three finger click block|
+1571142475.886679|LMDrag|dragged after three finger click block|
+1571142483.049478|SWI|PID MISMATCH FIX|
+1571142513.162443|LMDrag|dragged after three finger click block|
+1571142557.896216|LMDrag|dragged after three finger click block|
+1571142562.419006|LMDrag|dragged after three finger click block|
+1571142574.469479|SYS|USB DEVICE DISCONNECTED|
+1571142577.069930|M|mt_stop2|
+1571142577.071626|M|unregister magic trackpad 2|
+1571142577.071687|M|unregister magic mouse|
+1571142577.073257|M|unregister magic trackpad 2|
+1571142577.076785|M|register touchbar mbp trackpad|
+1571142577.076813|M|register internal trackpad|
+1571142577.077000|M|register magic mouse|
+1571142577.077336|M|register magic trackpad 2|
+1571142577.077579|STDEV|6881|
+1571142666.136871|SYS|USB DEVICE CONNECTED|
+1571142666.136961|SYS|USB Connect Count 2|
+1571142668.876894|M|mt_stop2|
+1571142668.878192|M|unregister magic trackpad 2|
+1571142668.878216|M|unregister magic mouse|
+1571142668.879407|M|unregister magic trackpad 2|
+1571142668.881435|M|register touchbar mbp trackpad|
+1571142668.881454|M|register internal trackpad|
+1571142668.881575|M|register magic mouse|
+1571142668.881770|M|register magic trackpad 2|
+1571142668.881875|STDEV|6881|
+1571142670.878236|M|mt_stop2|
+1571142670.879759|M|unregister magic trackpad 2|
+1571142670.879785|M|unregister magic mouse|
+1571142670.880953|M|unregister magic trackpad 2|
+1571142670.883306|M|register touchbar mbp trackpad|
+1571142670.883324|M|register internal trackpad|
+1571142670.883443|M|register magic mouse|
+1571142670.883654|M|register magic trackpad 2|
+1571142670.883782|STDEV|6881|
+1571142674.110042|M|mt_stop2|
+1571142674.111498|M|unregister magic trackpad 2|
+1571142674.111518|M|unregister magic mouse|
+1571142674.112708|M|unregister magic trackpad 2|
+1571142674.114592|M|register touchbar mbp trackpad|
+1571142674.114632|M|register internal trackpad|
+1571142674.114747|M|register magic mouse|
+1571142674.114967|M|register magic trackpad 2|
+1571142674.115068|STDEV|6881|
+1571142679.607175|M|mt_stop2|
+1571142679.608686|M|unregister magic trackpad 2|
+1571142679.608705|M|unregister magic mouse|
+1571142679.609921|M|unregister magic trackpad 2|
+1571142679.611890|M|register touchbar mbp trackpad|
+1571142679.611906|M|register internal trackpad|
+1571142679.612024|M|register magic mouse|
+1571142679.612211|M|register magic trackpad 2|
+1571142679.612321|STDEV|6881|
+1571142716.724449|SWI|PID MISMATCH FIX|
+1571142757.663506|LMDrag|dragged after three finger click block|
