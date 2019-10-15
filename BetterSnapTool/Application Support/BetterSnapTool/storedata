@@ -60,7 +60,7 @@
         <attribute name="vendor" type="int32">4268</attribute>
         <attribute name="serialnumber" type="string">959722839</attribute>
         <attribute name="screensize" type="string">{596.55044975630733, 335.55962798792291}</attribute>
-        <attribute name="screenframe" type="string">{{-5120, -120}, {2560, 1440}}</attribute>
+        <attribute name="screenframe" type="string">{{-5120, -270}, {2560, 1440}}</attribute>
         <attribute name="resolution" type="string">{2560, 1440}</attribute>
         <attribute name="model" type="int32">16766</attribute>
         <attribute name="maindisplay" type="int32">0</attribute>
@@ -74,7 +74,7 @@
         <attribute name="vendor" type="int32">1552</attribute>
         <attribute name="serialnumber" type="string">0</attribute>
         <attribute name="screensize" type="string">{596.55044975630733, 335.55962798792291}</attribute>
-        <attribute name="screenframe" type="string">{{-2560, -120}, {2560, 1440}}</attribute>
+        <attribute name="screenframe" type="string">{{-2560, -270}, {2560, 1440}}</attribute>
         <attribute name="resolution" type="string">{2560, 1440}</attribute>
         <attribute name="model" type="int32">40117</attribute>
         <attribute name="maindisplay" type="int32">0</attribute>

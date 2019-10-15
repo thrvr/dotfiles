@@ -17,7 +17,8 @@
 		"Nginx Log Highlighter",
 		"Package Control",
 		"SideBarEnhancements",
-		"SqlBeautifier"
+		"SqlBeautifier",
+		"ZSH"
 	],
 	"repositories":
 	[

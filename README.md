@@ -137,6 +137,11 @@ If there is just one role, this will be assumed automatically.
 If there are multiple roles, you have to specify the role with which you
 want to use in the attribute `--role=arn:.....`
 
+## Tidio Chat app for Shopify
+I downloaded the app from https://www.tidio.com/panel/settings/download-app
+https://s3-eu-west-1.amazonaws.com/tidio-desktop-app/v4/osx/Tidio.dmg
+and installed it manually
+
 ## Sketchup Weld Plugin / Extension 
 https://extensions.sketchup.com/en/content/weld
 I downloaded it and then installed it via the Window -> Extension Manager

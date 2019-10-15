@@ -151,7 +151,9 @@ cask 'reflector'
 # this is a "frozen" cask 
 cask 'robo-3t'
 cask 'sequel-pro'
-cask 'shades'
+# does not work anymore with Catalina :/ - we'll have to re-check after a while
+# I use EasyOnTheEyes now -> via AppStore
+#cask 'shades'
 cask 'slack'
 cask 'skype'
 cask 'skype-for-business'
@@ -186,6 +188,7 @@ mas '1Password', id: 443987910
 mas 'Audio Merge & Split', id: 963571828
 mas 'BetterSnapTool', id: 417375580
 mas 'Camtasia 2', id: 478330793
+mas 'EasyOnTheEyes', id: 799584781
 mas 'Folder Compare', id: 535348544
 mas 'Get Plain Text', id: 508368068
 mas 'iMovie', id: 408981434
