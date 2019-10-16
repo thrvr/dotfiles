@@ -184,12 +184,12 @@
 				"Package Control: Install Package"
 			],
 			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
 				"inst",
 				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
 			],
 			[
 				"remo",
@@ -246,19 +246,31 @@
 	"expanded_folders":
 	[
 		"/Users/tornow/.dotfiles",
+		"/Users/tornow/.dotfiles/alfred",
 		"/Users/tornow/.dotfiles/applications",
 		"/Users/tornow/.dotfiles/applications/bin",
 		"/Users/tornow/.dotfiles/applications/javaws",
 		"/Users/tornow/.dotfiles/BetterSnapTool",
 		"/Users/tornow/.dotfiles/script",
 		"/Users/tornow/.dotfiles/sublime",
-		"/Users/tornow/.dotfiles/system"
+		"/Users/tornow/.dotfiles/system",
+		"/Users/tornow/.dotfiles/zsh"
 	],
 	"file_history":
 	[
-		"/Users/tornow/.dotfiles/applications/javaws/install notes.txt",
+		"/Users/tornow/.dotfiles/zsh/prompt.zsh",
+		"/Users/tornow/.dotfiles/zsh/zshrc.symlink",
+		"/Users/tornow/Downloads/c170619.ics",
 		"/Users/tornow/.dotfiles/Brewfile",
 		"/Users/tornow/.dotfiles/system/bash_profile.symlink",
+		"/Users/tornow/.dotfiles/zsh/window.zsh",
+		"/Users/tornow/.dotfiles/zsh/fpath.zsh",
+		"/Users/tornow/.dotfiles/zsh/config.zsh",
+		"/Users/tornow/.dotfiles/zsh/aliases.zsh",
+		"/Users/tornow/.dotfiles/system/keys.zsh",
+		"/Users/tornow/.dotfiles/system/aliases.zsh",
+		"/Users/tornow/.dotfiles/README.md",
+		"/Users/tornow/.dotfiles/applications/javaws/install notes.txt",
 		"/Users/tornow/.dotfiles/applications/bin/FirstSpirit miro@LM.app/Contents/MacOS/Java Web Start Iced Tea",
 		"/Users/tornow/.dotfiles/applications/bin/javaws",
 		"/Users/tornow/.dotfiles/applications/bin/LM_FS_SM@miro",
@@ -373,17 +385,7 @@
 		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/karstadt-eans-resolved.csv",
 		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_7131_7141_with_merchant_ID_corrected_errors_without_19-23_without_1st_line.csv",
 		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_6561_7141_with_merchant_id_without_1st_line_without_19_23.csv",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/Ivalis_0099_00037_20190730_orig.csv",
-		"/Users/tornow/Desktop/all_catalog_i20591_tems_with_eans_with_multiple_skus.csv",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/all_catalog_i20591_tems_with_eans_with_multiple_skus.csv",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/Ivalis Scanned EANs sql.txt",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/ivalis_unique_eans.txt",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/EANs with multiple SKUs for Karstadt Items.txt",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_7131_7141_with_merchant_ID_corrected_errors_without_19-23.csv",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_7131_7141_WITH_MERCHANT_ID.csv",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from kisura/import_1_kisura_data_319_398_with_merchant_id.csv",
-		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/import_1_ivalis_data_7131_7141.csv",
-		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/clv_report.sql"
+		"/Users/tornow/Dropbox/adesso/projects/kisura/stock_taking_july_30th_2019/result data from ivalis/Ivalis_0099_00037_20190730_orig.csv"
 	],
 	"find":
 	{
@@ -512,7 +514,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 336.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
