@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>A4245483-84A6-44E7-9CA2-8AE0F8FD2A32</UUID>
-        <nextObjectID>161</nextObjectID>
+        <nextObjectID>164</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -53,8 +53,8 @@
         <attribute name="displayid" type="int32">69734272</attribute>
         <attribute name="builtin" type="bool">1</attribute>
         <attribute name="uniqueidentifier" type="string">A8BB91FF-B11B-41D3-9E7A-254CF47009D0</attribute>
-        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z161 z158 z160 z157 z155 z154 z159 z156"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z161 z158 z160 z157 z155 z154 z159 z156"></relationship>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z159 z160 z157 z156 z158 z154 z161 z155"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z159 z160 z157 z156 z158 z154 z161 z155"></relationship>
     </object>
     <object type="BSTCDISPLAY" id="z103">
         <attribute name="vendor" type="int32">4268</attribute>
@@ -67,8 +67,8 @@
         <attribute name="displayid" type="int32">722496213</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">6A5F1199-AED9-489F-8D3E-D12A01861B1A</attribute>
-        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z123 z125 z135 z137 z131 z114 z129 z120 z119 z116 z108 z127 z117 z118 z122 z113 z121 z126 z134 z115 z112 z136 z128 z130 z124 z107"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z123 z125 z135 z137 z131 z114 z129 z120 z119 z116 z108 z127 z117 z118 z122 z113 z121 z126 z134 z115 z112 z136 z128 z130 z124 z107"></relationship>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z119 z164 z137 z118 z129 z122 z113 z121 z114 z120 z115 z112 z128 z107 z135 z134 z130 z125 z136 z124 z108 z131 z126 z123 z116 z117 z162 z127"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z119 z164 z137 z118 z129 z122 z113 z121 z114 z120 z115 z112 z128 z107 z135 z134 z130 z125 z136 z124 z108 z131 z126 z123 z116 z117 z162 z127"></relationship>
     </object>
     <object type="BSTCDISPLAY" id="z104">
         <attribute name="vendor" type="int32">1552</attribute>
@@ -81,8 +81,8 @@
         <attribute name="displayid" type="int32">69676354</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">BEB0BDB2-6597-4714-9AC3-64B90FD2A093</attribute>
-        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z147 z148 z142 z144 z151 z139 z141 z152 z150 z138 z143 z149 z153"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z147 z148 z142 z144 z151 z139 z141 z152 z150 z138 z143 z149 z153"></relationship>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z150 z139 z143 z147 z149 z152 z144 z148 z142 z138 z153 z151 z141"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z150 z139 z143 z147 z149 z152 z144 z148 z142 z138 z153 z151 z141"></relationship>
     </object>
     <object type="BSTCDISPLAY" id="z105">
         <attribute name="vendor" type="int32">1552</attribute>
@@ -452,8 +452,8 @@ CA1VJG51bGzSCQoLDFdOUy5kYXRhViRjbGFzc08RAW4EC3N0cmVhbXR5cGVkgegDhAFAhISEEk5TQXR0
     </object>
     <object type="BSTDRAGPOINT" id="z123">
         <attribute name="needsfn" type="bool">1</attribute>
-        <attribute name="label" type="encodable">YnBsaXN0MDDUAQIDBAUGFBVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKMH
-CA1VJG51bGzSCQoLDFdOUy5kYXRhViRjbGFzc08RAW4EC3N0cmVhbXR5cGVkgegDhAFAhISEEk5TQXR0cmlidXRlZFN0cmluZwCEhAhOU09iamVjdACFkoSEhAhOU1N0cmluZwGUhAErFTEvMyB3aWR0aAoxMDAlIGhlaWdodIaEAmlJARWShISEDE5TRGljdGlvbmFyeQCUhAFpA5KElpYHTlNDb2xvcoaShISEB05TQ29sb3IAlIQBYwaEA0BAQISWlgZTeXN0ZW2GhJaWCXRleHRDb2xvcoaEm5sDhAJmZgABhoaShJaWEE5TUGFyYWdyYXBoU3R5bGWGkoSEhBdOU011dGFibGVQYXJhZ3JhcGhTdHlsZQCEhBBOU1BhcmFncmFwaFN0eWxlAJSEBENDQFMCAIUAhpKElpYGTlNGb250hpKEhIQGTlNGb250HpSZJIQFWzM2Y10GAAAAGgAAAP/+LgBTAEYATgBTAEQAaQBzAHAAbABhAHkAAACEAWYZmwCbAZsAmwCGhoaAAtIODxARWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMQEhNWTlNEYXRhWE5TT2JqZWN0XxAPTlNLZXllZEFyY2hpdmVy0RYXVHJvb3SAAQAIABEAGgAjAC0AMgA3ADsAQQBGAE4AVQHHAckBzgHZAeIB8AH0AfsCBAIWAhkCHgAAAAAAAAIBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAIg
+        <attribute name="label" type="encodable">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQFuBAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJpbmcBlIQBKxUxLzMgd2lkdGgKMTAwJSBoZWlnaHSGhAJpSQEVkoSEhAxOU0RpY3Rpb25hcnkAlIQBaQOShJaWB05TQ29sb3KGkoSEhAdOU0NvbG9yAJSEAWMGhANAQECElpYGU3lzdGVthoSWlgl0ZXh0Q29sb3KGhJubA4QCZmYAAYaGkoSWlhBOU1BhcmFncmFwaFN0eWxlhpKEhIQXTlNNdXRhYmxlUGFyYWdyYXBoU3R5bGUAhIQQTlNQYXJhZ3JhcGhTdHlsZQCUhARDQ0BTAgCFAIaShJaWBk5TRm9udIaShISEBk5TRm9udB6UmSSEBVszNmNdBgAAABoAAAD//i4AUwBGAE4AUwBEAGkAcwBwAGwAYQB5AAAAhAFmGZsAmwGbAJsAhoaGgALSEhMUFVokY2xhc3NuYW1lWCRjbGFzc2VzXU5TTXV0YWJsZURhdGGjFBYXVk5TRGF0YVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkATABRAFMAVwBdAGIAagBxAeMB5QHqAfUB/gIMAhACFwAAAAAAAAIBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAIg
 </attribute>
         <attribute name="uuid" type="string">54CB8888-29D9-43FA-A067-2EC46663661D</attribute>
         <attribute name="textshadow" type="bool">0</attribute>
@@ -1332,6 +1332,56 @@ CA1VJG51bGzSCQoLDFdOUy5kYXRhViRjbGFzc08RAXkEC3N0cmVhbXR5cGVkgegDhAFAhISEEk5TQXR0
         <attribute name="uniqueidentifier" type="string">57865297-2616-4ED7-9523-11D9C64EB5AF</attribute>
         <relationship name="sitsondisplay" type="1/1" destination="BSTCDISPLAY" idrefs="z102"></relationship>
         <relationship name="snapstodisplay" type="1/1" destination="BSTCDISPLAY" idrefs="z102"></relationship>
+        <relationship name="belongstoapps" type="0/0" destination="BSTDRAGPOINTAPP"></relationship>
+    </object>
+    <object type="BSTDRAGPOINT" id="z162">
+        <attribute name="label" type="encodable">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQFwBAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJpbmcBlIQBKwsxMDI0cHgKMTAwJYaEAmlJAQuShISEDE5TRGljdGlvbmFyeQCUhAFpA5KElpYHTlNDb2xvcoaShISEB05TQ29sb3IAlIQBYwaEA0BAQISWlgZTeXN0ZW2GhJaWCXRleHRDb2xvcoaEm5sDhAJmZgABhoaShJaWEE5TUGFyYWdyYXBoU3R5bGWGkoSEhBdOU011dGFibGVQYXJhZ3JhcGhTdHlsZQCEhBBOU1BhcmFncmFwaFN0eWxlAJSEBENDQFMCAIUAhpKElpYGTlNGb250hpKEhIQGTlNGb250HpSZMIQFWzQ4Y10GAAAAJgAAAP/+LgBBAHAAcABsAGUAUwB5AHMAdABlAG0AVQBJAEYAbwBuAHQAAACEAWYZmwCbAZsAmwCGhoaAAtISExQVWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMUFhdWTlNEYXRhWE5TT2JqZWN0AAgAEQAaACQAKQAyADcASQBMAFEAUwBXAF0AYgBqAHEB5QHnAewB9wIAAg4CEgIZAAAAAAAAAgEAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAiI=
+</attribute>
+        <attribute name="uuid" type="string">3A74246E-D8B6-4387-A14F-8863A2130912</attribute>
+        <attribute name="textshadow" type="bool">0</attribute>
+        <attribute name="showpictogram" type="bool">0</attribute>
+        <attribute name="roundness" type="int32">20</attribute>
+        <attribute name="previewframe" type="string">{{1528, 0}, {1024, 1417}}</attribute>
+        <attribute name="previewborderwidth" type="int32">3</attribute>
+        <attribute name="previewbordercolor" type="string">0.000000, 0.000000, 0.000000, 255.000000</attribute>
+        <attribute name="pictogramsize" type="float">0.7</attribute>
+        <attribute name="pictogramdistancefromleft" type="float">0.1</attribute>
+        <attribute name="pictogramdistancefrombottom" type="float">0.1</attribute>
+        <attribute name="invisible" type="bool">0</attribute>
+        <attribute name="dragpointhighlightcolor" type="string">92.624286, 122.650396, 161.665578, 56.099998</attribute>
+        <attribute name="dragpointframe" type="string">{{1851.01171875, 727.06640625}, {188.2890625, 68.16015625}}</attribute>
+        <attribute name="dragpointcolor" type="string">129.988851, 201.126536, 227.013970, 104.550003</attribute>
+        <attribute name="dashedborder" type="bool">0</attribute>
+        <attribute name="animationduration" type="float">0.3</attribute>
+        <attribute name="uniqueidentifier" type="string">237C4765-9BBA-4036-BA02-8D490049ADD0</attribute>
+        <relationship name="sitsondisplay" type="1/1" destination="BSTCDISPLAY" idrefs="z103"></relationship>
+        <relationship name="snapstodisplay" type="1/1" destination="BSTCDISPLAY" idrefs="z103"></relationship>
+        <relationship name="belongstoapps" type="0/0" destination="BSTDRAGPOINTAPP"></relationship>
+    </object>
+    <object type="BSTDRAGPOINT" id="z164">
+        <attribute name="label" type="encodable">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
+D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF6BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJpbmcBlIQBKxUyLzMgd2lkdGgKMTAwJSBoZWlnaHSGhAJpSQEVkoSEhAxOU0RpY3Rpb25hcnkAlIQBaQOShJaWB05TQ29sb3KGkoSEhAdOU0NvbG9yAJSEAWMGhANAQECElpYGU3lzdGVthoSWlgl0ZXh0Q29sb3KGhJubA4QCZmYAAYaGkoSWlhBOU1BhcmFncmFwaFN0eWxlhpKEhIQXTlNNdXRhYmxlUGFyYWdyYXBoU3R5bGUAhIQQTlNQYXJhZ3JhcGhTdHlsZQCUhARDQ0BTAgCFAIaShJaWBk5TRm9udIaShISEBk5TRm9udB6UmTCEBVs0OGNdBgAAACYAAAD//i4AQQBwAHAAbABlAFMAeQBzAHQAZQBtAFUASQBGAG8AbgB0AAAAhAFmGZsAmwGbAJsAhoaGgALSEhMUFVokY2xhc3NuYW1lWCRjbGFzc2VzXU5TTXV0YWJsZURhdGGjFBYXVk5TRGF0YVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkATABRAFMAVwBdAGIAagBxAe8B8QH2AgECCgIYAhwCIwAAAAAAAAIBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAIs
+</attribute>
+        <attribute name="uuid" type="string">0DD684FA-C34F-47A6-95DB-38B949C19767</attribute>
+        <attribute name="textshadow" type="bool">0</attribute>
+        <attribute name="showpictogram" type="bool">0</attribute>
+        <attribute name="roundness" type="int32">20</attribute>
+        <attribute name="previewframe" type="string">{{853, 0}, {1707, 1417}}</attribute>
+        <attribute name="previewborderwidth" type="int32">3</attribute>
+        <attribute name="previewbordercolor" type="string">0.000000, 0.000000, 0.000000, 255.000000</attribute>
+        <attribute name="pictogramsize" type="float">0.7</attribute>
+        <attribute name="pictogramdistancefromleft" type="float">0.1</attribute>
+        <attribute name="pictogramdistancefrombottom" type="float">0.1</attribute>
+        <attribute name="invisible" type="bool">0</attribute>
+        <attribute name="dragpointhighlightcolor" type="string">92.624286, 122.650396, 161.665578, 56.099998</attribute>
+        <attribute name="dragpointframe" type="string">{{1559, 606.1328125}, {289, 249.8671875}}</attribute>
+        <attribute name="dragpointcolor" type="string">129.988851, 201.126536, 227.013970, 104.550003</attribute>
+        <attribute name="dashedborder" type="bool">0</attribute>
+        <attribute name="animationduration" type="float">0.3</attribute>
+        <attribute name="uniqueidentifier" type="string">7CA69414-F1A6-4C27-9E1C-25035090906E</attribute>
+        <relationship name="sitsondisplay" type="1/1" destination="BSTCDISPLAY" idrefs="z103"></relationship>
+        <relationship name="snapstodisplay" type="1/1" destination="BSTCDISPLAY" idrefs="z103"></relationship>
         <relationship name="belongstoapps" type="0/0" destination="BSTDRAGPOINTAPP"></relationship>
     </object>
 </database>
