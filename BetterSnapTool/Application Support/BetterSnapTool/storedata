@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>A4245483-84A6-44E7-9CA2-8AE0F8FD2A32</UUID>
-        <nextObjectID>164</nextObjectID>
+        <nextObjectID>166</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -1335,6 +1335,7 @@ CA1VJG51bGzSCQoLDFdOUy5kYXRhViRjbGFzc08RAXkEC3N0cmVhbXR5cGVkgegDhAFAhISEEk5TQXR0
         <relationship name="belongstoapps" type="0/0" destination="BSTDRAGPOINTAPP"></relationship>
     </object>
     <object type="BSTDRAGPOINT" id="z162">
+        <attribute name="needsfn" type="bool">1</attribute>
         <attribute name="label" type="encodable">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
 D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQFwBAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJpbmcBlIQBKwsxMDI0cHgKMTAwJYaEAmlJAQuShISEDE5TRGljdGlvbmFyeQCUhAFpA5KElpYHTlNDb2xvcoaShISEB05TQ29sb3IAlIQBYwaEA0BAQISWlgZTeXN0ZW2GhJaWCXRleHRDb2xvcoaEm5sDhAJmZgABhoaShJaWEE5TUGFyYWdyYXBoU3R5bGWGkoSEhBdOU011dGFibGVQYXJhZ3JhcGhTdHlsZQCEhBBOU1BhcmFncmFwaFN0eWxlAJSEBENDQFMCAIUAhpKElpYGTlNGb250hpKEhIQGTlNGb250HpSZMIQFWzQ4Y10GAAAAJgAAAP/+LgBBAHAAcABsAGUAUwB5AHMAdABlAG0AVQBJAEYAbwBuAHQAAACEAWYZmwCbAZsAmwCGhoaAAtISExQVWiRjbGFzc25hbWVYJGNsYXNzZXNdTlNNdXRhYmxlRGF0YaMUFhdWTlNEYXRhWE5TT2JqZWN0AAgAEQAaACQAKQAyADcASQBMAFEAUwBXAF0AYgBqAHEB5QHnAewB9wIAAg4CEgIZAAAAAAAAAgEAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAiI=
 </attribute>
@@ -1350,7 +1351,7 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQFw
         <attribute name="pictogramdistancefrombottom" type="float">0.1</attribute>
         <attribute name="invisible" type="bool">0</attribute>
         <attribute name="dragpointhighlightcolor" type="string">92.624286, 122.650396, 161.665578, 56.099998</attribute>
-        <attribute name="dragpointframe" type="string">{{1851.01171875, 727.06640625}, {188.2890625, 68.16015625}}</attribute>
+        <attribute name="dragpointframe" type="string">{{1851, 727}, {188, 68}}</attribute>
         <attribute name="dragpointcolor" type="string">129.988851, 201.126536, 227.013970, 104.550003</attribute>
         <attribute name="dashedborder" type="bool">0</attribute>
         <attribute name="animationduration" type="float">0.3</attribute>
@@ -1360,6 +1361,7 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQFw
         <relationship name="belongstoapps" type="0/0" destination="BSTDRAGPOINTAPP"></relationship>
     </object>
     <object type="BSTDRAGPOINT" id="z164">
+        <attribute name="needsfn" type="bool">1</attribute>
         <attribute name="label" type="encodable">YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8Q
 D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF6BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJpbmcBlIQBKxUyLzMgd2lkdGgKMTAwJSBoZWlnaHSGhAJpSQEVkoSEhAxOU0RpY3Rpb25hcnkAlIQBaQOShJaWB05TQ29sb3KGkoSEhAdOU0NvbG9yAJSEAWMGhANAQECElpYGU3lzdGVthoSWlgl0ZXh0Q29sb3KGhJubA4QCZmYAAYaGkoSWlhBOU1BhcmFncmFwaFN0eWxlhpKEhIQXTlNNdXRhYmxlUGFyYWdyYXBoU3R5bGUAhIQQTlNQYXJhZ3JhcGhTdHlsZQCUhARDQ0BTAgCFAIaShJaWBk5TRm9udIaShISEBk5TRm9udB6UmTCEBVs0OGNdBgAAACYAAAD//i4AQQBwAHAAbABlAFMAeQBzAHQAZQBtAFUASQBGAG8AbgB0AAAAhAFmGZsAmwGbAJsAhoaGgALSEhMUFVokY2xhc3NuYW1lWCRjbGFzc2VzXU5TTXV0YWJsZURhdGGjFBYXVk5TRGF0YVhOU09iamVjdAAIABEAGgAkACkAMgA3AEkATABRAFMAVwBdAGIAagBxAe8B8QH2AgECCgIYAhwCIwAAAAAAAAIBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAIs
 </attribute>
@@ -1375,7 +1377,7 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF6
         <attribute name="pictogramdistancefrombottom" type="float">0.1</attribute>
         <attribute name="invisible" type="bool">0</attribute>
         <attribute name="dragpointhighlightcolor" type="string">92.624286, 122.650396, 161.665578, 56.099998</attribute>
-        <attribute name="dragpointframe" type="string">{{1559, 606.1328125}, {289, 249.8671875}}</attribute>
+        <attribute name="dragpointframe" type="string">{{1559, 606}, {289, 250}}</attribute>
         <attribute name="dragpointcolor" type="string">129.988851, 201.126536, 227.013970, 104.550003</attribute>
         <attribute name="dashedborder" type="bool">0</attribute>
         <attribute name="animationduration" type="float">0.3</attribute>
@@ -1383,5 +1385,33 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF6
         <relationship name="sitsondisplay" type="1/1" destination="BSTCDISPLAY" idrefs="z103"></relationship>
         <relationship name="snapstodisplay" type="1/1" destination="BSTCDISPLAY" idrefs="z103"></relationship>
         <relationship name="belongstoapps" type="0/0" destination="BSTDRAGPOINTAPP"></relationship>
+    </object>
+    <object type="BSTCDISPLAY" id="z165">
+        <attribute name="vendor" type="int32">16920</attribute>
+        <attribute name="serialnumber" type="string">3298</attribute>
+        <attribute name="screensize" type="string">{677.33332316080737, 380.9999942779541}</attribute>
+        <attribute name="screenframe" type="string">{{0, 0}, {1920, 1080}}</attribute>
+        <attribute name="resolution" type="string">{1920, 1080}</attribute>
+        <attribute name="model" type="int32">132</attribute>
+        <attribute name="maindisplay" type="int32">1</attribute>
+        <attribute name="displayid" type="int32">100671745</attribute>
+        <attribute name="builtin" type="bool">0</attribute>
+        <attribute name="uniqueidentifier" type="string">5EB486E2-DA8D-446F-BD9C-41180EDB3076</attribute>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
+    </object>
+    <object type="BSTCDISPLAY" id="z166">
+        <attribute name="vendor" type="int32">1552</attribute>
+        <attribute name="serialnumber" type="string">0</attribute>
+        <attribute name="screensize" type="string">{285.19297817297149, 160.42105022229646}</attribute>
+        <attribute name="screenframe" type="string">{{0, 0}, {0, 0}}</attribute>
+        <attribute name="resolution" type="string">{0, 0}</attribute>
+        <attribute name="model" type="int32">41022</attribute>
+        <attribute name="maindisplay" type="int32">0</attribute>
+        <attribute name="displayid" type="int32">69734272</attribute>
+        <attribute name="builtin" type="bool">1</attribute>
+        <attribute name="uniqueidentifier" type="string">453A1669-9876-430D-8283-DDCA666B2FB4</attribute>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
     </object>
 </database>

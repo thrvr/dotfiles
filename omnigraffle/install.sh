@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 # first we save all currently added stencil in our dotfiles
 # then we copy them all back
 

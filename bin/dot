@@ -50,6 +50,11 @@ $ZSH/homebrew/install.sh 2>&1
 echo "› brew update"
 brew update
 
+# now we have to copy the "fixed versions" of casks back into 
+# place, so that we don't accidentally update 
+$ZSH/homebrew/install.sh 2>&1
+
+
 # Install software
 echo "› $ZSH/script/install"
 $ZSH/script/install
