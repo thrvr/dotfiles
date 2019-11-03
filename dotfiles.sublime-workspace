@@ -246,11 +246,9 @@
 	"expanded_folders":
 	[
 		"/Users/tornow/.dotfiles",
-		"/Users/tornow/.dotfiles/alfred",
-		"/Users/tornow/.dotfiles/applications",
-		"/Users/tornow/.dotfiles/applications/bin",
-		"/Users/tornow/.dotfiles/applications/javaws",
-		"/Users/tornow/.dotfiles/BetterSnapTool",
+		"/Users/tornow/.dotfiles/bin",
+		"/Users/tornow/.dotfiles/homebrew",
+		"/Users/tornow/.dotfiles/omnigraffle",
 		"/Users/tornow/.dotfiles/script",
 		"/Users/tornow/.dotfiles/sublime",
 		"/Users/tornow/.dotfiles/system",
@@ -258,10 +256,13 @@
 	],
 	"file_history":
 	[
+		"/Users/tornow/.dotfiles/Brewfile",
+		"/Users/tornow/.dotfiles/bin/dot",
+		"/Users/tornow/.dotfiles/script/install",
+		"/Users/tornow/.dotfiles/omnigraffle/install.sh",
 		"/Users/tornow/.dotfiles/zsh/prompt.zsh",
 		"/Users/tornow/.dotfiles/zsh/zshrc.symlink",
 		"/Users/tornow/Downloads/c170619.ics",
-		"/Users/tornow/.dotfiles/Brewfile",
 		"/Users/tornow/.dotfiles/system/bash_profile.symlink",
 		"/Users/tornow/.dotfiles/zsh/window.zsh",
 		"/Users/tornow/.dotfiles/zsh/fpath.zsh",
@@ -280,7 +281,6 @@
 		"/Users/tornow/.dotfiles/applications/javaws/javaws_splash.png",
 		"/Users/tornow/.dotfiles/sublime/install.sh",
 		"/Users/tornow/.dotfiles/applications/javaws/install.sh",
-		"/Users/tornow/.dotfiles/script/install",
 		"/Users/tornow/.dotfiles/script/recover_configs.sh",
 		"/Users/tornow/.dotfiles/BetterSnapTool/backup.sh",
 		"/Users/tornow/.dotfiles/BetterSnapTool/recover.sh",
@@ -308,10 +308,8 @@
 		"/Users/tornow/dev/adesso/kisura/Kisura/provisioning/update-ssh-access.yml",
 		"/Users/tornow/.dotfiles/xcode/install.sh",
 		"/Users/tornow/.dotfiles/xcode/aliases.zsh",
-		"/Users/tornow/.dotfiles/omnigraffle/install.sh",
 		"/Users/tornow/.dotfiles/omnigraffle/save_stencils.sh",
 		"/Users/tornow/.dotfiles/diff/install.sh",
-		"/Users/tornow/.dotfiles/bin/dot",
 		"/Users/tornow/.dotfiles/macos/set-defaults.sh",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/kisura_clients_list_master_hauptlist.sql",
 		"/Users/tornow/dev/adesso/kisura/bashscripts/reporting/mysql/sql/kisura_clients_list_master_hauptlist.sql.save",
@@ -389,7 +387,7 @@
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -403,6 +401,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"chromedriver",
 			"BetterSnaptOol",
 			"BetterTouchTool",
 			"yet"
@@ -415,7 +414,7 @@
 		[
 			"BetterSnapTool"
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -431,7 +430,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 36.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -476,7 +475,7 @@
 	"project": "dotfiles.sublime-project",
 	"replace":
 	{
-		"height": 88.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
