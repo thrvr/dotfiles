@@ -44,6 +44,9 @@ sudo nvram SystemAudioVolume=" "
 # Set highlight color to green => I don't want to change this
 # defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
+# deactivate the power chime when plugging in a charger cable
+defaults write com.apple.PowerChime ChimeOnAllHardware -bool false; killall PowerChime
+
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 

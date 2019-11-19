@@ -2,14 +2,16 @@ cask_args appdir: '/Applications'
 
 #---------------------------------------------
 # Taps
+tap 'AdoptOpenJDK/openjdk'
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 # tap 'caskroom/versions'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
+tap 'mongodb/brew'
 # This tap is for the saml2aws formula
 tap 'versent/homebrew-taps'
-tap 'AdoptOpenJDK/openjdk'
+
 
 #---------------------------------------------
 # Binaries
@@ -52,6 +54,10 @@ brew 'midnight-commander'
 #Or, if you don't want/need a background service you can just run:
 #  mongod --config /usr/local/etc/mongod.conf
 # brew 'mongodb'	
+
+# this is from the tap 'mongodb/brew'
+brew 'mongodb-community@3.2'
+
 brew 'mysql@5.6'
 brew 'mysql-client'
 brew 'node'

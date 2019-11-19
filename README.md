@@ -147,6 +147,10 @@ https://extensions.sketchup.com/en/content/weld
 I downloaded it and then installed it via the Window -> Extension Manager
 dialogue
 
+## UnDistracted for macOS 
+I downloaded it from 
+https://dl.devmate.com/com.sergey-gerasimenko.UnDistracted/UnDistracted.zip
+and activated it manually. 
 
 ## bugs
 
