@@ -3,6 +3,7 @@
 /usr/local/bin/cpan -i Path::Tiny
 /usr/local/bin/cpan -i SUPER
 /usr/local/bin/cpan -i Algorithm::C3
+/usr/local/bin/cpan -i Algorithm::CouponCode
 /usr/local/bin/cpan -i Test::LeakTrace
 /usr/local/bin/cpan -i Test::Pod
 /usr/local/bin/cpan -i Test::Output
