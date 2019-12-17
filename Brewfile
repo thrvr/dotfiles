@@ -2,7 +2,7 @@ cask_args appdir: '/Applications'
 
 #---------------------------------------------
 # Taps
-tap 'AdoptOpenJDK/openjdk'
+#tap 'AdoptOpenJDK/openjdk'
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
 # tap 'caskroom/versions'
@@ -57,7 +57,8 @@ brew 'midnight-commander'
 
 # this is from the tap 'mongodb/brew'
 brew 'mongodb-community@3.2'
-
+# Video player for streaming all kinds of videos
+brew 'mpv'
 brew 'mysql@5.6'
 brew 'mysql-client'
 brew 'node'
@@ -132,10 +133,11 @@ cask 'intellij-idea'
 cask 'iterm2'
 # this installs java in all necessary versions from adoptopenjdk
 #cask 'caskroom/versions/java11'
-cask 'adoptopenjdk/openjdk/adoptopenjdk8'
-cask 'adoptopenjdk/openjdk/adoptopenjdk11'
-cask 'adoptopenjdk/openjdk/adoptopenjdk11-jre'
+cask 'adoptopenjdk8'
+cask 'adoptopenjdk11'
+cask 'adoptopenjdk11-jre'
 cask 'keepassx'
+cask 'keyboard-maestro'
 cask 'kindle'
 cask 'launchcontrol'
 cask 'logitech-presentation'
