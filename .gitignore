@@ -1,3 +1,5 @@
 sublime/Packages/User/Package\ Control.cache/
 sublime/Packages/User/Package\ Control.cache/*
 *.log
+*-shm
+*-wal
