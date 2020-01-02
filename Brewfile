@@ -89,14 +89,14 @@ brew 'php@7.2'
 #brew 'xcode' # I don't thing we'll need xcode specifically, since I only needed it for homebrew and brew only needs the tools
 
 # Fonts from casks
-cask 'caskroom/fonts/font-lato'
-cask 'caskroom/fonts/font-open-sans'
-cask 'caskroom/fonts/font-pt-sans'
-cask 'caskroom/fonts/font-roboto'
-cask 'caskroom/fonts/font-source-code-pro-for-powerline'
-cask 'caskroom/fonts/font-source-code-pro'
-cask 'caskroom/fonts/font-source-sans-pro'
-cask 'caskroom/fonts/font-source-serif-pro'
+cask 'font-lato'
+cask 'font-open-sans'
+cask 'font-pt-sans'
+cask 'font-roboto'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
 
 # applications from Casks
 cask 'alfred'
@@ -111,7 +111,7 @@ cask 'calibre'
 cask 'camunda-modeler'
 cask 'cheatsheet'
 cask 'chromedriver-beta'
-#cask 'commander-one' -> crap in comparison to forklift
+cask 'commander-one'
 cask 'daisydisk'
 cask 'dbeaver-community'
 cask 'dbschema'
@@ -141,6 +141,7 @@ cask 'keyboard-maestro'
 cask 'kindle'
 cask 'launchcontrol'
 cask 'logitech-presentation'
+cask 'loom'
 cask 'magicprefs'
 cask 'mailbutler'
 cask 'menumeters'
@@ -213,6 +214,7 @@ mas 'Infographics Lab - Templates', id: 577411683
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'SplitPrint', id: 412574988 
+mas 'SmugMug', id: 1115348888
 mas 'Swyx Desktop', id: 1029922555
 mas 'Tadam', id: 531349534
 mas 'ToothFairy', id: 1191449274
