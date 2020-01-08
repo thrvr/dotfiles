@@ -189,9 +189,11 @@ cask 'vagrant'
 cask 'vagrant-manager'
 cask 'vagrant-vmware-utility'
 # this is a "frozen" cask 
-cask 'virtualbox-5.2'
+#cask 'virtualbox-5.2'
+cask 'virtualbox'
 # this is a "frozen" cask 
-cask 'virtualbox-extension-pack-5.2'
+#cask 'virtualbox-extension-pack-5.2'
+cask 'virtualbox-extension-pack'
 cask 'vlc'
 cask 'whatsapp'
 cask 'wireshark'
