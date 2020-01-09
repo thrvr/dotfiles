@@ -3,7 +3,7 @@ cask_args appdir: '/Applications'
 #---------------------------------------------
 # Taps
 #tap 'AdoptOpenJDK/openjdk'
-tap 'caskroom/cask'
+tap 'homebrew/homebrew-cask'
 tap 'homebrew/cask-fonts'
 # tap 'caskroom/versions'
 tap 'homebrew/cask-versions'

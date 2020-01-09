@@ -62,7 +62,7 @@ brew update
 $ZSH/homebrew/install.sh 2>&1
 
 
-# Install software
+# Install software with 
 echo
 echo "-------------------------------------------"
 echo "Initiating brew with parameter '$parameter'"
