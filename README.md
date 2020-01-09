@@ -67,7 +67,7 @@ Everything is configured and tweaked within `~/.dotfiles`.
 The main file you'll want to change right off the bat is `zsh/zshrc.symlink`,
 which sets up a few paths that'll be different on your particular machine.
 
-`dot` is a simple script that installs some dependencies, sets sane macOS
+`bin/dot` is a simple script that installs some dependencies, sets sane macOS
 defaults, and so on. Tweak this script, and occasionally run `dot` from
 time to time to keep your environment fresh and up-to-date. You can find
 this script in `bin/`.
@@ -83,6 +83,13 @@ I have to use robo-3t in the version 1.2.1 in order to be compatible with my
 client's db. This is achieved with the cask
 \~/.dotfiles/homebrew/casks/robo-3t.rb
 
+## Xcode command line tools fix
+Xcode can't be installed as a binary anymore. Instead one has to install it
+with `mas` from the appStore.
+Afterwards we have to use the commands
+
+`sudo xcode-select --switch /Library/Developer/CommandLineTools` for enabling the command line tools
+`sudo xcode-select -s /Applications/Xcode.app/Contents/Developer` for some reason we still have to tell Xcode were the directory is - oh well
 
 # Software that I installed manually
 ## PDF Printer
