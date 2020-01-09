@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
 #
 # Run all dotfiles installers.
-
 set -e
-
 cd "$(dirname $0)"/..
 
 # Run Homebrew through the Brewfile
-echo "› brew bundle"
-brew bundle
-
+echo "› brew bundle - INSTALLING ALL DEFAULT APPLICATIONS"
+brew bundle --file=~/.dotfiles/Brewfile
+if [ "$1" == "work" ]; then 
+	echo "› brew bundle - INSTALLING & UPGRADING ALL WORK RELATED APPLICATIONS"
+	brew bundle --file=~/.dotfiles/Brewfile_work
+else
+	echo "Parameter 1 was '$parameter', so nothing else left to install"
+fi
 # find the installers and run them iteratively
 find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
 

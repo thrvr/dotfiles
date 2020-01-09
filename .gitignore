@@ -3,3 +3,5 @@ sublime/Packages/User/Package\ Control.cache/*
 *.log
 *-shm
 *-wal
+*lockfile*
+*.lock.json

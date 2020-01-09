@@ -4,11 +4,10 @@ cask_args appdir: '/Applications'
 # Taps
 #tap 'AdoptOpenJDK/openjdk'
 tap 'caskroom/cask'
-tap 'caskroom/fonts'
+tap 'homebrew/cask-fonts'
 # tap 'caskroom/versions'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-tap 'mongodb/brew'
 # This tap is for the saml2aws formula
 tap 'versent/homebrew-taps'
 
@@ -56,12 +55,9 @@ brew 'midnight-commander'
 # brew 'mongodb'	
 
 # this is from the tap 'mongodb/brew'
-brew 'mongodb-community@3.2'
+
 # Video player for streaming all kinds of videos
 brew 'mpv'
-brew 'mysql@5.6'
-brew 'mysql-client'
-brew 'node'
 brew 'libgit2'
 brew 'openssl'
 brew 'pcre'
@@ -84,10 +80,11 @@ brew 'zip'
 
 # Dev Tools and Languages
 brew 'perl'
-brew 'php@7.2'
-# brew 'python@2' # Python is already 2.7.10 installed on Mac OS X Mojave and it also comes with pip so no need to install either
-#brew 'xcode' # I don't thing we'll need xcode specifically, since I only needed it for homebrew and brew only needs the tools
 
+# brew 'python@2' # Python is already 2.7.10 installed on Mac OS X Mojave and it also comes with pip so no need to install either
+
+
+#---------------------------------------------
 # Fonts from casks
 cask 'font-lato'
 cask 'font-open-sans'
@@ -98,13 +95,12 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 
+#---------------------------------------------
 # applications from Casks
 cask 'alfred'
 cask 'adobe-acrobat-reader'
-cask 'adobe-creative-cloud'
 cask 'adobe-digital-editions'
 cask 'bartender'
-cask 'balsamiq-mockups'
 cask 'bettertouchtool'
 cask 'caffeine'
 cask 'calibre'
@@ -114,7 +110,6 @@ cask 'chromedriver-beta'
 cask 'commander-one'
 cask 'daisydisk'
 cask 'dbeaver-community'
-cask 'dbschema'
 cask 'diffmerge'
 cask 'docker'
 cask 'dropbox'
@@ -122,22 +117,11 @@ cask 'dropbox'
 cask 'evernote'
 cask 'expandrive'
 cask 'firefox'
-cask 'flickr-uploadr'
 cask 'focus'
 cask 'folx'
 cask 'forklift'
-cask 'gephi'
-#cask 'google-chat'
 cask 'google-chrome' 
-cask 'id3-editor'
-cask 'intellij-idea'
 cask 'iterm2'
-# this installs java in all necessary versions from adoptopenjdk
-#cask 'caskroom/versions/java11'
-cask 'adoptopenjdk8'
-cask 'adoptopenjdk11'
-cask 'adoptopenjdk11-jre'
-cask 'keepassx'
 cask 'keyboard-maestro'
 cask 'kindle'
 cask 'launchcontrol'
@@ -146,11 +130,7 @@ cask 'loom'
 cask 'magicprefs'
 cask 'mailbutler'
 cask 'menumeters'
-cask 'microsoft-office'
-cask 'microsoft-teams'
 # this is a "frozen" cask 
-cask 'mongodb-3'
-cask 'mongodb-compass-community'
 cask 'mysqlworkbench'
 cask 'omnidisksweeper'
 cask 'omnifocus'
@@ -159,21 +139,16 @@ cask 'omniplan'
 cask 'plistedit-pro'
 cask 'pref-setter'
 cask 'preference-manager'
-cask 'phpstorm'
 cask 'private-internet-access'
 # Not supported in catalina anymore
 #cask 'qbittorrent' -> went for folx (works nicely too)
 cask 'reflector'
-# this is a "frozen" cask 
-cask 'robo-3t'
 #cask 'screaming-frog-seo-spider'
 cask 'sequel-pro'
 # does not work anymore with Catalina :/ - we'll have to re-check after a while
 # I use EasyOnTheEyes now -> via AppStore
 #cask 'shades'
 cask 'slack'
-cask 'skype'
-cask 'skype-for-business'
 cask 'snagit4'
 cask 'sourcetree'
 cask 'sketchup'
@@ -185,15 +160,6 @@ cask 'telegram'
 cask 'thebrain'
 cask 'the-unarchiver'
 cask 'tipp10'
-cask 'vagrant'
-cask 'vagrant-manager'
-cask 'vagrant-vmware-utility'
-# this is a "frozen" cask 
-#cask 'virtualbox-5.2'
-cask 'virtualbox'
-# this is a "frozen" cask 
-#cask 'virtualbox-extension-pack-5.2'
-cask 'virtualbox-extension-pack'
 cask 'vlc'
 cask 'whatsapp'
 cask 'wireshark'
