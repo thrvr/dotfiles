@@ -49,6 +49,10 @@ sudo nvram SystemAudioVolume=" "
 # Set highlight color to green => I don't want to change this
 # defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
 
+# use forklift 3 as default file viewer for the current user :D
+# you can confirm this with `defaults read -g NSFileViewer`
+defaults write -g NSFileViewer -string com.binarynights.ForkLift-3
+
 # deactivate the power chime when plugging in a charger cable
 defaults write com.apple.PowerChime ChimeOnAllHardware -bool false; killall PowerChime
 
