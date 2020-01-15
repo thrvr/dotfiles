@@ -86,6 +86,9 @@ brew 'perl'
 
 #---------------------------------------------
 # Fonts from casks
+cask 'font-aileron'
+
+cask 'font-anton'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-pt-sans'
@@ -94,6 +97,17 @@ cask 'font-source-code-pro-for-powerline'
 cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
+cask 'font-titillium'
+cask 'font-titillium-web'
+
+# Google fonts
+cask 'font-cabin'
+cask 'font-karla'
+cask 'font-oswald'
+cask 'font-news-cycle'
+cask 'font-ruda'
+cask 'font-poppins'
+cask 'font-public-sans'
 
 #---------------------------------------------
 # applications from Casks
