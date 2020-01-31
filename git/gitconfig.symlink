@@ -1,10 +1,48 @@
-# Local/private config goes in the include
+#-------------------------------------------------------------#
+# For configuring / using multiple github accounts for 
+# local repositories, we have to have entries in the 
+# ~/.ssh/config i.e.
+#---
+# Host github.com-1st-account
+#    HostName github.com
+#    user git
+#    IdentityFile ~/.ssh/1st-account
+#
+# Host github.com-2nd-account
+#    HostName github.com
+#    user git
+#    IdentityFile ~/.ssh/2nd-account
+#---
+# additionally we need to have the below listed directory based
+# .gitconfig includes that contain 
+#---
+# [user]
+#        name = First Last
+#        email = email@address.tld
+#        username = github-username
+# [credential]
+#       helper = osxkeychain
+#---
+#
+# For cloning we then need to use:
+#
+#  `git clone git@github.com-2nd-account/path/repo.git`
+#
+# this works quite nicely with as many accounts as you want
+#-------------------------------------------------------------#
+
+#-------------------------------------------------------------#
+# Local/private configs go in the include section here
+#
 [includeIf "gitdir:~/.dotfiles/"]
-        path = ~/.gitconfig.local
-[includeIf "gitdir:~/dev/thrvrs/"]
-        path = ~/dev/thrvrs/.gitconfig
+        path = ~/.dotfiles/git/.gitconfig
+[includeIf "gitdir:~/dev/adesso/"]
+        path = ~/dev/adesso/.gitconfig
 [includeIf "gitdir:~/dev/smings/"]
         path = ~/dev/smings/.gitconfig
+
+#-------------------------------------------------------------#
+
 [hub]
         protocol = https
 [alias]
@@ -41,8 +79,3 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
-[user]
-	name = thrvr
-	email = thrvr@thrvrs.com
-[commit]
-	template = /Users/tornow/.stCommitMsg

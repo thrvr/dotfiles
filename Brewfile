@@ -101,14 +101,14 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 cask 'font-titillium'
-cask 'font-titillium-web'
+# cask 'font-titillium-web'
 
 # Google fonts
 cask 'font-cabin'
 cask 'font-karla'
 cask 'font-oswald'
 cask 'font-news-cycle'
-cask 'font-ruda'
+# cask 'font-ruda'
 cask 'font-poppins'
 cask 'font-public-sans'
 
