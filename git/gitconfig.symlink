@@ -3,8 +3,8 @@
         path = ~/.gitconfig.local
 [includeIf "gitdir:~/dev/thrvrs/"]
         path = ~/dev/thrvrs/.gitconfig
-
-
+[includeIf "gitdir:~/dev/smings/"]
+        path = ~/dev/smings/.gitconfig
 [hub]
         protocol = https
 [alias]

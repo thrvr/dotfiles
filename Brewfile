@@ -64,7 +64,8 @@ brew 'openssl'
 brew 'pcre'
 brew 'pdf2svg'
 brew 'saml2aws'
-
+brew 'sass/sass/sass'
+brew 'node-sass'
 # To run selenium, do: `selenium-server -port 4444`
 # For more options: `selenium-server -help`
 # For running it automatically `brew services start selenium-server-standalone`
