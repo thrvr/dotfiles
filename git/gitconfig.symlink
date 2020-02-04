@@ -36,12 +36,20 @@
 #
 [includeIf "gitdir:~/.dotfiles/"]
         path = ~/.dotfiles/git/.gitconfig
-[includeIf "gitdir:~/dev/adesso/"]
+[includeIf "gitdir:~/dev/adesso"]
         path = ~/dev/adesso/.gitconfig
-[includeIf "gitdir:~/dev/smings/"]
+[includeIf "gitdir:~/dev/smings/*"]
         path = ~/dev/smings/.gitconfig
 
 #-------------------------------------------------------------#
+
+[user]
+        name = Dirk Tornow
+        email = dirk@srvvrs.com
+        username = no-github-name 
+[credential]
+        helper = osxkeychain
+
 
 [hub]
         protocol = https
@@ -79,3 +87,8 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[user]
+	name = 
+	email = 
+[commit]
+	template = /Users/tornow/.stCommitMsg
