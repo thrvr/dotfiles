@@ -39,7 +39,7 @@
 #
 [includeIf "gitdir:~/.dotfiles/"]
         path = ~/.dotfiles/git/.gitconfig
-[includeIf "gitdir:~/dev/adesso/"]
+[includeIf "gitdir:~/dev/adesso/*"]
         path = ~/dev/adesso/.gitconfig
 [includeIf "gitdir:~/dev/smings/*"]
         path = ~/dev/smings/.gitconfig
