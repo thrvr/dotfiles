@@ -44,9 +44,9 @@
 #
 [includeIf "gitdir:~/.dotfiles/"]
         path = ~/.dotfiles/git/.gitconfig
-[includeIf "gitdir:~/dev/adesso/*"]
+[includeIf "gitdir:~/dev/adesso/"]
         path = ~/dev/adesso/.gitconfig
-[includeIf "gitdir:~/dev/smings/*"]
+[includeIf "gitdir:~/dev/smings/"]
         path = ~/dev/smings/.gitconfig
 
 #-------------------------------------------------------------#
@@ -71,8 +71,6 @@
         whitespace = nowarn
 [mergetool]
         keepBackup = false
-[difftool]
-        prompt = false
 [help]
         autocorrect = 1
 [push]
@@ -81,3 +79,12 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[mergetool "smerge"]
+	cmd = smerge mergetool \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+	trustExitCode = true
+[merge]
+	tool = smerge
+[difftool "smerge"]
+	cmd = smerge \"$BASE\" \"$LOCAL\" \"$REMOTE\"
+[diff]
+	tool = smerge
