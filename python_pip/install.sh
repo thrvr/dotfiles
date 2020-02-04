@@ -43,6 +43,26 @@ else
 	echo "   found lxml in version $present"
 fi
 
+# Installing `tornado` package
+#
+present=`pip list | grep tornado | sed 's/^tornado\ *//'`
+if test ! $(echo $present)
+then
+	sudo -H pip install tornado
+else
+	echo "   found tornado in version $present"
+fi
+
+# Installing `nose` package
+#
+present=`pip list | grep nose | sed 's/^nose\ *//'`
+if test ! $(echo $present)
+then
+	sudo -H pip install nose
+else
+	echo "   found nose in version $present"
+fi
+
 
 # Installing `botocore` package
 #
