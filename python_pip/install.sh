@@ -77,7 +77,8 @@ fi
 echo
 echo "---------------------------------------------------"
 echo "********** Upgrading all python packages **********"
-sudo -H pip2 freeze — local | grep -v ‘^\-e’ | cut -d = -f 1 | xargs -n1 sudo -H pip2 install -U --user
+echo "********** Keeping docutils at 0.15.2    **********"
+sudo -H pip2 freeze — local | grep -v ‘^\-e’ | cut -d = -f 1 | grep -v docutils | xargs -n1 sudo -H pip2 install -U --user
 echo " "
 echo " "
 echo "-----------------------------------------------------------------------------------------------------------"
