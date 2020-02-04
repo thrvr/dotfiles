@@ -31,6 +31,11 @@
 # this works quite nicely with as many accounts as you want
 #-------------------------------------------------------------#
 
+[user]
+        name = Your Name
+        email = you@example.com
+        username = your-github-user-name
+
 [include]
         path = ~/.dotfiles/git/gitconfig.local.symlink
 
@@ -76,14 +81,3 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
-[user]
-	name = 
-	email = 
-[commit]
-	template = /Users/tornow/.stCommitMsg
