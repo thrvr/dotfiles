@@ -84,6 +84,9 @@
 	trustExitCode = true
 [merge]
 	tool = smerge
+
+[difftool]
+        prompt = false
 [difftool "smerge"]
 	cmd = smerge \"$BASE\" \"$LOCAL\" \"$REMOTE\"
 [diff]
