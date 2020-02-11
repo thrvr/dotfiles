@@ -86,7 +86,6 @@ brew 'perl'
 
 # brew 'python@2' # Python is already 2.7.10 installed on Mac OS X Mojave and it also comes with pip so no need to install either
 brew 'python'
-brew 'python3'
 
 #---------------------------------------------
 # Fonts from casks
