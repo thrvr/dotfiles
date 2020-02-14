@@ -103,7 +103,7 @@ echo "#----------------------------------------#"
 echo " "
 echo " "
 
-pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | grep -v docutils | grep -v pip | xargs -n1 pip install -U
+pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | grep -v docutils | grep -v pip | xargs -n1 pip install -U --user
 
 echo " "
 echo " "
