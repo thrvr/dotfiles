@@ -1,4 +1,16 @@
 #-------------------------------------------------------------#
+# Make sure you don't have a DEFAULT SSH KEY
+# in your ~/.ssh/config or in /etc/ssh/config
+# this collides with using multiple path-based github accounts
+# 
+# For debugging any git SSH connection issues just add
+# GIT_SSH_COMMAND="ssh -vvv" git COMMAND SPECIFICS
+# or
+# GIT_SSH_COMMAND="ssh -v" git COMMAND SPECIFICS
+# to the git command that connects to a remote repository.
+# this will help tremendously with the debugging
+# 
+# 
 # For configuring / using multiple github accounts for 
 # local repositories, we have to have entries in the 
 # ~/.ssh/config i.e.
@@ -32,20 +44,30 @@
 #-------------------------------------------------------------#
 
 [user]
-        name = Your Name
-        email = you@example.com
-        username = your-github-user-name
+        name = Globally Used Name
+        email = globally@used.email
+        username = your-global-github-user-name
 
-[include]
-        path = ~/.dotfiles/git/gitconfig.local.symlink
+# [include]
+#         path = ~/.dotfiles/git/gitconfig.local.symlink
 
 #-------------------------------------------------------------#
 # Local/private configs go in the include section here
 #
-[includeIf "gitdir:~/.dotfiles/"]
+
+# this is for this very repository
+[includeIf "gitdir:~/.dotfiles/"] 
         path = ~/.dotfiles/git/.gitconfig
+
+# used for all adesso github account access
+# always use github.com-adesso as domain and look
+# into the ~/.ssh/config 
 [includeIf "gitdir:~/dev/adesso/"]
         path = ~/dev/adesso/.gitconfig
+
+# used for all smings github account access
+# always use github.com-smings as domain and look
+# into the ~/.ssh/config 
 [includeIf "gitdir:~/dev/smings/"]
         path = ~/dev/smings/.gitconfig
 

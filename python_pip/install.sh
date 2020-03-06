@@ -2,7 +2,8 @@
 #
 #  this installation script automatically installs pip
 #
-cdir=`pwd`
+cdir="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P)"
+# cdir=`pwd`
 
 # #Check for pip
 # if test ! $(which pip)
@@ -178,4 +179,25 @@ echo " "
 pip list --outdated --format=columns
 echo " "
 echo " "
+echo "#----------------------------------------#"
+echo "# Now installing other dependencies from #"
+echo "# requirements.txt files found within    #"
+echo "# this directory '$cdir'   "
+echo "#----------------------------------------#"
 
+cd $cdir
+for requirements in `find . | grep requirements.txt`; do
+	echo ""
+	echo "#----------------------------------------#"
+	echo "# Installing requirements found in:      #"
+	echo "# '$requirements'"
+	echo "#----------------------------------------#"
+	for package in `cat "$requirements" | pcregrep -v "$exclude_pattern"`; do
+		echo "#----------------------------------------#"
+		echo "# '$requirements'"
+		echo "# Installing '$package'"
+		echo "#----------------------------------------#"
+		pip install "$package" --user
+	done
+	# pip install -r "$requirements" --user
+done
