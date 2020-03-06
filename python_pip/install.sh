@@ -199,5 +199,4 @@ for requirements in `find . | grep requirements.txt`; do
 		echo "#----------------------------------------#"
 		pip install "$package" --user
 	done
-	# pip install -r "$requirements" --user
 done
