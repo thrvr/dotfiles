@@ -203,6 +203,7 @@ mas 'Infographics Lab - Templates', id: 577411683
 mas 'Keynote', id: 409183694
 mas 'Numbers', id: 409203825
 mas 'SplitPrint', id: 412574988 
+mas 'Smart Json Editor', id: 1268962404
 mas 'SmugMug', id: 1115348888
 mas 'Swyx Desktop', id: 1029922555
 mas 'Tadam', id: 531349534

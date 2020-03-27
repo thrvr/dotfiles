@@ -1,0 +1,4 @@
+youtube-dl
+prettytable
+bs4
+requests
