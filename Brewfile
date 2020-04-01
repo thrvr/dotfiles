@@ -151,6 +151,8 @@ cask 'mailbutler'
 cask 'menumeters'
 # this is a "frozen" cask 
 cask 'mysqlworkbench'
+# Open Broadcaster Software Projekt
+cask 'obs'
 cask 'omnidisksweeper'
 cask 'omnifocus'
 cask 'omnigraffle'
