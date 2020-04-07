@@ -53,8 +53,8 @@
         <attribute name="displayid" type="int32">69734272</attribute>
         <attribute name="builtin" type="bool">1</attribute>
         <attribute name="uniqueidentifier" type="string">A8BB91FF-B11B-41D3-9E7A-254CF47009D0</attribute>
-        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z159 z156 z158 z155 z157 z161 z154 z160"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z159 z156 z158 z155 z157 z161 z154 z160"></relationship>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z161 z159 z154 z157 z158 z156 z160 z155"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z161 z159 z154 z157 z158 z156 z160 z155"></relationship>
     </object>
     <object type="BSTCDISPLAY" id="z103">
         <attribute name="vendor" type="int32">4268</attribute>
@@ -67,8 +67,8 @@
         <attribute name="displayid" type="int32">722496214</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">6A5F1199-AED9-489F-8D3E-D12A01861B1A</attribute>
-        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z136 z108 z116 z131 z123 z164 z121 z113 z126 z125 z137 z124 z129 z117 z112 z134 z130 z127 z135 z128 z114 z118 z162 z119 z115 z120 z107 z122"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z136 z108 z116 z131 z123 z164 z121 z113 z126 z125 z137 z124 z129 z117 z112 z134 z130 z127 z135 z128 z114 z118 z162 z119 z115 z120 z107 z122"></relationship>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z164 z126 z135 z134 z162 z114 z120 z127 z118 z130 z123 z112 z128 z117 z119 z129 z131 z124 z115 z137 z121 z108 z125 z116 z136 z113 z107 z122"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z164 z126 z135 z134 z162 z114 z120 z127 z118 z130 z123 z112 z128 z117 z119 z129 z131 z124 z115 z137 z121 z108 z125 z116 z136 z113 z107 z122"></relationship>
     </object>
     <object type="BSTCDISPLAY" id="z104">
         <attribute name="vendor" type="int32">1970170734</attribute>
