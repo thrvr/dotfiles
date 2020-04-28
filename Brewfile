@@ -29,6 +29,7 @@ brew 'cmake'
 brew 'coreutils'
 brew 'curl'
 brew 'curl-openssl'
+brew 'fcrackzip'
 brew 'fish'
 brew 'ffind'
 brew 'ffmpeg'
@@ -38,6 +39,7 @@ brew 'gem-completion'
 brew 'git'
 brew 'git-gui'
 brew 'gnupg2'
+brew 'graphviz'
 brew 'grep'
 brew 'htop'
 brew 'httrack'
@@ -194,7 +196,7 @@ cask 'zoomus'
 mas '1Password', id: 443987910
 mas 'Audio Merge & Split', id: 963571828
 mas 'BetterSnapTool', id: 417375580
-mas 'Camtasia 2', id: 478330793
+#mas 'Camtasia 2', id: 478330793
 
 # is covered by MacOS since MacOS 10.15.1
 #mas 'EasyOnTheEyes', id: 799584781

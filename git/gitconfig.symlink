@@ -89,6 +89,7 @@
 [core]
 	excludesfile = /Users/tornow/.gitignore_global
         editor = vim
+	autocrlf = false
 [apply]
         whitespace = nowarn
 [mergetool]
