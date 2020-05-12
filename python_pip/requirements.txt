@@ -1,5 +1,6 @@
 ansible-playbook-grapher
 bs4
+gTTS
 prettytable
 requests
 youtube-dl
