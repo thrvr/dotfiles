@@ -43,6 +43,8 @@ brew 'graphviz'
 brew 'grep'
 brew 'htop'
 brew 'httrack'
+brew 'lua'
+brew 'luarocks'
 brew 'mas'
 brew 'midnight-commander'
 # this is a keg only version. For using this, use 
