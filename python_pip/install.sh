@@ -21,9 +21,9 @@ cdir="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P)"
 exclude_pattern='(pip|docutils|idna)'
 
 # versions that we freeze packages at
-pip_version=20.0.2
 docutils_version=0.15.2
 idna_version=2.8
+pip_version=20.1
 
 echo "#-----------------------------------#"
 echo "# Installing fixed version packages #"
