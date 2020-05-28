@@ -13,10 +13,12 @@ cryptography
 defusedxml
 docutils
 enum34
+filemagic
 graphviz
 gTTS-token
 idna
 ipaddress
+ipython
 Jinja2
 jira
 jmespath
@@ -37,6 +39,7 @@ pyparsing
 python-dateutil
 PyYAML
 requests
+requests-kerberos
 requests-oauthlib
 requests-toolbelt
 s3transfer

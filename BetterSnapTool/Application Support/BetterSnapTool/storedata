@@ -836,7 +836,7 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF4
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">C65D83DA-22DC-49B1-B404-F1D63BA6D888</attribute>
         <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z196 z198 z197 z195"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z196 z197 z195 z198"></relationship>
     </object>
     <object type="BSTDRAGPOINT" id="z195">
         <attribute name="needsfn" type="bool">1</attribute>
