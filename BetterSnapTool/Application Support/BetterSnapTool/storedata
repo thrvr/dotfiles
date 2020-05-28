@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>A4245483-84A6-44E7-9CA2-8AE0F8FD2A32</UUID>
-        <nextObjectID>221</nextObjectID>
+        <nextObjectID>222</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -53,8 +53,8 @@
         <attribute name="displayid" type="int32">69734272</attribute>
         <attribute name="builtin" type="bool">1</attribute>
         <attribute name="uniqueidentifier" type="string">A8BB91FF-B11B-41D3-9E7A-254CF47009D0</attribute>
-        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z206 z216 z209 z208 z207 z214"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z206 z216 z209 z208 z207 z214"></relationship>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z209 z206 z216 z214 z208 z207"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z209 z206 z216 z214 z208 z207"></relationship>
     </object>
     <object type="BSTCDISPLAY" id="z103">
         <attribute name="vendor" type="int32">4268</attribute>
@@ -67,8 +67,8 @@
         <attribute name="displayid" type="int32">722496214</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">6A5F1199-AED9-489F-8D3E-D12A01861B1A</attribute>
-        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z199 z200 z202 z201"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z199 z200 z202 z201"></relationship>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z199 z201 z202 z200"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z199 z201 z202 z200"></relationship>
     </object>
     <object type="BSTCDISPLAY" id="z104">
         <attribute name="vendor" type="int32">1970170734</attribute>
@@ -836,7 +836,7 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF4
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">C65D83DA-22DC-49B1-B404-F1D63BA6D888</attribute>
         <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z196 z197 z198 z195"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z196 z198 z197 z195"></relationship>
     </object>
     <object type="BSTDRAGPOINT" id="z195">
         <attribute name="needsfn" type="bool">1</attribute>
@@ -1353,6 +1353,20 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQFv
         <attribute name="displayid" type="int32">69676353</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">602FA800-D45D-4D6B-8018-BF7CE1C11C76</attribute>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
+    </object>
+    <object type="BSTCDISPLAY" id="z222">
+        <attribute name="vendor" type="int32">1970170734</attribute>
+        <attribute name="serialnumber" type="string">0</attribute>
+        <attribute name="screensize" type="string">{0, 0}</attribute>
+        <attribute name="screenframe" type="string">{{1440, 694}, {640, 480}}</attribute>
+        <attribute name="resolution" type="string">{640, 480}</attribute>
+        <attribute name="model" type="int32">1815</attribute>
+        <attribute name="maindisplay" type="int32">0</attribute>
+        <attribute name="displayid" type="int32">1535231425</attribute>
+        <attribute name="builtin" type="bool">0</attribute>
+        <attribute name="uniqueidentifier" type="string">40C607D0-7AB9-47A7-8DA6-57D83D2C76E5</attribute>
         <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
         <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
     </object>
