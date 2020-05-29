@@ -83,6 +83,7 @@ brew 'vagrant-completion'
 # for updating outdated casks with `ask-repair <outdated_cask>`
 brew 'vitorgalvao/tiny-scripts/cask-repair'
 brew 'wget'
+brew 'wpscan'
 brew 'youtube-dl'
 brew 'zip'
 

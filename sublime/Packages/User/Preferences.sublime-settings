@@ -1,4 +1,5 @@
 {
+	"auto_complete": false,
 	"draw_white_space": "selection",
 	"font_size": 17,
 	"ignored_packages":
@@ -14,6 +15,8 @@
 		100,
 		120
 	],
+	"sublimelinter": false,
+	"tab_size": 2,
 	"word_wrap": true,
 	"wrap_width":
 	[
