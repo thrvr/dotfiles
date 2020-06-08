@@ -1,10 +1,9 @@
 {
 	"auto_complete": false,
 	"draw_white_space": "selection",
-	"font_size": 18,
+	"font_size": 17,
 	"ignored_packages":
 	[
-		"RestructuredText",
 		"Vintage"
 	],
 	"open_files_in_new_window": false,

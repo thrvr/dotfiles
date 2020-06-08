@@ -50,3 +50,4 @@ tornado
 tqdm
 urllib3
 wheel
+xlsxwriter
