@@ -15,6 +15,8 @@
 
 alias ..='cd ..'
 alias ...='cd ~'
+alias godev='cd ~/dev/smings/shopify-setup-process/'
+alias goansible='cd ~/dev/smings/shopify-setup-process/wordpress-setup-process-in-aws/ansible'
 
 alias my_current_ip='dig @resolver1.opendns.com ANY myip.opendns.com +short'
 
@@ -172,5 +174,7 @@ PATH=/Users/tornow/.dotfiles/applications/bin:$PATH
 # Adding the unversioned python symlinks add the start of
 # the path
 #PATH=/usr/local/opt/python/libexec/bin:$PATH
-PATH=~/Library/Python/3.7/bin:$PATH
+PATH=~/Library/Python/3.8/bin:$PATH
 export PATH
+export PATH="/usr/local/opt/apr/bin:$PATH"
+export PATH="/usr/local/opt/apr-util/bin:$PATH"

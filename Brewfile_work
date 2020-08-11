@@ -21,7 +21,7 @@ brew 'php@7.2'
 
 cask 'adobe-creative-cloud'
 cask 'balsamiq-mockups'
-cask 'dbschema'
+#cask 'dbschema'
 cask 'gephi'
 cask 'intellij-idea'
 cask 'adoptopenjdk8'

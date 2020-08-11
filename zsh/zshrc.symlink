@@ -57,3 +57,5 @@ bindkey "^[a" beginning-of-line
 bindkey "^[e" end-of-line
 
 source ~/.bash_profile
+export PATH="/usr/local/opt/apr/bin:$PATH"
+export PATH="/usr/local/opt/apr-util/bin:$PATH"

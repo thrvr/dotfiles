@@ -22,6 +22,7 @@ ipython
 Jinja2
 jira
 jmespath
+jsonref
 log4python
 lxml
 MarkupSafe
@@ -37,6 +38,7 @@ PyJWT
 pyOpenSSL
 pyparsing
 python-dateutil
+pytz
 PyYAML
 requests
 requests-kerberos
