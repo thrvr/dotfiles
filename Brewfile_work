@@ -35,8 +35,6 @@ cask 'mongodb-compass-community'
 cask 'phpstorm'
 # this is a "frozen" cask 
 cask 'robo-3t'
-cask 'skype'
-cask 'skype-for-business'
 cask 'vagrant'
 cask 'vagrant-manager'
 cask 'vagrant-vmware-utility'

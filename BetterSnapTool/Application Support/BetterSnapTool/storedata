@@ -110,7 +110,7 @@
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">915CE48D-0D7D-4D39-BFFE-8D882AE3DC84</attribute>
         <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z196 z195 z198 z197"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z196 z198 z195 z197"></relationship>
     </object>
     <object type="BSTDRAGPOINT" id="z138">
         <attribute name="needsfn" type="bool">1</attribute>
