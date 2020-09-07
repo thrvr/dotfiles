@@ -16,7 +16,6 @@
 /usr/local/bin/cpan -i namespace
 /usr/local/bin/cpan -i Path::Tiny
 /usr/local/bin/cpan -i SUPER
-/usr/local/bin/cpan -i SVN::Core
 /usr/local/bin/cpan -i Test::LeakTrace
 /usr/local/bin/cpan -i Test::Output
 /usr/local/bin/cpan -i Test::Pod

@@ -36,6 +36,8 @@
 		"SideBarEnhancements",
 		"SqlBeautifier",
 		"SublimeLinter",
+		"WordPress",
+		"WordPress Completions",
 		"ZSH"
 	],
 	"repositories":
