@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"1337 Color Scheme",
 		"Anaconda",
 		"Ansible",
 		"Ansible Vault",
@@ -28,6 +29,7 @@
 		"Nginx Log Highlighter",
 		"Package Control",
 		"PackageResourceViewer",
+		"PHP Completions Kit",
 		"Pretty JSON",
 		"Python 3",
 		"requirementstxt",
@@ -38,6 +40,8 @@
 		"SublimeLinter",
 		"WordPress",
 		"WordPress Completions",
+		"WordpressDev",
+		"wpseek WordPress Developer Assistant",
 		"ZSH"
 	],
 	"repositories":

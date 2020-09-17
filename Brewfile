@@ -215,6 +215,7 @@ mas 'Get Plain Text', id: 508368068
 mas 'iMovie', id: 408981434
 mas 'Infographics Lab - Templates', id: 577411683
 mas 'Keynote', id: 409183694
+mas 'MuteMyMic', id: 456362093
 mas 'Numbers', id: 409203825
 mas 'SplitPrint', id: 412574988 
 mas 'Smart Json Editor', id: 1268962404
