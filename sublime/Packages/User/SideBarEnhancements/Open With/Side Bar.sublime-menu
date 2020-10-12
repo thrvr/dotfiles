@@ -34,6 +34,20 @@
                                 }
             },
 
+            //application 3
+            {
+                "caption": "POEDIT",
+                "id": "side-bar-files-open-with-poedit",
+
+                "command": "side_bar_files_open_with",
+                "args": {
+                                    "paths": [],
+                                    "application": "Poedit.app",
+                                    "extensions":".po",
+                                    "args":[]
+                                }
+            },
+
             //separator
             {"caption":"-"},
 
