@@ -53,9 +53,14 @@ $ZSH/macos/set-defaults.sh
 # Install homebrew
 $ZSH/homebrew/install.sh 2>&1
 
+# sass need to get unlinked, before we can update / install it
+echo "› brew unlink sass"
+brew unlink sass
+
 # Upgrade homebrew
 echo "› brew update"
 brew update
+
 
 # now we have to copy the "fixed versions" of casks back into 
 # place, so that we don't accidentally update 
