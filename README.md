@@ -1,3 +1,17 @@
+# Setting things up from scratch
+In this chapter I describe, what needs to be done in order to set my entire system up fron scratch.
+## Prerequisites
+- A new Mac computer updated to the latest OS version
+- A phone with the authenticator app and all passwords
+
+## Setting up the computer
+- Set the locale to US
+- Set the keyboard to US (not US international)
+- Have the apple ID email & password at hand
+- If you have the German keyboard installed (bc the computer has German keyboard layout), add the US keyboard layout and leave the keyboard switcher in the menu bar
+
+
+
 # Stuff that doesn't get automatically installed
 - unlox - the little utility for unlocking the screen
 - awsecscli - use `sudo curl -o /usr/local/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-darwin-amd64-latest` fot this
