@@ -14,6 +14,7 @@ tap 'versent/homebrew-taps'
 
 #---------------------------------------------
 # Binaries
+brew 'aircrack-ng'
 brew 'ansible'
 #brew 'apache2'
 brew 'autoconf'
@@ -76,6 +77,7 @@ brew 'node-sass'
 # For more options: `selenium-server -help`
 # For running it automatically `brew services start selenium-server-standalone`
 brew 'selenium-server-standalone'
+brew 'subversion'
 brew 'svg2pdf'
 brew 'svn'
 brew 'telnet'
@@ -126,6 +128,7 @@ cask 'font-public-sans'
 cask 'alfred'
 cask 'adobe-acrobat-reader'
 cask 'adobe-digital-editions'
+cask 'amazon-chime'
 cask 'bartender'
 cask 'bettertouchtool'
 cask 'caffeine'

@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>A4245483-84A6-44E7-9CA2-8AE0F8FD2A32</UUID>
-        <nextObjectID>228</nextObjectID>
+        <nextObjectID>231</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -53,8 +53,8 @@
         <attribute name="displayid" type="int32">69734272</attribute>
         <attribute name="builtin" type="bool">1</attribute>
         <attribute name="uniqueidentifier" type="string">A8BB91FF-B11B-41D3-9E7A-254CF47009D0</attribute>
-        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z209 z207 z216 z206 z214 z208"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z209 z207 z216 z206 z214 z208"></relationship>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z206 z216 z214 z208 z209 z207"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z206 z216 z214 z208 z209 z207"></relationship>
     </object>
     <object type="BSTCDISPLAY" id="z103">
         <attribute name="vendor" type="int32">4268</attribute>
@@ -67,8 +67,8 @@
         <attribute name="displayid" type="int32">722496214</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">6A5F1199-AED9-489F-8D3E-D12A01861B1A</attribute>
-        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z201 z200 z202 z199"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z201 z200 z202 z199"></relationship>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z199 z201 z200 z202"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z199 z201 z200 z202"></relationship>
     </object>
     <object type="BSTCDISPLAY" id="z104">
         <attribute name="vendor" type="int32">1970170734</attribute>
@@ -102,7 +102,7 @@
         <attribute name="vendor" type="int32">1552</attribute>
         <attribute name="serialnumber" type="string">0</attribute>
         <attribute name="screensize" type="string">{596.55044975630733, 335.55962798792291}</attribute>
-        <attribute name="screenframe" type="string">{{1440, -197}, {2560, 1440}}</attribute>
+        <attribute name="screenframe" type="string">{{1440, -229}, {2560, 1440}}</attribute>
         <attribute name="resolution" type="string">{2560, 1440}</attribute>
         <attribute name="model" type="int32">40117</attribute>
         <attribute name="maindisplay" type="int32">0</attribute>
@@ -110,7 +110,7 @@
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">915CE48D-0D7D-4D39-BFFE-8D882AE3DC84</attribute>
         <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z197 z196 z195 z198"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z197 z196 z198 z195"></relationship>
     </object>
     <object type="BSTDRAGPOINT" id="z138">
         <attribute name="needsfn" type="bool">1</attribute>
@@ -451,14 +451,14 @@ CA1VJG51bGzSCQoLDFdOUy5kYXRhViRjbGFzc08RAW0EC3N0cmVhbXR5cGVkgegDhAFAhISEEk5TQXR0
         <relationship name="belongstoapps" type="0/0" destination="BSTDRAGPOINTAPP"></relationship>
     </object>
     <object type="BSTCDISPLAY" id="z165">
-        <attribute name="vendor" type="int32">2513</attribute>
+        <attribute name="vendor" type="int32">16920</attribute>
         <attribute name="serialnumber" type="string">3298</attribute>
         <attribute name="screensize" type="string">{677.33332316080737, 380.9999942779541}</attribute>
         <attribute name="screenframe" type="string">{{1680, -30}, {1920, 1080}}</attribute>
         <attribute name="resolution" type="string">{1920, 1080}</attribute>
-        <attribute name="model" type="int32">47106</attribute>
+        <attribute name="model" type="int32">132</attribute>
         <attribute name="maindisplay" type="int32">0</attribute>
-        <attribute name="displayid" type="int32">1953369186</attribute>
+        <attribute name="displayid" type="int32">100671746</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">5EB486E2-DA8D-446F-BD9C-41180EDB3076</attribute>
         <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
@@ -512,7 +512,7 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF6
         <attribute name="resolution" type="string">{1920, 1080}</attribute>
         <attribute name="model" type="int32">132</attribute>
         <attribute name="maindisplay" type="int32">1</attribute>
-        <attribute name="displayid" type="int32">100671745</attribute>
+        <attribute name="displayid" type="int32">100671746</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">A2B64C42-9230-4A76-9526-00482155557E</attribute>
         <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
@@ -522,11 +522,11 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF6
         <attribute name="vendor" type="int32">16920</attribute>
         <attribute name="serialnumber" type="string">0</attribute>
         <attribute name="screensize" type="string">{1950.719970703125, 1097.2799835205078}</attribute>
-        <attribute name="screenframe" type="string">{{-1920, -180}, {1920, 1080}}</attribute>
+        <attribute name="screenframe" type="string">{{-1920, -30}, {1920, 1080}}</attribute>
         <attribute name="resolution" type="string">{1920, 1080}</attribute>
         <attribute name="model" type="int32">132</attribute>
         <attribute name="maindisplay" type="int32">0</attribute>
-        <attribute name="displayid" type="int32">100671745</attribute>
+        <attribute name="displayid" type="int32">100671746</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">490AE4C0-D282-4253-9C9B-FC39BBFF70EA</attribute>
         <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
@@ -592,7 +592,7 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF6
         <attribute name="vendor" type="int32">1552</attribute>
         <attribute name="serialnumber" type="string">0</attribute>
         <attribute name="screensize" type="string">{596.55044975630733, 335.55962798792291}</attribute>
-        <attribute name="screenframe" type="string">{{-2560, -80}, {2560, 1440}}</attribute>
+        <attribute name="screenframe" type="string">{{-2560, -230}, {2560, 1440}}</attribute>
         <attribute name="resolution" type="string">{2560, 1440}</attribute>
         <attribute name="model" type="int32">40117</attribute>
         <attribute name="maindisplay" type="int32">0</attribute>
@@ -666,7 +666,7 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF6
         <attribute name="resolution" type="string">{3840, 2160}</attribute>
         <attribute name="model" type="int32">132</attribute>
         <attribute name="maindisplay" type="int32">0</attribute>
-        <attribute name="displayid" type="int32">100671745</attribute>
+        <attribute name="displayid" type="int32">100671746</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">CB1CFA43-69A0-4EA7-B866-815AAC45460B</attribute>
         <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
@@ -680,7 +680,7 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF6
         <attribute name="resolution" type="string">{3360, 2100}</attribute>
         <attribute name="model" type="int32">132</attribute>
         <attribute name="maindisplay" type="int32">1</attribute>
-        <attribute name="displayid" type="int32">100671745</attribute>
+        <attribute name="displayid" type="int32">100671746</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">8CC303FD-9E5A-4E82-90BB-28B2EC2295DF</attribute>
         <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
@@ -1019,8 +1019,8 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQF4
         <attribute name="displayid" type="int32">1104977153</attribute>
         <attribute name="builtin" type="bool">1</attribute>
         <attribute name="uniqueidentifier" type="string">792CB56F-1BE3-4738-A76A-33F1EBCF4617</attribute>
-        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z212 z210 z213 z211"></relationship>
-        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z212 z210 z213 z211"></relationship>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z212 z211 z210 z213"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT" idrefs="z212 z211 z210 z213"></relationship>
     </object>
     <object type="BSTDRAGPOINT" id="z206">
         <attribute name="needsfn" type="bool">1</attribute>
@@ -1423,6 +1423,48 @@ D05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwRVSRudWxs0g0ODxBXTlMuZGF0YVYkY2xhc3NPEQFv
         <attribute name="displayid" type="int32">69992769</attribute>
         <attribute name="builtin" type="bool">0</attribute>
         <attribute name="uniqueidentifier" type="string">A59BA51B-C22B-4DF6-8200-47EEE71D3CD7</attribute>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
+    </object>
+    <object type="BSTCDISPLAY" id="z229">
+        <attribute name="vendor" type="int32">1552</attribute>
+        <attribute name="serialnumber" type="string">0</attribute>
+        <attribute name="screensize" type="string">{286.38925744383124, 178.99328590239455}</attribute>
+        <attribute name="screenframe" type="string">{{-1680, 47}, {1680, 1050}}</attribute>
+        <attribute name="resolution" type="string">{1680, 1050}</attribute>
+        <attribute name="model" type="int32">41022</attribute>
+        <attribute name="maindisplay" type="int32">0</attribute>
+        <attribute name="displayid" type="int32">69734272</attribute>
+        <attribute name="builtin" type="bool">1</attribute>
+        <attribute name="uniqueidentifier" type="string">7E7FBF1E-B8BD-4325-A079-337D12D837FF</attribute>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
+    </object>
+    <object type="BSTCDISPLAY" id="z230">
+        <attribute name="vendor" type="int32">16920</attribute>
+        <attribute name="serialnumber" type="string">0</attribute>
+        <attribute name="screensize" type="string">{1875.6922795222354, 1055.0769072312576}</attribute>
+        <attribute name="screenframe" type="string">{{-3840, -1110}, {3840, 2160}}</attribute>
+        <attribute name="resolution" type="string">{3840, 2160}</attribute>
+        <attribute name="model" type="int32">132</attribute>
+        <attribute name="maindisplay" type="int32">0</attribute>
+        <attribute name="displayid" type="int32">100671746</attribute>
+        <attribute name="builtin" type="bool">0</attribute>
+        <attribute name="uniqueidentifier" type="string">4937F67E-B126-432F-855F-0A41941BD4E9</attribute>
+        <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
+        <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
+    </object>
+    <object type="BSTCDISPLAY" id="z231">
+        <attribute name="vendor" type="int32">16920</attribute>
+        <attribute name="serialnumber" type="string">0</attribute>
+        <attribute name="screensize" type="string">{1847.2726995294745, 1039.0908934853294}</attribute>
+        <attribute name="screenframe" type="string">{{0, 0}, {1600, 900}}</attribute>
+        <attribute name="resolution" type="string">{1600, 900}</attribute>
+        <attribute name="model" type="int32">132</attribute>
+        <attribute name="maindisplay" type="int32">1</attribute>
+        <attribute name="displayid" type="int32">100671746</attribute>
+        <attribute name="builtin" type="bool">0</attribute>
+        <attribute name="uniqueidentifier" type="string">9DB3DB77-9E9B-43BA-8587-51A87EE42423</attribute>
         <relationship name="displayeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
         <relationship name="snappeddragpoints" type="0/0" destination="BSTDRAGPOINT"></relationship>
     </object>
