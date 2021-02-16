@@ -48,6 +48,20 @@
                                 }
             },
 
+            //application 4
+            {
+                "caption": "Camunda",
+                "id": "side-bar-files-open-with-poedit",
+
+                "command": "side_bar_files_open_with",
+                "args": {
+                                    "paths": [],
+                                    "application": "Camunda Modeler.app",
+                                    "extensions":".bpmn",
+                                    "args":[]
+                                }
+            },
+
             //separator
             {"caption":"-"},
 

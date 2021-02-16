@@ -39,6 +39,7 @@
 		"SortBy",
 		"SqlBeautifier",
 		"SublimeLinter",
+		"SublimeLinter-contrib-nginx-lint",
 		"Whitespace",
 		"WordPress",
 		"WordPress Completions",
