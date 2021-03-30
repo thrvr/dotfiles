@@ -14,12 +14,9 @@ tap 'versent/homebrew-taps'
 
 #---------------------------------------------
 # Binaries
-brew 'aircrack-ng'
 brew 'ansible'
-#brew 'apache2'
 brew 'autoconf'
 brew 'automake'
-#brew 'awsebcli'
 brew 'awscli'
 brew 'bash'
 brew 'bat'
@@ -44,40 +41,22 @@ brew 'graphviz'
 brew 'grep'
 brew 'htop'
 brew 'httrack'
+brew 'libgit2'
 brew 'lua'
 brew 'luarocks'
 brew 'mas'
 brew 'midnight-commander'
-# this is a keg only version. For using this, use 
-# `export PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"`
-# for temporary use or add
-# PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
-# to your ~/.bash_profile
-# brew 'mongodb@3.0'	
-
-#To have launchd start mongodb now and restart at login:
-#  brew services start mongodb
-#Or, if you don't want/need a background service you can just run:
-#  mongod --config /usr/local/etc/mongod.conf
-# brew 'mongodb'	
-
-# this is from the tap 'mongodb/brew'
-
-# Video player for streaming all kinds of videos
-brew 'mpv'
-brew 'libgit2'
+brew 'node-sass'
 brew 'openssl'
 brew 'pcre'
 brew 'pdf2svg'
+brew 'pyenv'
 brew 'saml2aws'
 brew 'sass/sass/sass'
-
-brew 'node-sass'
 # To run selenium, do: `selenium-server -port 4444`
 # For more options: `selenium-server -help`
 # For running it automatically `brew services start selenium-server-standalone`
-brew 'selenium-server-standalone'
-brew 'subversion'
+#brew 'selenium-server-standalone'
 brew 'svg2pdf'
 brew 'svn'
 brew 'telnet'
@@ -93,9 +72,6 @@ brew 'zip'
 
 # Dev Tools and Languages
 brew 'perl'
-
-# brew 'python@2' # Python is already 2.7.10 installed on Mac OS X Mojave and it also comes with pip so no need to install either
-brew 'python'
 
 #---------------------------------------------
 # Fonts from casks
@@ -128,14 +104,12 @@ cask 'font-public-sans'
 cask 'alfred'
 cask 'adobe-acrobat-reader'
 cask 'adobe-digital-editions'
-cask 'amazon-chime'
 cask 'bartender'
 cask 'bettertouchtool'
 cask 'caffeine'
 cask 'calibre'
 cask 'camunda-modeler'
 cask 'cheatsheet'
-cask 'chromium'
 cask 'chromedriver-beta'
 cask 'commander-one'
 cask 'daisydisk'
@@ -147,24 +121,22 @@ cask 'dropbox'
 cask 'evernote'
 cask 'expandrive'
 cask 'firefox'
-# cask 'focus'
+cask 'focus'
 cask 'folx'
 cask 'forklift'
 cask 'gimp'
 cask 'google-chrome' 
-# cask 'hammerspoon'
-cask 'iconset'
+cask 'hammerspoon'
 cask 'iterm2'
 cask 'keyboard-maestro'
 cask 'kindle'
 cask 'kitematic'
 cask 'launchcontrol'
 cask 'logitech-presentation'
-# cask 'loom'
+cask 'loom'
 cask 'macdown'
 cask 'macpass'
-# Never used it and it is 4.7GB
-# cask 'mactex'
+cask 'mactex'
 cask 'magicprefs'
 cask 'menumeters'
 # this is a "frozen" cask 
@@ -177,7 +149,7 @@ cask 'omnigraffle'
 cask 'omniplan'
 cask 'plistedit-pro'
 cask 'poedit'
-# cask 'pref-setter'
+cask 'pref-setter'
 cask 'preference-manager'
 cask 'private-internet-access'
 # Not supported in catalina anymore
@@ -193,7 +165,6 @@ cask 'snagit4'
 cask 'soundflower'
 cask 'sourcetree'
 cask 'sketchup'
-cask 'skype-for-business'
 cask 'sublime-text'
 cask 'sublime-merge-dev'
 cask 'suspicious-package'
@@ -201,10 +172,9 @@ cask 'teamviewer'
 cask 'telegram'
 cask 'thebrain'
 cask 'the-unarchiver'
-# cask 'tipp10'
+cask 'tipp10'
 cask 'typora'
 cask 'vlc'
-cask 'webex'
 cask 'whatsapp'
 cask 'wireshark'
 cask 'xmind'
@@ -217,9 +187,6 @@ mas '1Password', id: 443987910
 mas 'Audio Merge & Split', id: 963571828
 mas 'BetterSnapTool', id: 417375580
 #mas 'Camtasia 2', id: 478330793
-
-# is covered by MacOS since MacOS 10.15.1
-#mas 'EasyOnTheEyes', id: 799584781
 mas 'Folder Compare', id: 535348544
 mas 'Get Plain Text', id: 508368068
 mas 'iMovie', id: 408981434

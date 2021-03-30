@@ -1,5 +1,7 @@
 #!/bin/sh
 #
+pyenv install 3.8.0
+pyenv global 3.8.0
 #  this installation script automatically installs pip
 #
 cdir="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P)"

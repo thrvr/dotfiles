@@ -1,9 +1,6 @@
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$HOME/.dotfiles
 
-# your project folder that we can `c [tab]` to
-export PROJECTS=~/dev/adesso/github/kisura
-
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but
 # you'll have access to them in your scripts.
@@ -23,7 +20,7 @@ do
 done
 
 # load everything but the path and completion files
-for file in ${${config_files:#*/path.zsh}:#*/completion.zsh}
+for file in ${${${config_files:#*/path.zsh}:#*/completion.zsh}:#*/ZSH/capture.zsh}
 do
   source $file &>/dev/null
 done
@@ -57,5 +54,6 @@ bindkey "^[a" beginning-of-line
 bindkey "^[e" end-of-line
 
 source ~/.bash_profile
-export PATH="/usr/local/opt/apr/bin:$PATH"
+PATH=$(pyenv root)/shims:$PATH
+PATH="/usr/local/opt/apr/bin:$PATH"
 export PATH="/usr/local/opt/apr-util/bin:$PATH"
