@@ -1,0 +1,15 @@
+Host *
+	StrictHostKeyChecking	no
+	ServerAliveInterval 	60
+
+Host smings
+	Hostname 				smings.com
+	User					ubuntu
+	IdentityFile 			~/.ssh/wp_srvvrs_de
+
+
+Host srvvrs
+	Hostname 				srvvrs.com
+	User					ubuntu
+	IdentityFile 			~/.ssh/wp_srvvrs_de
+
