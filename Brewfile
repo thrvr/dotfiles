@@ -119,7 +119,7 @@ cask 'docker'
 cask 'dropbox'
 #cask 'duet' -> obsolete with MacOS Catalina's sidecar
 cask 'evernote'
-#cask 'expandrive'
+cask 'expandrive'
 cask 'firefox'
 cask 'focus'
 cask 'folx'
