@@ -25,8 +25,9 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-HostName="BerlinBase"
-ifconfig -a | grep 3:e7:a1 && HostName="McDiTo"
+HostName="UnknownComputer"
+ifconfig -a | grep ce:eb:52 && HostName="BerlinBase"
+ifconfig -a | grep 13:82:e6 && HostName="McDiTo"
 ifconfig -a | grep 8:92:fe && HostName="MacFeather"
 
 
