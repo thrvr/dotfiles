@@ -23,6 +23,8 @@ brew 'bat'
 brew 'bcrypt'
 brew 'brew-cask-completion'
 brew 'brew-gem'
+# Client for aws' route 53 from https://github.com/barnybug/cli53
+brew 'cli53'
 brew 'cmake'
 brew 'coreutils'
 brew 'curl'
