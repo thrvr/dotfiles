@@ -57,8 +57,7 @@ brew 'pcre'
 brew 'pdf2svg'
 brew 'pyenv'
 brew 'saml2aws'
-#brew 'sass'
-brew 'sass/sass/sass'
+# brew 'sass/sass/sass'
 # To run selenium, do: `selenium-server -port 4444`
 # For more options: `selenium-server -help`
 # For running it automatically `brew services start selenium-server-standalone`
@@ -206,7 +205,7 @@ mas 'Numbers', id: 409203825
 # mas 'Pym', id: 1451733095 # seemingly not longer available on the appstore :(
 mas 'SplitPrint', id: 412574988 
 mas 'Smart Json Editor', id: 1268962404
-mas 'SmugMug', id: 1115348888
+# mas 'SmugMug', id: 1115348888
 # mas 'Swyx Desktop', id: 1029922555
 mas 'Tadam', id: 531349534
 mas 'ToothFairy', id: 1191449274
