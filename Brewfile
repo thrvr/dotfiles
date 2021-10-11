@@ -195,6 +195,7 @@ mas '1Password', id: 443987910
 mas 'Audio Merge & Split', id: 963571828
 mas 'BetterSnapTool', id: 417375580
 #mas 'Camtasia 2', id: 478330793
+mas 'DevSwatch', id: 1477857867
 mas 'Folder Compare', id: 535348544
 # mas 'Get Plain Text', id: 508368068
 mas 'iMovie', id: 408981434
