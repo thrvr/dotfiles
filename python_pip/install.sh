@@ -6,19 +6,19 @@ cdir="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P)"
 # cdir=`pwd`
 
 #Check for pip
-if test ! $(which pip)
-then
-  echo "  Installing `pip` for you."
-  sudo easy_install pip
-else
-  echo "  pip already installed. Checking for updates..."
-  sudo -H pip install --upgrade pip
-fi
+# if test ! $(which pip)
+# then
+#   echo "  Installing `pip` for you."
+#   sudo easy_install pip
+# else
+#   echo "  pip already installed. Checking for updates..."
+#   sudo -H pip install --upgrade pip
+# fi
 
-
-pyenv install 3.8.0
-pyenv global 3.8.0
-
+echo "# trying to install python environments for python 3.9.7"
+pyenv install 3.9.7
+pyenv global 3.9.7
+echo "# done"
 
 # pcregrep -v $exclude_pattern for excluding these packages
 # form upgrading
