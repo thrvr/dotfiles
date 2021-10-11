@@ -7,15 +7,15 @@ pyenv global 3.8.0
 cdir="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P)"
 # cdir=`pwd`
 
-# #Check for pip
-# if test ! $(which pip)
-# then
-#   echo "  Installing `pip` for you."
-#   sudo easy_install pip
-# else
-#   echo "  pip already installed. Checking for updates..."
-#   sudo -H pip install --upgrade pip
-# fi
+#Check for pip
+if test ! $(which pip)
+then
+  echo "  Installing `pip` for you."
+  sudo easy_install pip
+else
+  echo "  pip already installed. Checking for updates..."
+  sudo -H pip install --upgrade pip
+fi
 
 
 # pcregrep -v $exclude_pattern for excluding these packages
