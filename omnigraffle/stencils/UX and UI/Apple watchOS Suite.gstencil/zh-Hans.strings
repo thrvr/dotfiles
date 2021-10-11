@@ -1,0 +1,47 @@
+/*  Canvases  */
+"38mm" = "38mm"; 
+
+/*  Layers  */
+"Layer 1" = "图层 1"; 
+"Labels" = "标签"; 
+"Background" = "背景"; 
+
+/*  Graphics  */
+"Paginated" = "Paginated"; 
+"Modal Sheet" = "Modal Sheet"; 
+"Body Short\nCopy Stacked\nBody Short Copy Stacked Long Ti…\nFN 1 SHORT" = "Body Short\nCopy Stacked\nBody Short Copy Stacked Long Ti…\nFN 1 SHORT"; 
+"Body Short Copy\nStacked for the Longer Titles that become long" = "Body Short Copy\nStacked for the Longer Titles that become long"; 
+"Body Short Copy\nStacked\nFootnote 1 Short" = "Body Short Copy\nStacked\nFootnote 1 Short"; 
+"Body Short Copy\nStacked for the Longer Titles" = "Body Short Copy\nStacked for the Longer Titles"; 
+"Herkimer Coffee\n901 Dexter Ave N\nSeattle, WA" = "Herkimer Coffee\n901 Dexter Ave N\nSeattle, WA"; 
+"Body Short Copy\nStacked" = "Body Short Copy\nStacked"; 
+"Body Short Copy\nFootnote 1 Short" = "Body Short Copy\nFootnote 1 Short"; 
+"Table Rows" = "Table Rows"; 
+"Small" = "小"; 
+"Small" = "小"; 
+"Small" = "小"; 
+"xSmall" = "极小"; 
+"xSmall" = "极小"; 
+"xSmall" = "极小"; 
+"Footnote — 12pt Regular, 14.5pt L, 0.45T" = "脚注 — 12点 常规体, 14.5点 L, 0.45T"; 
+"Caption 2 — 13pt Regular, 15.5pt L, 0.4T" = "标题 2 — 13点 常规体, 15.5点 L, 0.4T"; 
+"Caption 1 — 14pt Regular, 16.5pt L, 0.4T" = "标题 1 — 14点 常规体, 16.5点 L, 0.4T"; 
+"Body — 15pt Regular, 17.5pt L, 0.05T" = "正文 — 15点 常规体, 17.5点 L, 0.05T"; 
+"Headline — 15pt Semibold, 17.5pt L, 0.1T" = "标头 — 15点 半粗体, 17.5点 L, 0.1T"; 
+"Paginated" = "分页"; 
+"Modal Sheet" = "模式单"; 
+"Hierarchical" = "分层"; 
+"Menu\nThree-button layout" = "菜单\n三按钮布局"; 
+"Notifications\nShort Look & Long Look" = "通知\n短显示和长显示"; 
+"App Icons" = "应用图标"; 
+"@2×" = "@2×"; 
+"Companion\nSettings @3×" = "配套\n设置 @3×"; 
+"Notification\nCenter" = "通知\n中心"; 
+"Home Screen\n& Long Look" = "主屏幕\n和长显示"; 
+"Short Look" = "短显示"; 
+"Table Rows\nWith icon variants" = "表格行\n带图标变体"; 
+"Buttons\nIn side-by-side and full-width variants" = "按钮\n并排及全宽度变体"; 
+"Text Styles \nUse these specimens to get the correct leading and tracking values" = "文本样式  \n使用这些样本以获得正确的引导和追踪值"; 
+"Version 1.0.1 — July 31, 2015" = "版本 1.0.1 — 2015 年 7 月 31 日"; 
+"By the Omni Group" = "The Omni Group 制作"; 
+"Screens and Bezels" = "屏幕和表圈"; 

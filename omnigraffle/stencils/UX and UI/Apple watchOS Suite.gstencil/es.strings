@@ -1,0 +1,47 @@
+/*  Canvases  */
+"38mm" = "38mm"; 
+
+/*  Layers  */
+"Layer 1" = "Capa 1"; 
+"Labels" = "Etiquetas"; 
+"Background" = "Fondo"; 
+
+/*  Graphics  */
+"Paginated" = "Paginated"; 
+"Modal Sheet" = "Modal Sheet"; 
+"Body Short\nCopy Stacked\nBody Short Copy Stacked Long Ti…\nFN 1 SHORT" = "Body Short\nCopy Stacked\nBody Short Copy Stacked Long Ti…\nFN 1 SHORT"; 
+"Body Short Copy\nStacked for the Longer Titles that become long" = "Body Short Copy\nStacked for the Longer Titles that become long"; 
+"Body Short Copy\nStacked\nFootnote 1 Short" = "Body Short Copy\nStacked\nFootnote 1 Short"; 
+"Body Short Copy\nStacked for the Longer Titles" = "Body Short Copy\nStacked for the Longer Titles"; 
+"Herkimer Coffee\n901 Dexter Ave N\nSeattle, WA" = "Herkimer Coffee\n901 Dexter Ave N\nSeattle, WA"; 
+"Body Short Copy\nStacked" = "Body Short Copy\nStacked"; 
+"Body Short Copy\nFootnote 1 Short" = "Body Short Copy\nFootnote 1 Short"; 
+"Table Rows" = "Table Rows"; 
+"Small" = "S"; 
+"Small" = "S"; 
+"Small" = "S"; 
+"xSmall" = "XS"; 
+"xSmall" = "XS"; 
+"xSmall" = "XS"; 
+"Footnote — 12pt Regular, 14.5pt L, 0.45T" = "Leyenda 2-13 pt normal, 15,5pt E, 0,4 I"; 
+"Caption 2 — 13pt Regular, 15.5pt L, 0.4T" = "Leyenda 1-14 pt normal, 16,5pt E, 0,4 I"; 
+"Caption 1 — 14pt Regular, 16.5pt L, 0.4T" = "Cuerpo-15 pt normal, 17,5 pt E, 0,05 I"; 
+"Body — 15pt Regular, 17.5pt L, 0.05T" = "Encabezado-15 pt seminegrita, 17,5 pt E, 0,1 I"; 
+"Headline — 15pt Semibold, 17.5pt L, 0.1T" = "Nota al pie-12 pt normal, 14,5pt E, 0,45 I"; 
+"Paginated" = "Paginada"; 
+"Modal Sheet" = "Página modal"; 
+"Hierarchical" = "Jerárquica"; 
+"Menu\nThree-button layout" = "Menú\nDisposición de tres botones"; 
+"Notifications\nShort Look & Long Look" = "Notificaciones\n“Short Look” y “Long Look”"; 
+"App Icons" = "Iconos de Apps"; 
+"@2×" = "@2×"; 
+"Companion\nSettings @3×" = "Companion\nSettings @3×"; 
+"Notification\nCenter" = "Centro de\nNotificaciones"; 
+"Home Screen\n& Long Look" = "Pantalla de inicio\ny “Long Look”"; 
+"Short Look" = "“Short Look”"; 
+"Table Rows\nWith icon variants" = "Filas de tabla\nCon variantes de iconos"; 
+"Buttons\nIn side-by-side and full-width variants" = "Botones\nVariantes de anchura completa y en paralelo"; 
+"Text Styles \nUse these specimens to get the correct leading and tracking values" = "Estilos de texto  \nUse estas muestras para obtener los valores correctos de espaciado e interlineado"; 
+"Version 1.0.1 — July 31, 2015" = "Versión 1.0.1 - 31 de Julio de 2015"; 
+"By the Omni Group" = "De Omni Group"; 
+"Screens and Bezels" = "Pantallas y biseles"; 

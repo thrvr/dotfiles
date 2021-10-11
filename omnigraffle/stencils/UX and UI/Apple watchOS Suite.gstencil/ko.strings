@@ -1,0 +1,47 @@
+/*  Canvases  */
+"38mm" = "38mm"; 
+
+/*  Layers  */
+"Layer 1" = "레이어 1"; 
+"Labels" = "레이블"; 
+"Background" = "백그라운드"; 
+
+/*  Graphics  */
+"Paginated" = "Paginated"; 
+"Modal Sheet" = "Modal Sheet"; 
+"Body Short\nCopy Stacked\nBody Short Copy Stacked Long Ti…\nFN 1 SHORT" = "Body Short\nCopy Stacked\nBody Short Copy Stacked Long Ti…\nFN 1 SHORT"; 
+"Body Short Copy\nStacked for the Longer Titles that become long" = "Body Short Copy\nStacked for the Longer Titles that become long"; 
+"Body Short Copy\nStacked\nFootnote 1 Short" = "Body Short Copy\nStacked\nFootnote 1 Short"; 
+"Body Short Copy\nStacked for the Longer Titles" = "Body Short Copy\nStacked for the Longer Titles"; 
+"Herkimer Coffee\n901 Dexter Ave N\nSeattle, WA" = "Herkimer Coffee\n901 Dexter Ave N\nSeattle, WA"; 
+"Body Short Copy\nStacked" = "Body Short Copy\nStacked"; 
+"Body Short Copy\nFootnote 1 Short" = "Body Short Copy\nFootnote 1 Short"; 
+"Table Rows" = "Table Rows"; 
+"Small" = "소형"; 
+"Small" = "소형"; 
+"Small" = "소형"; 
+"xSmall" = "xSmall"; 
+"xSmall" = "xSmall"; 
+"xSmall" = "xSmall"; 
+"Footnote — 12pt Regular, 14.5pt L, 0.45T" = "각주 — 12pt 일반, 14.5pt L, 0.45T"; 
+"Caption 2 — 13pt Regular, 15.5pt L, 0.4T" = "캡션 2 — 13pt 일반, 15.5pt L, 0.4T"; 
+"Caption 1 — 14pt Regular, 16.5pt L, 0.4T" = "캡션 1 — 14pt 일반, 16.5pt L, 0.4T"; 
+"Body — 15pt Regular, 17.5pt L, 0.05T" = "본문 — 15pt 일반, 17.5pt L, 0.1T"; 
+"Headline — 15pt Semibold, 17.5pt L, 0.1T" = "제목 — 15pt 세미볼드, 17.5pt L, 0.1T"; 
+"Paginated" = "페이지 지정됨"; 
+"Modal Sheet" = "모달 시트"; 
+"Hierarchical" = "계층"; 
+"Menu\nThree-button layout" = "메뉴\n3버튼 레이아웃"; 
+"Notifications\nShort Look & Long Look" = "알림\n짧은 모양 및 긴 모양"; 
+"App Icons" = "앱 아이콘"; 
+"@2×" = "@2×"; 
+"Companion\nSettings @3×" = "동반 항목\n설정 @3×"; 
+"Notification\nCenter" = "알림\n가운데"; 
+"Home Screen\n& Long Look" = "홈 화면\n및 긴 모양"; 
+"Short Look" = "짧은 모양"; 
+"Table Rows\nWith icon variants" = "표 행\n아이콘 변형 포함"; 
+"Buttons\nIn side-by-side and full-width variants" = "버튼\n병렬 및 전체 너비 변형"; 
+"Text Styles \nUse these specimens to get the correct leading and tracking values" = "텍스트 스타일 \n이러한 표본을 사용해서 올바른 리딩 및 추적 값을 가져오십시오."; 
+"Version 1.0.1 — July 31, 2015" = "버전 1.0.1 — 2015년 7월 31일"; 
+"By the Omni Group" = "Omni Group 제공"; 
+"Screens and Bezels" = "화면 및 베젤"; 
