@@ -1,7 +1,5 @@
 #!/bin/sh
 #
-pyenv install 3.8.0
-pyenv global 3.8.0
 #  this installation script automatically installs pip
 #
 cdir="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P)"
@@ -16,6 +14,10 @@ else
   echo "  pip already installed. Checking for updates..."
   sudo -H pip install --upgrade pip
 fi
+
+
+pyenv install 3.8.0
+pyenv global 3.8.0
 
 
 # pcregrep -v $exclude_pattern for excluding these packages
