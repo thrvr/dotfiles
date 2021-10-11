@@ -5,20 +5,12 @@
 cdir="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P)"
 # cdir=`pwd`
 
-#Check for pip
-# if test ! $(which pip)
-# then
-#   echo "  Installing `pip` for you."
-#   sudo easy_install pip
-# else
-#   echo "  pip already installed. Checking for updates..."
-#   sudo -H pip install --upgrade pip
-# fi
-
-echo "# trying to install python environments for python 3.9.7"
+echo "#--------------------------------------------------------#"
+echo "# trying to install python environments for python 3.9.7 #"
 pyenv install 3.9.7
 pyenv global 3.9.7
-echo "# done"
+echo "# Done                                                   #"
+echo "#--------------------------------------------------------#"
 
 # pcregrep -v $exclude_pattern for excluding these packages
 # form upgrading
@@ -34,7 +26,14 @@ echo "#-----------------------------------#"
 echo "# Upgrading pip                     #"
 echo "#-----------------------------------#"
 
-pip install --upgrade pip
+pip3 install --upgrade pip
+
+
+# pcregrep -v $exclude_pattern for excluding these packages
+# form upgrading
+# exclude_pattern='(pip|docutils|idna)'
+exclude_pattern='awefiwer235'
+
 
 # echo "#-----------------------------------#"
 # echo "# Installing fixed version packages #"
@@ -210,7 +209,7 @@ for requirements in `find . | grep requirements.txt`; do
 		echo "# '$requirements'"
 		echo "# Installing '$package'"
 		echo "#----------------------------------------#"
-		pip install "$package" --user
+		pip3 install "$package" --user
 	done
 done
-pip list > currently_installed_package_versions
+pip3 list > currently_installed_package_versions
