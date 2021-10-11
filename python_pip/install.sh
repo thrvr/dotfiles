@@ -5,25 +5,15 @@
 cdir="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P)"
 # cdir=`pwd`
 
-#Check for pip
-if test ! $(which pip)
-then
-  echo "  Installing `pip` for you."
-  sudo easy_install pip
-else
-  echo "  pip already installed. Checking for updates..."
-  sudo -H pip install --upgrade pip
-fi
-
-
-pyenv install 3.8.0
-pyenv global 3.8.0
-
-
-# pcregrep -v $exclude_pattern for excluding these packages
-# form upgrading
-# exclude_pattern='(pip|docutils|idna)'
-exclude_pattern='awefiwer235'
+# #Check for pip
+# if test ! $(which pip)
+# then
+#   echo "  Installing `pip` for you."
+#   sudo easy_install pip
+# else
+#   echo "  pip already installed. Checking for updates..."
+#   sudo -H pip install --upgrade pip
+# fi
 
 # versions that we freeze packages at
 # docutils_version=0.15.2
@@ -34,7 +24,18 @@ echo "#-----------------------------------#"
 echo "# Upgrading pip                     #"
 echo "#-----------------------------------#"
 
-pip install --upgrade pip
+pip3 install --upgrade pip
+
+
+pyenv install 3.9.7
+pyenv global 3.9.7
+
+
+# pcregrep -v $exclude_pattern for excluding these packages
+# form upgrading
+# exclude_pattern='(pip|docutils|idna)'
+exclude_pattern='awefiwer235'
+
 
 # echo "#-----------------------------------#"
 # echo "# Installing fixed version packages #"
