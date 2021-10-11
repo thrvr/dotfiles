@@ -11,6 +11,8 @@ tap 'homebrew/bundle'
 # This tap is for the saml2aws formula
 tap 'versent/homebrew-taps'
 
+tap 'sass/sass'
+tap 'vitorgalvao/tiny-scripts'
 
 #---------------------------------------------
 # Binaries
@@ -55,8 +57,8 @@ brew 'pcre'
 brew 'pdf2svg'
 brew 'pyenv'
 brew 'saml2aws'
-brew 'sass'
-# brew 'sass/sass/sass'
+#brew 'sass'
+brew 'sass/sass/sass'
 # To run selenium, do: `selenium-server -port 4444`
 # For more options: `selenium-server -help`
 # For running it automatically `brew services start selenium-server-standalone`
@@ -85,7 +87,7 @@ brew 'perl'
 # cask 'font-titillium-web'
 cask 'font-aileron'
 cask 'font-anton'
-cask 'font-bariol'
+# cask 'font-bariol'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-pt-sans'
@@ -145,7 +147,8 @@ cask 'loom'
 cask 'macdown'
 cask 'macpass'
 cask 'mactex'
-cask 'magicprefs'
+# for some reason this cask doesn't work anymore, but I also rarely need a mouse anyway
+# cask 'magicprefs'
 cask 'menumeters'
 # this is a "frozen" cask 
 cask 'mysqlworkbench'
@@ -193,20 +196,20 @@ mas 'Audio Merge & Split', id: 963571828
 mas 'BetterSnapTool', id: 417375580
 #mas 'Camtasia 2', id: 478330793
 mas 'Folder Compare', id: 535348544
-mas 'Get Plain Text', id: 508368068
+# mas 'Get Plain Text', id: 508368068
 mas 'iMovie', id: 408981434
 mas 'Infographics Lab - Templates', id: 577411683
 mas 'Keynote', id: 409183694
 mas 'MuteKey', id: 1509590766
 mas 'Numbers', id: 409203825
-mas 'Pym', id: 1451733095
+# mas 'Pym', id: 1451733095 # seemingly not longer available on the appstore :(
 mas 'SplitPrint', id: 412574988 
 mas 'Smart Json Editor', id: 1268962404
 mas 'SmugMug', id: 1115348888
-mas 'Swyx Desktop', id: 1029922555
+# mas 'Swyx Desktop', id: 1029922555
 mas 'Tadam', id: 531349534
 mas 'ToothFairy', id: 1191449274
-mas 'VitaDock', id: 638118857
+# mas 'VitaDock', id: 638118857
 mas 'XCode', id: 497799835
 
 
