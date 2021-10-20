@@ -204,6 +204,7 @@ mas 'Keynote', id: 409183694
 mas 'MuteKey', id: 1509590766
 mas 'Numbers', id: 409203825
 # mas 'Pym', id: 1451733095 # seemingly not longer available on the appstore :(
+mas 'SiteSucker', id: 442168834
 mas 'SplitPrint', id: 412574988 
 mas 'Smart Json Editor', id: 1268962404
 # mas 'SmugMug', id: 1115348888
