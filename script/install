@@ -17,4 +17,6 @@ fi
 find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
 
 # in this section we symplink directories
-ln -s ~/Dropbox/personal/spoa/.aws ~/.aws
+if[ ! -d ~/.aws ]; then 
+	ln -s ~/Dropbox/personal/spoa/.aws ~/.aws
+fi

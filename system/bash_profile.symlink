@@ -18,7 +18,7 @@ alias ...='cd ~'
 alias godev='cd ~/dev/smings/shopify-setup-process/'
 alias goansible='cd ~/dev/smings/shopify-setup-process/wordpress-setup-process-in-aws/ansible'
 
-alias my_current_ip='dig @resolver1.opendns.com ANY myip.opendns.com +short'
+alias my_current_ip='dig TXT +short o-o.myaddr.l.google.com @ns1.google.com'
 
 ###############################################################################
 # AWS CLI aliases
