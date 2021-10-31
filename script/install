@@ -17,6 +17,8 @@ fi
 find . -name install.sh | while read installer ; do sh -c "${installer}" ; done
 
 # in this section we symplink directories
-if[ ! -d ~/.aws ]; then 
+if [ ! -d ~/.aws ]; then 
 	ln -s ~/Dropbox/personal/spoa/.aws ~/.aws
+else
+	echo "~/.aws directory already exists - skipping the symlinking"
 fi
