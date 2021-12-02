@@ -146,7 +146,7 @@ cask 'logitech-presentation'
 cask 'loom'
 cask 'macdown'
 cask 'macpass'
-cask 'mactex'
+#cask 'mactex'
 # for some reason this cask doesn't work anymore, but I also rarely need a mouse anyway
 # cask 'magicprefs'
 cask 'menumeters'
