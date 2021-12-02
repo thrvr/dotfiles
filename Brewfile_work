@@ -9,7 +9,7 @@ tap 'AdoptOpenJDK/openjdk'
 
 #---------------------------------------------
 # Binaries
-brew 'kotlin'
+# brew 'kotlin'
 brew 'maven'
 #brew 'mongodb-community@3.2'
 #brew 'mysql@5.6'
