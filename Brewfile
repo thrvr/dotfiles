@@ -201,6 +201,7 @@ mas 'Folder Compare', id: 535348544
 mas 'iMovie', id: 408981434
 mas 'Infographics Lab - Templates', id: 577411683
 mas 'Keynote', id: 409183694
+mas 'Microsoft Remote Desktop' id: 1295203466
 mas 'MuteKey', id: 1509590766
 mas 'Numbers', id: 409203825
 # mas 'Pym', id: 1451733095 # seemingly not longer available on the appstore :(
