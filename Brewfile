@@ -167,6 +167,7 @@ cask 'raw-photo-processor'
 cask 'reflector'
 cask 'screaming-frog-seo-spider'
 cask 'sequel-pro'
+cask 'signal'
 cask 'slack'
 cask 'snagit4'
 # replaced by blackhole-16ch
