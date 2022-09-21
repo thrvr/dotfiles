@@ -3,6 +3,12 @@
 - awsecscli - use `sudo curl -o /usr/local/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-darwin-amd64-latest` fot this
 Hopefully all else is covered in this repo
 
+# Fixes if sthg goes wrong 
+
+If aliases don't work → tun `~/script/bootstrap`
+
+
+
 # holman does dotfiles
 
 Your dotfiles are how you personalize your system. These are mine.
