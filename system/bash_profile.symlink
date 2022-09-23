@@ -15,8 +15,8 @@
 
 alias ..='cd ..'
 alias ...='cd ~'
-alias godev='cd ~/dev/smings/shopify-setup-process/'
-alias goansible='cd ~/dev/smings/shopify-setup-process/wordpress-setup-process-in-aws/ansible'
+#alias godev='cd ~/dev/smings/shopify-setup-process/'
+#alias goansible='cd ~/dev/smings/shopify-setup-process/wordpress-setup-process-in-aws/ansible'
 
 alias my_current_ip='dig TXT +short o-o.myaddr.l.google.com @ns1.google.com'
 
@@ -156,18 +156,18 @@ extract_audio(){
 # PATH=$PATH:/Users/tornow/Library/Python/2.7/bin:/var/root/Library/Python/2.7/bin
 
 # setting mysql-client@5.7 (at least that is the version I get when I run `mysql --version`)
-PATH=$PATH:/usr/local/opt/mysql-client/bin
+#PATH=$PATH:/usr/local/opt/mysql-client/bin
 
 # setting mongo shell to 3.0
 #PATH="/usr/local/opt/mongodb@3.0/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH"
+#export PATH="/usr/local/sbin:$PATH"
 
 
 # Set java version
 # https://www.kevinhooke.com/2017/10/05/switching-java-versions-on-mac-os/
-alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11` && export JRE_HOME=$(/usr/libexec/java_home -v 11  | sed 's/\.jdk/\.jre/') && export JRE=$(/usr/libexec/java_home -v 11  | sed 's/\.jdk/\.jre/')"
-alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8` && export JRE_HOME=$(/usr/libexec/java_home -v 1.8)/jre && export JRE=$(/usr/libexec/java_home -v 1.8)/jre"
-j8
+#alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11` && export JRE_HOME=$(/usr/libexec/java_home -v 11  | sed 's/\.jdk/\.jre/') && export JRE=$(/usr/libexec/java_home -v 11  | sed 's/\.jdk/\.jre/')"
+#alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8` && export JRE_HOME=$(/usr/libexec/java_home -v 1.8)/jre && export JRE=$(/usr/libexec/java_home -v 1.8)/jre"
+#j8
 
 PATH=/Users/tornow/.dotfiles/applications/bin:$PATH
 
