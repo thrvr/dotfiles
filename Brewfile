@@ -16,36 +16,37 @@ tap 'versent/homebrew-taps'
 
 #---------------------------------------------
 # Binaries
-brew 'ansible'
-brew 'autoconf'
-brew 'automake'
-brew 'awscli'
+###brew 'ansible'
+###brew 'autoconf'
+###brew 'automake'
+###brew 'awscli'
 brew 'bash'
-brew 'bat'
-brew 'bcrypt'
+###brew 'bat'
+###brew 'bcrypt'
 brew 'brew-cask-completion'
 brew 'brew-gem'
 # Client for aws' route 53 from https://github.com/barnybug/cli53
 #brew 'cli53'
-brew 'cmake'
+###brew 'cmake'
 brew 'coreutils'
 brew 'curl'
-brew 'curl-openssl'
+# this version of curl became deprecated in brew and I have to remove it
+#brew 'curl-openssl'
 #brew 'fcrackzip'
 #brew 'f3'
-brew 'fish'
+###brew 'fish'
 brew 'ffind'
 brew 'ffmpeg'
 brew 'findutils'
-brew 'gdb'
+###brew 'gdb'
 #brew 'gem-completion'
 brew 'git'
 brew 'git-gui'
-brew 'gnupg2'
+###rew 'gnupg2'
 #brew 'graphviz'
 brew 'grep'
 brew 'htop'
-brew 'httrack'
+###brew 'httrack'
 brew 'libgit2'
 brew 'libwebm'
 #brew 'lua'
@@ -57,17 +58,17 @@ brew 'openssl'
 brew 'pandoc'
 brew 'pcre'
 brew 'pdf2svg'
-brew 'pyenv'
-brew 'saml2aws'
+###brew 'pyenv'
+###brew 'saml2aws'
 # brew 'sass/sass/sass'
 # To run selenium, do: `selenium-server -port 4444`
 # For more options: `selenium-server -help`
 # For running it automatically `brew services start selenium-server-standalone`
 #brew 'selenium-server-standalone'
 brew 'svg2pdf'
-brew 'svn'
-brew 'telnet'
-brew 'tree'
+###brew 'svn'
+###brew 'telnet'
+###brew 'tree'
 #brew 'unrar'
 #brew 'vagrant-completion'
 # for updating outdated casks with `ask-repair <outdated_cask>`
@@ -157,7 +158,7 @@ cask 'keyboard-maestro'
 # this is a "frozen" cask 
 #cask 'mysqlworkbench'
 #cask 'obs'
-cask 'omnidisksweeper'
+###cask 'omnidisksweeper'
 cask 'omnifocus'
 cask 'omnigraffle'
 # this is a "frozen" cask 
@@ -168,7 +169,7 @@ cask 'omniplan-3'
 cask 'preference-manager'
 cask 'private-internet-access'
 #cask 'raw-photo-processor'
-#cask 'rwts-pdfwriter'
+cask 'rwts-pdfwriter'
 #cask 'reflector'
 #cask 'screaming-frog-seo-spider'
 #cask 'sequel-pro'
@@ -205,11 +206,11 @@ mas '1Password', id: 443987910
 mas 'Audio Merge & Split', id: 963571828
 mas 'BetterSnapTool', id: 417375580
 #mas 'Camtasia 2', id: 478330793
-#mas 'DevSwatch', id: 1477857867
+mas 'DevSwatch', id: 1477857867
 mas 'Folder Compare', id: 535348544
 # mas 'Get Plain Text', id: 508368068
-#mas 'iMovie', id: 408981434
-#mas 'Infographics Lab - Templates', id: 577411683
+mas 'iMovie', id: 408981434
+mas 'Infographics Lab - Templates', id: 577411683
 mas 'Keynote', id: 409183694
 mas 'Microsoft Remote Desktop', id: 1295203466
 #mas 'MuteKey', id: 1509590766
