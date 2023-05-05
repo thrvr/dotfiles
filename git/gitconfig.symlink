@@ -44,8 +44,8 @@
 #-------------------------------------------------------------#
 
 [user]
-        name = Globally Used Name
-        email = globally@used.email
+	name = Dirk Tornow
+	email = dirk@smings.com
         username = your-global-github-user-name
 
 # [include]

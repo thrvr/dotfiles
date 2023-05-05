@@ -57,3 +57,5 @@ source ~/.bash_profile
 #PATH=$(pyenv root)/shims:$PATH
 PATH="/usr/local/opt/apr/bin:$PATH"
 export PATH="/usr/local/opt/apr-util/bin:$PATH"export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+export PATH="/usr/local/opt/curl/bin:$PATH"
+export PATH="/usr/local/opt/llvm/bin:$PATH"
