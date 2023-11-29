@@ -1,1 +1,0 @@
-../../python_pip/vimeo-download-master/vimeo-download.py

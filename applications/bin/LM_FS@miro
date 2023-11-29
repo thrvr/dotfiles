@@ -1,4 +1,0 @@
-#!/bin/bash
-# this script makes use of the ice-tea web implementation of Java Web Start
-
-java -cp /Users/tornow/.dotfiles/applications/javaws/netx.jar net.sourceforge.jnlp.runtime.Boot -allowredirect -Xnofork -jnlp '/Users/tornow/Documents/OneDrive - adesso Group/projects/lm/jnlp/miro/FIRSTspirit.jnlp'
