@@ -12,39 +12,6 @@ parameter=""
 parentDirectory="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd -P)"
 dotfilesDirectory="$(cd "$( dirname "$parentDirectory" )" && pwd -P)"
 
-displayUsageAndExit() {
-	echo "dot -- dotfiles management"
-	echo ""
-	echo "Usage: dot [options]"
-	echo ""
-	echo "Options:"
-	echo "  -e, --edit    Open dotfiles directory for editing"
-	echo "  -h, --help    Show this help message and exit"
-	echo "  -w  --work    Install the additional work related application from ~/.dotfiles/Brewfile_work"
-	exit
-}
-
-while test $# -gt 0; do
-	case "$1" in
-		"-h"|"--help")
-			displayUsageAndExit
-			;;
-		"-e"|"--edit")
-			exec "$EDITOR" "$dotfilesDirectory"
-			exit
-			;;
-		"-w"|"--work")
-		    echo "*** Installing additinal work related applications and settings ***"
-		    parameter="work"
-		    ;;
-		*)
-			echo "Invalid option: $1"
-			displayUsageAndExit
-			;;
-	esac
-	shift
-done
-
 export ZSH=$HOME/.dotfiles
 
 # Set macOS defaults
@@ -64,15 +31,11 @@ echo "› brew update"
 brew update
 
 
-# now we have to copy the "fixed versions" of casks back into 
-# place, so that we don't accidentally update 
-$ZSH/homebrew/install.sh 2>&1
-
 
 # Install software with 
 echo
 echo "-------------------------------------------"
-echo "Initiating brew with parameter '$parameter'"
+echo "Initiating brew"
 echo "› $ZSH/script/install"
 echo "-------------------------------------------"
-$ZSH/script/install "$parameter"
+$ZSH/script/install

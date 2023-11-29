@@ -2,27 +2,21 @@ cask_args appdir: '/Applications'
 
 #---------------------------------------------
 # Taps
-#tap 'AdoptOpenJDK/openjdk'
 tap 'homebrew/homebrew-cask'
 tap 'homebrew/cask-fonts'
-# tap 'caskroom/versions'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-# This tap is for the saml2aws formula
 tap 'versent/homebrew-taps'
-
-#tap 'sass/sass'
-#tap 'vitorgalvao/tiny-scripts'
 
 #---------------------------------------------
 # Binaries
-###brew 'ansible'
+brew 'ansible'
 ###brew 'autoconf'
 ###brew 'automake'
-###brew 'awscli'
+brew 'awscli'
 brew 'bash'
 ###brew 'bat'
-###brew 'bcrypt'
+brew 'bcrypt'
 brew 'brew-cask-completion'
 brew 'brew-gem'
 # Client for aws' route 53 from https://github.com/barnybug/cli53
@@ -45,9 +39,9 @@ brew 'pandoc'
 brew 'pcre'
 brew 'pdf2svg'
 brew 'svg2pdf'
-###brew 'telnet'
-###brew 'tree'
-#brew 'unrar'
+brew 'telnet'
+brew 'tree'
+brew 'unrar'
 brew 'webp'
 brew 'wget'
 brew 'youtube-dl'
@@ -81,6 +75,8 @@ cask 'inkscape'
 cask 'iterm2'
 cask 'keyboard-maestro'
 cask 'macpass'
+cask 'microsoft-office'
+cask 'microsoft-teams'
 cask 'omnifocus'
 cask 'omnigraffle'
 cask 'omniplan-3' # this is a "frozen" cask 
@@ -94,10 +90,8 @@ cask 'suspicious-package'
 cask 'teamviewer'
 cask 'telegram'
 cask 'textsniper'
-# cask 'thebrain'
 cask 'tor-browser'
 cask 'typora'
-cask 'ultimaker-cura'
 cask 'vlc'
 cask 'veracrypt'
 cask 'whatsapp'
@@ -105,6 +99,7 @@ cask 'wireshark'
 cask 'xmind'
 cask 'yed'
 cask 'zoom'
+
 
 
 # apps from the appstore
@@ -123,5 +118,4 @@ mas 'SplitPrint', id: 412574988
 mas 'Tadam', id: 531349534
 mas 'ToothFairy', id: 1191449274
 mas 'XCode', id: 497799835
-
 

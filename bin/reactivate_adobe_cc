@@ -1,4 +1,0 @@
-#!/bin/bash
-launchctl load -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist
-launchctl load -w /Library/LaunchAgents/com.adobe.ccxprocess.plist
-
