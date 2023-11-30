@@ -54,6 +54,7 @@ brew 'zip'
 #---------------------------------------------
 # applications from Casks
 cask 'alfred'
+cask 'balsamiq'
 cask 'bartender'
 cask 'bettertouchtool'
 cask 'brave-browser'
@@ -78,7 +79,8 @@ cask 'microsoft-office'
 cask 'microsoft-teams'
 cask 'omnifocus'
 cask 'omnigraffle'
-cask 'private-internet-access'
+# one has to manually run an access helper
+#cask 'private-internet-access'
 cask 'rwts-pdfwriter'
 cask 'slack'
 cask 'sourcetree'
