@@ -54,7 +54,7 @@ brew 'zip'
 #---------------------------------------------
 # applications from Casks
 cask 'alfred'
-cask 'balsamiq'
+cask 'balsamiq-wireframes'
 cask 'bartender'
 cask 'bettertouchtool'
 cask 'brave-browser'
