@@ -41,7 +41,6 @@ brew 'pdf2svg'
 brew 'svg2pdf'
 brew 'telnet'
 brew 'tree'
-brew 'unrar'
 brew 'webp'
 brew 'wget'
 brew 'youtube-dl'
@@ -79,7 +78,6 @@ cask 'microsoft-office'
 cask 'microsoft-teams'
 cask 'omnifocus'
 cask 'omnigraffle'
-cask 'omniplan-3' # this is a "frozen" cask 
 cask 'private-internet-access'
 cask 'rwts-pdfwriter'
 cask 'slack'
@@ -106,7 +104,6 @@ cask 'zoom'
 mas '1Password', id: 443987910
 mas 'Audio Merge & Split', id: 963571828
 mas 'BetterSnapTool', id: 417375580
-mas 'DevSwatch', id: 1477857867
 mas 'Folder Compare', id: 535348544
 mas 'iMovie', id: 408981434
 mas 'Infographics Lab - Templates', id: 577411683
