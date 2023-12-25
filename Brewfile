@@ -80,6 +80,7 @@ cask 'keyboard-maestro'
 cask 'macpass'
 cask 'microsoft-office'
 cask 'microsoft-teams'
+cask 'notion'
 cask 'omnifocus'
 cask 'omnigraffle'
 # one has to manually run an access helper
