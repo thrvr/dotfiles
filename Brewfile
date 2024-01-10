@@ -86,6 +86,7 @@ cask 'omnigraffle'
 # one has to manually run an access helper
 #cask 'private-internet-access'
 cask 'rwts-pdfwriter'
+cask 'skype'
 cask 'slack'
 cask 'sourcetree'
 cask 'sublime-text'
