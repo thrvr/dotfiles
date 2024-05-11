@@ -29,6 +29,7 @@ HostName="UnknownComputer"
 ifconfig -a | grep a5:ab:81 && HostName="DTMB"
 ifconfig -a | grep 1b:0c:97 && HostName="McDiTo"
 ifconfig -a | grep 8:92:fe && HostName="MacFeather"
+ifconfig -a | grep a5:ca:09 && HostName="DTWM"
 
 
 echo "Setting HostName to $HostName"
